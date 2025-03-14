@@ -1,0 +1,114 @@
+2025-03-14 11:02:41.635 INFO: Use pytorch device_name: mps
+2025-03-14 11:02:41.635 INFO: Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-14 11:02:42.398 INFO: entered load conversations.
+2025-03-14 11:02:42.405 INFO: No conversations found in the database.
+2025-03-14 11:02:42.405 INFO: *****Started******
+2025-03-14 11:02:42.418 INFO: entered display_conversation history
+2025-03-14 11:03:00.314 INFO: Use pytorch device_name: mps
+2025-03-14 11:03:00.315 INFO: Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-14 11:03:01.199 INFO: *****Started******
+2025-03-14 11:03:01.204 INFO: entered display_conversation history
+2025-03-14 11:03:01.205 INFO: Retriving docs from vector store
+2025-03-14 11:03:01.424 INFO: Done retriving relavent documents from vector store.
+2025-03-14 11:03:01.424 INFO: LLm deciding databases to search.
+2025-03-14 11:03:04.582 INFO: Completed deciding database.
+2025-03-14 11:03:04.583 INFO: Querying Sqlite database.
+2025-03-14 11:03:05.860 INFO: getting final summarized response from llm
+2025-03-14 11:03:09.463 INFO: *****ended******
+2025-03-14 11:03:09.463 INFO: entered add conversation.
+2025-03-14 11:03:21.074 INFO: Use pytorch device_name: mps
+2025-03-14 11:03:21.074 INFO: Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-14 11:03:22.015 INFO: *****Started******
+2025-03-14 11:03:22.022 INFO: entered display_conversation history
+2025-03-14 11:03:22.024 INFO: Retriving docs from vector store
+2025-03-14 11:03:22.046 INFO: Done retriving relavent documents from vector store.
+2025-03-14 11:03:22.046 INFO: LLm deciding databases to search.
+2025-03-14 11:03:25.928 INFO: Completed deciding database.
+2025-03-14 11:03:25.929 INFO: getting final summarized response from llm
+2025-03-14 11:03:27.059 INFO: entered add conversation.
+2025-03-14 11:03:44.672 INFO: Use pytorch device_name: mps
+2025-03-14 11:03:44.673 INFO: Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-14 11:03:45.523 INFO: *****Started******
+2025-03-14 11:03:45.530 INFO: entered display_conversation history
+2025-03-14 11:03:45.533 INFO: Retriving docs from vector store
+2025-03-14 11:03:45.598 INFO: Done retriving relavent documents from vector store.
+2025-03-14 11:03:45.598 INFO: LLm deciding databases to search.
+2025-03-14 11:03:48.558 INFO: Completed deciding database.
+2025-03-14 11:03:48.558 INFO: Querying mongodb database.
+2025-03-14 11:03:51.032 INFO: Connected to mongodb
+2025-03-14 11:03:51.032 INFO: getting response from llm
+2025-03-14 11:03:52.610 INFO: mongodb returning answer
+2025-03-14 11:03:52.610 INFO: getting final summarized response from llm
+2025-03-14 11:03:57.999 INFO: *****ended******
+2025-03-14 11:03:58.015 INFO: entered add conversation.
+2025-03-14 11:04:36.148 INFO: Use pytorch device_name: mps
+2025-03-14 11:04:36.148 INFO: Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-14 11:04:37.164 INFO: *****Started******
+2025-03-14 11:04:37.183 INFO: entered display_conversation history
+2025-03-14 11:04:37.188 INFO: Retriving docs from vector store
+2025-03-14 11:04:37.216 INFO: Done retriving relavent documents from vector store.
+2025-03-14 11:04:37.216 INFO: LLm deciding databases to search.
+2025-03-14 11:04:40.395 INFO: Completed deciding database.
+2025-03-14 11:04:40.395 INFO: Querying mongodb database.
+2025-03-14 11:04:42.091 INFO: Connected to mongodb
+2025-03-14 11:04:42.091 INFO: getting response from llm
+2025-03-14 11:04:43.635 INFO: mongodb returning answer
+2025-03-14 11:04:43.636 INFO: getting final summarized response from llm
+2025-03-14 11:04:46.272 INFO: *****ended******
+2025-03-14 11:04:46.282 INFO: entered add conversation.
+2025-03-14 11:34:58.643 INFO: Use pytorch device_name: mps
+2025-03-14 11:34:58.644 INFO: Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-14 11:35:03.656 INFO: entered load conversations.
+2025-03-14 11:35:03.667 INFO: *****Started******
+2025-03-14 11:35:03.685 INFO: entered display_conversation history
+2025-03-14 11:36:13.528 INFO: Use pytorch device_name: mps
+2025-03-14 11:36:13.529 INFO: Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-14 11:36:19.507 INFO: *****Started******
+2025-03-14 11:36:19.537 INFO: All conversations deleted successfully.
+2025-03-14 11:36:19.538 INFO: entered display_conversation history
+2025-03-14 11:36:22.174 INFO: Use pytorch device_name: mps
+2025-03-14 11:36:22.174 INFO: Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-14 11:36:27.301 INFO: entered load conversations.
+2025-03-14 11:36:27.302 INFO: No conversations found in the database.
+2025-03-14 11:36:27.302 INFO: *****Started******
+2025-03-14 11:36:27.307 INFO: entered display_conversation history
+2025-03-14 11:40:19.457 INFO: Use pytorch device_name: mps
+2025-03-14 11:40:19.457 INFO: Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-14 11:40:20.688 INFO: *****Started******
+2025-03-14 11:40:20.693 INFO: entered display_conversation history
+2025-03-14 11:40:20.694 INFO: Retriving docs from vector store
+2025-03-14 11:40:20.926 INFO: Done retriving relavent documents from vector store.
+2025-03-14 11:40:20.927 INFO: LLm deciding databases to search.
+2025-03-14 11:40:24.081 INFO: Completed deciding database.
+2025-03-14 11:40:24.081 INFO: Querying Sqlite database.
+2025-03-14 11:40:25.869 INFO: getting final summarized response from llm
+2025-03-14 11:40:29.529 INFO: *****ended******
+2025-03-14 11:40:29.530 INFO: entered add conversation.
+2025-03-14 11:41:02.482 INFO: Use pytorch device_name: mps
+2025-03-14 11:41:02.483 INFO: Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-14 11:41:03.389 INFO: *****Started******
+2025-03-14 11:41:03.399 INFO: All conversations deleted successfully.
+2025-03-14 11:41:03.400 INFO: entered display_conversation history
+2025-03-14 11:44:22.732 INFO: Use pytorch device_name: mps
+2025-03-14 11:44:22.732 INFO: Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-14 11:44:24.292 INFO: entered load conversations.
+2025-03-14 11:44:24.299 INFO: No conversations found in the database.
+2025-03-14 11:44:24.299 INFO: *****Started******
+2025-03-14 11:44:24.312 INFO: entered display_conversation history
+2025-03-14 11:44:27.061 INFO: Use pytorch device_name: mps
+2025-03-14 11:44:27.061 INFO: Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-14 11:44:28.077 INFO: *****Started******
+2025-03-14 11:44:28.083 INFO: entered display_conversation history
+2025-03-14 11:44:28.083 INFO: Retriving docs from vector store
+2025-03-14 11:44:28.314 INFO: Done retriving relavent documents from vector store.
+2025-03-14 11:44:28.314 INFO: LLm deciding databases to search.
+2025-03-14 11:44:32.607 INFO: Completed deciding database.
+2025-03-14 11:44:32.608 INFO: Querying Sqlite database.
+2025-03-14 11:44:33.739 INFO: getting final summarized response from llm
+2025-03-14 11:44:35.660 INFO: *****ended******
+2025-03-14 11:44:35.661 INFO: entered add conversation.
+2025-03-14 11:44:40.300 INFO: Use pytorch device_name: mps
+2025-03-14 11:44:40.301 INFO: Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-14 11:44:41.603 INFO: *****Started******
+2025-03-14 11:44:41.613 INFO: All conversations deleted successfully.
+2025-03-14 11:44:41.614 INFO: entered display_conversation history
