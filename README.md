@@ -109,7 +109,7 @@ This project is licensed under the **MIT License**. Feel free to use and modify 
 
 ## **📬 Contact**
 📧 Email: venkatasaiancha24@gmail.com  
-💻 LinkedIn: https://www.linkedin.com/in/venkatasaiancha/
+💻 LinkedIn: https://www.linkedin.com/in/venkatasaiancha/  
 📂 GitHub: https://github.com/avsai24  
 
 ---
