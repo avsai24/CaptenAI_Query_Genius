@@ -82,11 +82,14 @@ streamlit run app.py
 ---
 
 ## **📸 Screenshots**
-| **Query Execution** | **AI-Powered Summarization** |
-|---------------------|-----------------------------|
-| ![Query Execution](/Users/venkatasaiancha/Documents/all_concepts/multi_databse_retriver/images/first_image.png)|
-| ![User Question](/Users/venkatasaiancha/Documents/all_concepts/multi_databse_retriver/images/second_image.png) |
+> User Interface.
+![User Interface](https://github.com/avsai24/CaptenAI_Query_Genius/blob/main/images/first_image.png)
 
+>When User Asks Question.
+![User Question](https://github.com/avsai24/CaptenAI_Query_Genius/blob/main/images/second_image.png)
+
+>You Can Also Delete All The History.
+![Deleting History](https://github.com/avsai24/CaptenAI_Query_Genius/blob/main/images/third_image.png)
 ---
 
 ## **📜 Contribution Guidelines**
