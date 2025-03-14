@@ -1,7 +1,7 @@
 # **CaptenAI Query Genius 🚀**
 ### **AI-Powered Multi-Database Query Retrieval System**
 
-![CaptenAI Logo](/Users/venkatasaiancha/Documents/all_concepts/multi_databse_retriver/images/Capten_logo_full.png)  
+![CaptenAI Logo](https://github.com/avsai24/CaptenAI_Query_Genius/blob/main/images/Capten_logo_full.png)  
 
 CaptenAI Query Genius is an **AI-driven query system** that intelligently retrieves and processes data from **SQLite, MongoDB, and a vector database**. It leverages **Google Gemini AI** for smart query classification, structured/unstructured data retrieval, and visualization of results.  
 
