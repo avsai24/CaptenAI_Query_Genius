@@ -109,8 +109,8 @@ This project is licensed under the **MIT License**. Feel free to use and modify 
 
 ## **📬 Contact**
 📧 Email: venkatasaiancha24@gmail.com  
-💻 LinkedIn: [Your LinkedIn](https://www.linkedin.com/in/venkatasaiancha/)  
-📂 GitHub: [Your GitHub](https://github.com/avsai24)  
+💻 LinkedIn: ![LinkedIn Profile](https://www.linkedin.com/in/venkatasaiancha/)
+📂 GitHub: ![GitHub Link](https://github.com/avsai24)  
 
 ---
 
