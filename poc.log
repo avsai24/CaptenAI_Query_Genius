@@ -120,3 +120,67 @@
 2025-03-17 11:11:50.591 INFO: entered display_conversation history
 2025-03-17 11:12:05.582 INFO: *****Started******
 2025-03-17 11:12:05.593 INFO: entered display_conversation history
+2025-03-17 12:02:17.676 INFO: Use pytorch device_name: mps
+2025-03-17 12:02:17.677 INFO: Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-17 12:02:22.900 INFO: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 12:03:50.242 INFO: Entered load_conversations.
+2025-03-17 12:03:50.243 INFO: Using ChromaDB collection: user_avsai
+2025-03-17 12:03:50.244 INFO: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 12:03:50.256 INFO: *****Started******
+2025-03-17 12:03:50.261 INFO: entered display_conversation history
+2025-03-17 12:03:50.301 INFO: *****Started******
+2025-03-17 12:03:50.322 INFO: entered display_conversation history
+2025-03-17 12:03:51.074 INFO: *****Started******
+2025-03-17 12:03:51.078 INFO: entered display_conversation history
+2025-03-17 12:04:17.624 INFO: *****Started******
+2025-03-17 12:04:17.634 INFO: entered display_conversation history
+2025-03-17 14:38:37.272 INFO: Use pytorch device_name: mps
+2025-03-17 14:38:37.272 INFO: Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-17 14:38:42.183 INFO: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 16:56:17.419 INFO: Use pytorch device_name: mps
+2025-03-17 16:56:17.420 INFO: Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-17 16:56:23.050 INFO: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 16:56:30.792 INFO: Entered load_conversations.
+2025-03-17 16:56:30.792 INFO: Using ChromaDB collection: user_avsai
+2025-03-17 16:56:30.793 INFO: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 16:56:30.802 INFO: *****Started******
+2025-03-17 16:56:30.807 INFO: entered display_conversation history
+2025-03-17 16:56:30.882 INFO: *****Started******
+2025-03-17 16:56:30.886 INFO: entered display_conversation history
+2025-03-17 16:56:31.657 INFO: *****Started******
+2025-03-17 16:56:31.662 INFO: entered display_conversation history
+2025-03-17 16:56:38.635 INFO: Entered load_conversations.
+2025-03-17 16:56:38.635 INFO: Using ChromaDB collection: user_avsai
+2025-03-17 16:56:38.643 INFO: *****Started******
+2025-03-17 16:56:38.649 INFO: entered display_conversation history
+2025-03-17 16:56:39.217 INFO: *****Started******
+2025-03-17 16:56:39.220 INFO: entered display_conversation history
+2025-03-17 16:56:42.798 INFO: *****Started******
+2025-03-17 16:56:42.808 INFO: Clearing all conversations...
+2025-03-17 16:56:42.809 INFO: Using ChromaDB collection: user_avsai
+2025-03-17 16:56:42.834 INFO: All conversations deleted successfully.
+2025-03-17 16:56:42.834 INFO: entered display_conversation history
+2025-03-17 16:56:44.941 INFO: *****Started******
+2025-03-17 16:56:44.953 INFO: entered display_conversation history
+2025-03-17 16:57:01.739 INFO: Entered load_conversations.
+2025-03-17 16:57:01.739 INFO: Using ChromaDB collection: user_captenai
+2025-03-17 16:57:01.743 INFO: No conversations found for this user.
+2025-03-17 16:57:01.743 INFO: *****Started******
+2025-03-17 16:57:01.747 INFO: entered display_conversation history
+2025-03-17 16:57:01.854 INFO: *****Started******
+2025-03-17 16:57:01.858 INFO: entered display_conversation history
+2025-03-17 16:57:01.993 INFO: *****Started******
+2025-03-17 16:57:01.996 INFO: entered display_conversation history
+2025-03-17 16:57:11.378 INFO: *****Started******
+2025-03-17 16:57:11.389 INFO: entered display_conversation history
+2025-03-17 16:57:11.391 INFO: Retriving docs from vector store
+2025-03-17 16:57:11.639 INFO: Done retriving relavent documents from vector store.
+2025-03-17 16:57:11.639 INFO: LLm deciding databases to search.
+2025-03-17 16:57:15.837 INFO: Completed deciding database.
+2025-03-17 16:57:15.837 INFO: getting final summarized response from llm
+2025-03-17 16:57:23.779 INFO: *****ended******
+2025-03-17 16:57:23.780 INFO: Entered add_conversation.
+2025-03-17 16:57:23.780 INFO: Using ChromaDB collection: user_captenai
+2025-03-17 16:57:23.893 INFO: Conversation added successfully.
+2025-03-17 16:57:25.768 INFO: *****Started******
+2025-03-17 16:57:25.777 INFO: entered display_conversation history

@@ -8,7 +8,8 @@ import matplotlib.pyplot as plt
 from langchain_community.vectorstores.utils import filter_complex_metadata  # Ensure compatibility
 import json
 import streamlit as st
-
+import os
+import shutil
 
 logging.basicConfig(
     level=logging.INFO, 
@@ -17,6 +18,18 @@ logging.basicConfig(
 
 embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
 CHROMA_DB_PATH = "/Users/venkatasaiancha/Documents/all_concepts/multi_databse_retriver/vector_database"
+
+def delete_folders_except_sqlite(parent_directory):
+    
+    for item in os.listdir(parent_directory):
+        item_path = os.path.join(parent_directory, item)
+
+        if os.path.isdir(item_path):  
+            shutil.rmtree(item_path)
+            print(f"Deleted folder: {item_path}")
+        elif item.endswith(".sqlite3"):  
+            print(f"Keeping SQLite file: {item_path}")
+
 
 def get_user_chroma_db():
     if "username" not in st.session_state:
@@ -56,6 +69,7 @@ def add_conversation(user_input, model_response, final_response, sqlitedb_arr, m
         }
     )
     chroma_db.add_documents([doc])
+    delete_folders_except_sqlite(CHROMA_DB_PATH)
     logging.info("Conversation added successfully.")
 
 def load_conversations():

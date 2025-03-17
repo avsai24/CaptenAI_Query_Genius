@@ -10,6 +10,9 @@ import matplotlib.pyplot as plt
 import streamlit as st
 import pprint 
 from chromadb import PersistentClient
+import uuid
+import os
+import shutil
 
 logging.basicConfig(
     level=logging.INFO, 
@@ -17,21 +20,34 @@ logging.basicConfig(
 )
 logging.basicConfig(level=logging.INFO, format="%(levelname)s - %(message)s")
 
-CHROMA_DB_PATH = "/Users/venkatasaiancha/Documents/all_concepts/multi_databse_retriver/vector_database"
 
 embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
+CHROMA_DB_PATH = "/Users/venkatasaiancha/Documents/all_concepts/multi_databse_retriver/vector_database"
+
+def delete_folders_except_sqlite(parent_directory):
+    
+    for item in os.listdir(parent_directory):
+        item_path = os.path.join(parent_directory, item)
+
+        if os.path.isdir(item_path):  
+            shutil.rmtree(item_path)
+            logging.info(f"Deleted folder: {item_path}")
+        elif item.endswith(".sqlite3"):  
+            logging.info(f"Keeping SQLite file")
 
 def get_user_chroma_db():
     
-    username = "av"
-    collection_name = f"user_{username}" 
+
+    username = "avsai"
+    collection_name = f"user_{username}"  
     logging.info(f"Using ChromaDB collection: {collection_name}")
 
     return Chroma(collection_name=collection_name, embedding_function=embeddings, persist_directory=CHROMA_DB_PATH)
 
-def add_conversation(user_input, model_response, final_response, sqlitedb_arr="None", mongodb_arr="None", sqlitedb_df="None"):
+def add_conversation(user_input, model_response, final_response, sqlitedb_arr, mongodb_arr, sqlitedb_df,
+                    st_sqlitedb_arr="None", st_mongodb_arr="None", st_sqlitedb_df="None", generated_chart="None"):
     
-    logging.info("Adding conversation...")
+    logging.info("Entered add_conversation.")
 
     chroma_db = get_user_chroma_db()
     if chroma_db is None:
@@ -47,15 +63,19 @@ def add_conversation(user_input, model_response, final_response, sqlitedb_arr="N
             "sqlitedb_arr": sqlitedb_arr,
             "mongodb_arr": mongodb_arr,
             "sqlitedb_df": sqlitedb_df,
+            "st_sqlitedb_arr": st_sqlitedb_arr,
+            "st_mongodb_arr": st_mongodb_arr,
+            "st_sqlitedb_df": st_sqlitedb_df,
+            "generated_chart": generated_chart,
             "timestamp": timestamp
         }
     )
-    add = chroma_db.add_documents([doc])
+    chroma_db.add_documents([doc])
+    delete_folders_except_sqlite(CHROMA_DB_PATH)
     logging.info("Conversation added successfully.")
-    return add
 
 def load_conversations():
-    logging.info("Loading conversations...")
+    logging.info("Entered load_conversations.")
     
     chroma_db = get_user_chroma_db()
     if chroma_db is None:
@@ -63,11 +83,26 @@ def load_conversations():
 
     documents = chroma_db._collection.get(include=["metadatas"])
     if not documents["metadatas"]:
-        logging.info("No conversations found.")
+        logging.info("No conversations found for this user.")
         return []
 
-    conversations = sorted(documents["metadatas"], key=lambda x: x["timestamp"])
-    return conversations
+    conversations = []
+    for meta in documents["metadatas"]:
+        conversations.append({
+            "user_input": meta.get("user_input"),
+            "model_response": meta.get("model_response"),
+            "final_response": meta.get("final_response"),
+            "sqlitedb_arr": meta.get("sqlitedb_arr"),
+            "mongodb_arr": meta.get("mongodb_arr"),
+            "sqlitedb_df": meta.get("sqlitedb_df"),
+            "st_sqlitedb_arr": meta.get("st_sqlitedb_arr"),
+            "st_mongodb_arr": meta.get("st_mongodb_arr"),
+            "st_sqlitedb_df": meta.get("st_sqlitedb_df"),
+            "generated_chart": meta.get("generated_chart"),
+            "timestamp": meta.get("timestamp", 0)
+        })
+
+    return sorted(conversations, key=lambda x: x["timestamp"])
 
 def delete_conversations():
     logging.info("Clearing all conversations...")
@@ -86,7 +121,7 @@ def delete_conversations():
     logging.info("All conversations deleted successfully.")
 
 def delete_collection():
-   
+    
     logging.info("Deleting the entire ChromaDB collection...")
 
     chroma_db = get_user_chroma_db()
@@ -96,52 +131,17 @@ def delete_collection():
 
     chroma_db.delete_collection()  
     logging.info("Collection deleted successfully.")
-
-def print_collection_metadata():
-
-    logging.info("Retrieving metadata from the collection...")
-
-    chroma_db = get_user_chroma_db()
-    if chroma_db is None:
-        logging.warning("No collection found.")
-        return
-
-    documents = chroma_db.get(include=["metadatas"])
-    
-    if not documents["metadatas"]:
-        logging.info("No metadata found in the collection.")
-        return
-
-    logging.info("Metadata in collection:")
-    for index, meta in enumerate(documents["metadatas"]):
-        print(f" **Document {index + 1} Metadata:**")
-        for key, value in meta.items():
-            print(f"   ➤ {key}: {value}")
-        print("-" * 50)
+    delete_folders_except_sqlite(CHROMA_DB_PATH)
 
 
 
-
-def print_all_collections():
-    
-    client = PersistentClient(path=CHROMA_DB_PATH)
-    collections = client.list_collections()
-
-    if not collections:
-        print("No collections found in ChromaDB.")
-        return
-
-    print("**Available Collections in ChromaDB:**")
-    for collection in collections:
-        print(f" {collection.name}")
-    print("-" * 50)
 
 
 ### **Streamlit UI for Testing** ###
 if __name__ == "__main__":
     
-    # add_conversation(user_input="avsai1",model_response="avsai1",final_response="avsai1")
+    # add_conversation(user_input="avsai1",model_response="avsai1",final_response="avsai1",sqlitedb_arr="None", mongodb_arr="None", sqlitedb_df="None")
     load=load_conversations()
     pprint.pp(load)
-    # delete_conversations()
+    # delete_collection()
     
