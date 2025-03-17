@@ -77,61 +77,39 @@ def get_llm_response(prompt,question):
     return response
 
 def app_start():
-    st.markdown("<h1 style='text-align: center;'>CaptenAI Query Genius</h1>", unsafe_allow_html=True)
-    st.write("---")
-
+    # st.markdown("<h1 style='text-align: center;'>CaptenAI Query Genius</h1>", unsafe_allow_html=True)
+    # st.write("---")
+    
     st.sidebar.image("/Users/venkatasaiancha/Documents/all_concepts/multi_databse_retriver/images/Capten_logo_full.png", width=200)
     st.sidebar.markdown("---")
-    st.sidebar.title("Available Databases:")
+    st.sidebar.markdown(
+    f"""
+    <div style="
+        padding: 10px; 
+        border-radius: 8px; 
+        background-color: #f0f2f6;
+        text-align: center;
+        font-weight: bold;
+        font-size: 16px;
+        color: #333;">
+        👤 <b>Current User:</b> {st.session_state.get('username', 'Guest')}
+    </div>
+    """,
+    unsafe_allow_html=True
+    )
+    st.sidebar.write("---")
 
-    with st.sidebar.expander("🏆 **Sports Databases**", expanded=False):
-        st.write("""
-        - 🏅 **Players** → Stats (goals, assists, matches)
-        - 🏆 **Teams** → Rankings & match results
-        - 🏟️ **Stadiums** → Locations & capacity
-        - 💰 **Financials** → Player salaries & revenue
-        """)
-
-    with st.sidebar.expander("🏠 **Real Estate Databases**", expanded=False):
-        st.write("""
-        - 🏡 **Homes** → Property details & valuation
-        - 📍 **Land** → Zoning & land usage
-        - ⚡ **Utilities** → Electricity & gas providers
-        - 💦 **Water** → Bills & usage
-        """)
-
-    with st.sidebar.expander("👨‍💼 **General Databases**", expanded=False):
-        st.write("""
-        - 🎓 **Students** → Academic performance
-        - 💼 **Employees** → Salaries & experience
-        - 📈 **Sales** → Revenue statistics
-        """)
-
-    with st.sidebar.expander("🗂 **MongoDB Collections**", expanded=False):
-        st.write("""
-        - 🏡 **Airbnb** → Property reviews & pricing
-        - 💳 **Transactions** → Customer analytics
-        - 🎬 **Movies** → Cast, reviews & IMDB
-        - 🍽️ **Restaurants** → Cuisine & ratings
-        """)
-
-    with st.sidebar.expander("🤖 **Vector Database (AI Search)**", expanded=False):
-        st.write("""
-        - 🏢 **Appstek** → IT & Cloud Analytics
-        - 🚀 **Capten AI** → AI Automation & Predictions
-        - 🖼️ **ImageVision AI** → Computer Vision & Image Processing
-        """)
-
-    st.sidebar.markdown("---")
-    st.sidebar.markdown(" **Use this guide to structure your queries efficiently!**")
     st.sidebar.markdown("### Actions:")
+
+    
+    #delete button.
     if st.sidebar.button("Delete All Conversations", key="delete_convo"):
         delete_conversations()
         st.session_state.conversation = []  
         st.sidebar.success("All conversations deleted successfully.")
     
-    st.sidebar.write("### Current Session Data:")
-    st.sidebar.write(st.session_state)
+    # st.sidebar.write("### Current Session Data:")
+    # st.sidebar.write(st.session_state)
 
 
 def retrieve_docs(user_input):
@@ -732,7 +710,6 @@ def display_conversation_history():
 
 
 def main():
-    
     initialize_session_state()
     logging.info('*****Started******')
     app_start()
