@@ -17,7 +17,7 @@ import base64
 from io import StringIO
 import time
 from main import *
-from complete_vector_store import *
+from vector_db_test import *
 
 warnings.filterwarnings("ignore", category=UserWarning) 
 

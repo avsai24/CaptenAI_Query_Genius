@@ -25,7 +25,7 @@ from bson import ObjectId, Decimal128
 import numpy as np
 from datetime import datetime  
 import time
-from complete_vector_store import get_chats_by_id, add_conversation_to_existing_chat, get_new_chat_id 
+from vector_db_test import get_chats_by_id, add_conversation_to_existing_chat, get_new_chat_id 
 
 
 torch.classes.__path__ = [os.path.join(torch.__path__[0], torch.classes.__file__)] 
