@@ -22,7 +22,7 @@ logging.basicConfig(level=logging.INFO, format="%(levelname)s - %(message)s")
 
 
 embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
-CHROMA_DB_PATH = "/Users/venkatasaiancha/Documents/all_concepts/multi_databse_retriver/vector_database"
+CHROMA_DB_PATH = "/Users/venkatasaiancha/Documents/all_concepts/multi_databse_retriver/VECTOR_STORE"
 
 def delete_folders_except_sqlite(parent_directory):
     
@@ -44,9 +44,11 @@ def get_user_chroma_db():
 
     return Chroma(collection_name=collection_name, embedding_function=embeddings, persist_directory=CHROMA_DB_PATH)
 
+
+
 def add_conversation(user_input, model_response, final_response, sqlitedb_arr, mongodb_arr, sqlitedb_df,
                     st_sqlitedb_arr="None", st_mongodb_arr="None", st_sqlitedb_df="None", generated_chart="None"):
-    
+
     logging.info("Entered add_conversation.")
 
     chroma_db = get_user_chroma_db()

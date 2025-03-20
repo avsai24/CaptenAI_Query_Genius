@@ -25,6 +25,7 @@ from bson import ObjectId, Decimal128
 import numpy as np
 from datetime import datetime  
 import time
+from complete_vector_store import get_chats_by_id, add_conversation_to_existing_chat, get_new_chat_id 
 
 
 torch.classes.__path__ = [os.path.join(torch.__path__[0], torch.classes.__file__)] 
@@ -873,7 +874,7 @@ def main():
                 mongodb_arr_json = convert_dataframe_to_json_list(mongodb_arr)
                 
                 
-                add_conversation(user_input,summarised_answer,final_response,sqlitedb_arr_json,mongodb_arr_json,sqlitedb_df_json)
+                add_conversation_to_existing_chat(user_input,summarised_answer,final_response,sqlitedb_arr_json,mongodb_arr_json,sqlitedb_df_json)
 
 # =====================================================================================================
 
