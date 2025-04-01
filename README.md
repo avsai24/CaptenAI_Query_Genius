@@ -21,13 +21,22 @@
 ## 🏰 **Project Structure**
 ```
 📂 captenai-query-genius/
+<<<<<<< HEAD
 │-- 📝 main.py                     # Main entry point for the Streamlit application
+=======
+│-- 📝 frontend.py                     # Main entry point for the Streamlit application
+>>>>>>> f91976b9a09fe3ccf1740f96d4e380009910e97c
 │-- 📝 backend.py                   # Backend functions for query processing, database handling, and AI integration
 │-- 📝 db_decision_prompt.py        # Prompt template for AI-based database selection
 │-- 📝 sql_query_prompt.py          # Prompt template for generating SQL queries
 │-- 📝 mongo_query_prompt.py        # Prompt template for generating MongoDB queries
+<<<<<<< HEAD
 │-- 📂 database/                    # SQLite database storage
 │-- 📂 logs/                         # Application logs
+=======
+│-- 📂 sqlite_databases/                    # SQLite database storage
+│-- 📝 poc.log                       # Application logs
+>>>>>>> f91976b9a09fe3ccf1740f96d4e380009910e97c
 │-- 📂 vector_db/                    # ChromaDB storage for vector search
 │-- 📝 .env                          # Environment variables (API keys, DB paths)
 │-- 📝 requirements.txt              # Python dependencies
