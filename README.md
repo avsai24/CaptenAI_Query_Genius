@@ -1,117 +1,160 @@
-# **CaptenAI Query Genius 🚀**
-### **AI-Powered Multi-Database Query Retrieval System**
+# CaptenAI Query Genius
 
 ![CaptenAI Logo](https://github.com/avsai24/CaptenAI_Query_Genius/blob/main/images/Capten_logo_full.png)  
 
-CaptenAI Query Genius is an **AI-driven query system** that intelligently retrieves and processes data from **SQLite, MongoDB, and a vector database**. It leverages **Google Gemini AI** for smart query classification, structured/unstructured data retrieval, and visualization of results.  
+## 🚀 Overview
+
+**CaptenAI Query Genius** is a powerful Streamlit-based multi-database query retrieval and analysis system. It allows users to retrieve, analyze, and visualize data from **SQLite, MongoDB, and ChromaDB** using **Google Gemini AI** for intelligent query classification and summarization.
+
+### **✨ Features**
+- 🔍 **Multi-Database Querying:** Supports **SQLite**, **MongoDB**, and **ChromaDB (VectorDB)**.
+- 🤖 **AI-Powered Query Classification:** Uses **Google Gemini AI** to determine the best database for a query.
+- 📊 **Automatic Data Summarization & Visualization:** Generates summarized insights and visualizations.
+- 🛠 **Session-Based Conversation Tracking:** Stores and retrieves previous queries and responses.
+- 🔑 **Secure Authentication:** Uses **bcrypt-encrypted passwords** and **EncryptedCookieManager** for authentication.
+- ⚡ **Efficient Query Execution:** Executes SQL and MongoDB queries dynamically based on intent.
+- 📁 **User-Specific Chat Histories:** Stores user interactions in **ChromaDB** for personalized insights.
+- 🛢 **Account & Chat Management:** Allows users to **delete chats** and **accounts** securely.
 
 ---
 
-## **📌 Features**  
-
-✅ **Smart Query Routing** – Automatically selects between **SQLite, MongoDB, or a Vector Database** for query execution.  
-✅ **AI-Powered Query Classification** – Uses **Google Gemini AI** to understand and optimize queries.  
-✅ **Vector-Based Semantic Search** – Employs **ChromaDB & LangChain embeddings** for AI-powered data retrieval.  
-✅ **SQL & NoSQL Support** – Executes dynamic **SQL queries for structured data** and **MongoDB queries for document-based data**.  
-✅ **Intelligent Summarization & Visualization** – Generates AI-driven insights and suggests the best chart types.  
-✅ **Session Management** – Saves conversation history for future reference.  
-✅ **Error Handling & Logging** – Provides robust logging for debugging and monitoring.  
-
----
-
-## **🛠️ Tech Stack**
-- **Frontend**: Streamlit (for UI)
-- **Databases**: SQLite, MongoDB, ChromaDB (Vector DB)
-- **AI & NLP**: Google Gemini AI, LangChain, Hugging Face Embeddings
-- **Data Processing**: Pandas, NumPy, Matplotlib
-- **Backend Logic**: Python, Dynamic Query Execution
-- **Security & Config Management**: dotenv (Environment Variables)
-
----
-
-## **🔧 Installation & Setup**
-### **1️⃣ Clone the Repository**
-```bash
-git clone https://github.com/avsai24/CaptenAI_Query_Genius.git
-cd CaptenAI-Query-Genius
+## 🏰 **Project Structure**
+```
+📂 captenai-query-genius/
+│-- 📝 main.py                     # Main entry point for the Streamlit application
+│-- 📝 backend.py                   # Backend functions for query processing, database handling, and AI integration
+│-- 📝 db_decision_prompt.py        # Prompt template for AI-based database selection
+│-- 📝 sql_query_prompt.py          # Prompt template for generating SQL queries
+│-- 📝 mongo_query_prompt.py        # Prompt template for generating MongoDB queries
+│-- 📂 database/                    # SQLite database storage
+│-- 📂 logs/                         # Application logs
+│-- 📂 vector_db/                    # ChromaDB storage for vector search
+│-- 📝 .env                          # Environment variables (API keys, DB paths)
+│-- 📝 requirements.txt              # Python dependencies
+│-- 📝 README.md                     # Documentation file
 ```
 
-### **2️⃣ Create a Virtual Environment**
-```bash
+---
+
+## ⚙️ **Installation & Setup**
+### **1️⃣ Clone the Repository**
+```sh
+git clone https://github.com/avsai24/CaptenAI_Query_Genius.git
+cd captenai-query-genius
+```
+
+### **2️⃣ Set Up Virtual Environment**
+```sh
 python -m venv venv
-source venv/bin/activate  # On macOS/Linux
-venv\\Scripts\\activate     # On Windows
+source venv/bin/activate    # On macOS/Linux
+venv\Scripts\activate       # On Windows
 ```
 
 ### **3️⃣ Install Dependencies**
-```bash
+```sh
 pip install -r requirements.txt
 ```
 
-### **4️⃣ Set Up Environment Variables**
-Create a `.env` file and add your API keys and database paths:
-```
-API_KEY=your-google-gemini-api-key
-DATABASE_FOLDER=path-to-your-sqlite-databases
-MONGO_URL=your-mongodb-url
+### **4️⃣ Configure Environment Variables**
+Create a `.env` file and add:
+```ini
+API_KEY="your-gemini-api-key"
+MONGO_URL="your-mongodb-connection-string"
+DATABASE_FOLDER="path-to-sqlite-database"
+CHROMA_DB_PATH="path-to-chromadb"
+COOKIE_PREFIX="your-cookie-prefix"
+COOKIE_PASSWORD="your-secure-cookie-password"
+LOGO_URL="your-logo-url"
 ```
 
 ### **5️⃣ Run the Application**
-```bash
-streamlit run app.py
+```sh
+streamlit run main.py
 ```
 
 ---
 
-## **⚙️ How It Works**
-1️⃣ **User Inputs a Query** → AI decides whether to fetch data from **SQLite, MongoDB, or VectorDB**.  
-2️⃣ **Query Execution** → Runs **SQL queries for structured data**, **MongoDB queries for NoSQL data**, or **Vector similarity searches**.  
-3️⃣ **Data Processing** → If multiple sources return results, they are **merged intelligently**.  
-4️⃣ **Summarization & Visualization** → AI generates concise **summaries** and **auto-suggests the best chart type**.  
-5️⃣ **Response Display** → The response is displayed, logged, and saved in the **conversation history**.  
+## 🔑 **Authentication**
+1. **User Login:** Users must log in using their credentials stored in **SQLite**.
+2. **Secure Storage:** Passwords are hashed using **bcrypt**, and session management is handled via **cookies**.
+3. **Account Management:** Users can **delete accounts**, **clear chat history**, and **log out** securely.
 
 ---
 
-## **📊 Use Cases**
-- 📊 **Business Analytics** – Fetch sales reports, employee salaries, and revenue insights.  
-- ⚽ **Sports Data** – Retrieve player statistics, team rankings, and match records.  
-- 🏡 **Real Estate** – Analyze property prices, land zoning, and utility information.  
-- 🤖 **AI-Powered Search** – Perform **semantic search** on AI-related datasets.  
-- 🍽️ **E-commerce & Reviews** – Query Airbnb listings, movie ratings, restaurant reviews, etc.  
+## 🎯 **Usage Guide**
+### **1️⃣ Login & Authentication**
+- Users must log in or create an account.
+- Once authenticated, they can access the main interface.
+
+### **2️⃣ Query Execution**
+- Users enter queries in the **chatbox**.
+- The system **classifies the query** and selects the appropriate database.
+- Results are fetched, **summarized using AI**, and displayed.
+
+### **3️⃣ Data Visualization**
+- If the retrieved data supports visualization, a **chart is generated** dynamically.
+- **Supported charts:** Bar, Line, Scatter, Histogram, Pie.
+
+### **4️⃣ Chat Management**
+- **New Chat:** Start a fresh conversation.
+- **Chat History:** Retrieve past queries.
+- **Delete Chats:** Remove old conversations.
+
+### **5️⃣ Logout & Account Deletion**
+- **Logout:** Ends the session.
+- **Delete Account:** Erases all user data from **SQLite and ChromaDB**.
 
 ---
 
-## **📸 Screenshots**
-> User Interface.
-![User Interface](https://github.com/avsai24/CaptenAI_Query_Genius/blob/main/images/first_image.png)
-
->When User Asks Question.
-![User Question](https://github.com/avsai24/CaptenAI_Query_Genius/blob/main/images/second_image.png)
-
->You Can Also Delete All The History.
-![Deleting History](https://github.com/avsai24/CaptenAI_Query_Genius/blob/main/images/third_image.png)
----
-
-## **📜 Contribution Guidelines**
-We welcome contributions! 🚀 To contribute:  
-1. **Fork the repository**  
-2. **Create a new branch** (`git checkout -b feature-new-functionality`)  
-3. **Commit your changes** (`git commit -m "Added new feature"`)  
-4. **Push to GitHub** (`git push origin feature-new-functionality`)  
-5. **Create a Pull Request** 🎉  
+## ⚖️ **Security Measures**
+- **🔒 Encrypted Passwords:** All user credentials are stored **securely** with **bcrypt hashing**.
+- **🔐 Cookie Encryption:** User sessions are protected with **AES encryption**.
+- **🛠️ Secure Query Execution:** Prevents SQL injection and ensures safe MongoDB operations.
 
 ---
 
-## **📄 License**
-This project is licensed under the **MIT License**. Feel free to use and modify it.  
+## 🛠 **Tech Stack**
+- **Frontend:** Streamlit
+- **Databases:** SQLite, MongoDB, ChromaDB
+- **AI & Embeddings:** Google Gemini AI, HuggingFace Sentence-Transformers
+- **Security:** bcrypt, EncryptedCookieManager
+- **Data Visualization:** Matplotlib
+- **Backend:** Python, LangChain, Pymongo
 
 ---
 
-## **📬 Contact**
+## 👉 **License**
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 👥 **Contributing**
+We welcome contributions! Feel free to fork the repo, make changes, and submit a PR.
+
+### **Steps to Contribute**
+1. **Fork the Repository**
+2. **Create a New Branch**
+   ```sh
+   git checkout -b feature-branch
+   ```
+3. **Make Your Changes**
+4. **Commit & Push**
+   ```sh
+   git commit -m "Your changes"
+   git push origin feature-branch
+   ```
+5. **Open a Pull Request**
+
+---
+
+## 💌 **Contact & Support**
+If you have any questions, feel free to reach out:
+
 📧 Email: venkatasaiancha24@gmail.com  
 💻 LinkedIn: https://www.linkedin.com/in/venkatasaiancha/  
 📂 GitHub: https://github.com/avsai24  
 
 ---
 
-### **🌟 If you like this project, give it a ⭐ on GitHub!**
+🚀 **CaptenAI Query Genius - Your AI-Powered Multi-Database Assistant!** 🌟
+

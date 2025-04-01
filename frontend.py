@@ -4,6 +4,7 @@ from dotenv import load_dotenv
 from streamlit_cookies_manager import EncryptedCookieManager
 
 load_dotenv()
+
 prefix = os.getenv("COOKIE_PREFIX")
 password = os.getenv("COOKIE_PASSWORD")
 LOGO_URL = os.getenv("LOGO_URL")

@@ -1,133 +1,2761 @@
-2025-03-20 14:13:35.954 INFO: App Starts
-2025-03-20 14:13:36.187 INFO: App Starts
-2025-03-20 14:13:36.187 INFO: entered check session
-2025-03-20 14:13:36.391 INFO: check_session(): Retrieved chat_id from cookies -> 1
-2025-03-20 14:13:36.392 INFO: user authenticated
-2025-03-20 14:13:36.392 INFO: entered initialise session state
-2025-03-20 14:13:36.392 INFO: Using ChromaDB collection: user_avsai
-2025-03-20 14:13:36.393 INFO: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
-2025-03-20 14:13:36.401 INFO: entered app start
-2025-03-20 14:13:36.410 INFO: Using ChromaDB collection: user_avsai
-2025-03-20 14:13:36.413 INFO: entered display_conversation history
-2025-03-20 14:13:36.413 INFO: App ends
-2025-03-20 14:13:36.652 INFO: App Starts
-2025-03-20 14:13:36.652 INFO: entered check session
-2025-03-20 14:13:36.654 INFO: check_session(): Retrieved chat_id from cookies -> 1
-2025-03-20 14:13:36.654 INFO: user authenticated
-2025-03-20 14:13:36.654 INFO: entered initialise session state
-2025-03-20 14:13:36.654 INFO: entered app start
-2025-03-20 14:13:36.658 INFO: Using ChromaDB collection: user_avsai
-2025-03-20 14:13:36.664 INFO: entered display_conversation history
-2025-03-20 14:13:36.665 INFO: App ends
-2025-03-20 14:13:51.559 INFO: App Starts
-2025-03-20 14:13:51.560 INFO: entered check session
-2025-03-20 14:13:51.561 INFO: check_session(): Retrieved chat_id from cookies -> 1
-2025-03-20 14:13:51.561 INFO: user authenticated
-2025-03-20 14:13:51.562 INFO: entered initialise session state
-2025-03-20 14:13:51.562 INFO: entered app start
-2025-03-20 14:13:51.575 INFO: Using ChromaDB collection: user_avsai
-2025-03-20 14:13:51.584 INFO: entered display_conversation history
-2025-03-20 14:13:51.585 INFO: Retriving docs from vector store
-2025-03-20 14:13:51.938 INFO: Done retriving relavent documents from vector store.
-2025-03-20 14:13:51.938 INFO: LLm deciding databases to search.
-2025-03-20 14:13:52.789 INFO: App Starts
-2025-03-20 14:13:52.790 INFO: entered check session
-2025-03-20 14:13:52.791 INFO: check_session(): Retrieved chat_id from cookies -> 1
-2025-03-20 14:13:52.791 INFO: user authenticated
-2025-03-20 14:13:52.791 INFO: entered initialise session state
-2025-03-20 14:13:52.792 INFO: Using ChromaDB collection: user_avsai
-2025-03-20 14:13:52.798 INFO: entered app start
-2025-03-20 14:13:52.801 INFO: Using ChromaDB collection: user_avsai
-2025-03-20 14:13:52.810 INFO: entered display_conversation history
-2025-03-20 14:13:52.810 INFO: App ends
-2025-03-20 14:13:54.973 INFO: Completed deciding database.
-2025-03-20 14:13:54.974 INFO: getting final summarized response from llm
-2025-03-20 14:13:58.950 INFO: *****ended******
-2025-03-20 14:13:58.950 INFO: Using ChromaDB collection: user_avsai
-2025-03-20 14:13:58.955 INFO: chat_id = 1
-2025-03-20 14:13:59.082 INFO: ['f89847cd-1b09-4f79-8cd2-553239f62496']
-2025-03-20 14:13:59.082 INFO: Conversation added successfully.
-2025-03-20 14:13:59.082 INFO: App ends
-2025-03-20 14:25:18.534 INFO: App Starts
-2025-03-20 14:25:18.793 INFO: App Starts
-2025-03-20 14:25:18.793 INFO: entered check session
-2025-03-20 14:25:18.998 INFO: check_session(): Retrieved chat_id from cookies -> 1
-2025-03-20 14:25:18.999 INFO: user authenticated
-2025-03-20 14:25:18.999 INFO: entered initialise session state
-2025-03-20 14:25:18.999 INFO: Using ChromaDB collection: user_avsai
-2025-03-20 14:25:19.008 INFO: entered app start
-2025-03-20 14:25:19.016 INFO: Using ChromaDB collection: user_avsai
-2025-03-20 14:25:19.019 INFO: entered display_conversation history
-2025-03-20 14:25:19.020 INFO: App ends
-2025-03-20 14:25:19.269 INFO: App Starts
-2025-03-20 14:25:19.269 INFO: entered check session
-2025-03-20 14:25:19.271 INFO: check_session(): Retrieved chat_id from cookies -> 1
-2025-03-20 14:25:19.272 INFO: user authenticated
-2025-03-20 14:25:19.272 INFO: entered initialise session state
-2025-03-20 14:25:19.272 INFO: entered app start
-2025-03-20 14:25:19.275 INFO: Using ChromaDB collection: user_avsai
-2025-03-20 14:25:19.282 INFO: entered display_conversation history
-2025-03-20 14:25:19.284 INFO: App ends
-2025-03-20 14:25:31.169 INFO: App Starts
-2025-03-20 14:25:31.379 INFO: App Starts
-2025-03-20 14:25:31.380 INFO: entered check session
-2025-03-20 14:25:31.380 INFO: check_session(): Retrieved chat_id from cookies -> 1
-2025-03-20 14:25:31.380 INFO: user authenticated
-2025-03-20 14:25:31.380 INFO: entered initialise session state
-2025-03-20 14:25:31.380 INFO: Using ChromaDB collection: user_avsai
-2025-03-20 14:25:31.384 INFO: entered app start
-2025-03-20 14:25:31.388 INFO: Using ChromaDB collection: user_avsai
-2025-03-20 14:25:31.391 INFO: entered display_conversation history
-2025-03-20 14:25:31.392 INFO: App ends
-2025-03-20 14:25:31.543 INFO: App Starts
-2025-03-20 14:25:31.543 INFO: entered check session
-2025-03-20 14:25:31.544 INFO: check_session(): Retrieved chat_id from cookies -> 1
-2025-03-20 14:25:31.544 INFO: user authenticated
-2025-03-20 14:25:31.544 INFO: entered initialise session state
-2025-03-20 14:25:31.544 INFO: entered app start
-2025-03-20 14:25:31.547 INFO: Using ChromaDB collection: user_avsai
-2025-03-20 14:25:31.551 INFO: entered display_conversation history
-2025-03-20 14:25:31.553 INFO: App ends
-2025-03-20 14:25:37.326 INFO: App Starts
-2025-03-20 14:25:37.326 INFO: entered check session
-2025-03-20 14:25:37.327 INFO: check_session(): Retrieved chat_id from cookies -> 1
-2025-03-20 14:25:37.327 INFO: user authenticated
-2025-03-20 14:25:37.327 INFO: entered initialise session state
-2025-03-20 14:25:37.327 INFO: entered app start
-2025-03-20 14:25:37.333 INFO: Using ChromaDB collection: user_avsai
-2025-03-20 14:25:37.341 INFO: Using ChromaDB collection: user_avsai
-2025-03-20 14:25:37.458 INFO: App Starts
-2025-03-20 14:25:37.459 INFO: entered check session
-2025-03-20 14:25:37.459 INFO: check_session(): Retrieved chat_id from cookies -> 2
-2025-03-20 14:25:37.459 INFO: user authenticated
-2025-03-20 14:25:37.459 INFO: entered initialise session state
-2025-03-20 14:25:37.459 INFO: entered app start
-2025-03-20 14:25:37.463 INFO: Using ChromaDB collection: user_avsai
-2025-03-20 14:25:37.466 INFO: entered display_conversation history
-2025-03-20 14:25:37.466 INFO: App ends
-2025-03-20 14:25:37.629 INFO: App Starts
-2025-03-20 14:25:37.629 INFO: entered check session
-2025-03-20 14:25:37.630 INFO: check_session(): Retrieved chat_id from cookies -> 2
-2025-03-20 14:25:37.630 INFO: user authenticated
-2025-03-20 14:25:37.630 INFO: entered initialise session state
-2025-03-20 14:25:37.630 INFO: entered app start
-2025-03-20 14:25:37.634 INFO: Using ChromaDB collection: user_avsai
-2025-03-20 14:25:37.639 INFO: entered display_conversation history
-2025-03-20 14:25:37.639 INFO: App ends
-2025-03-20 14:25:39.975 INFO: App Starts
-2025-03-20 14:25:39.975 INFO: entered check session
-2025-03-20 14:25:39.977 INFO: check_session(): Retrieved chat_id from cookies -> 2
-2025-03-20 14:25:39.977 INFO: user authenticated
-2025-03-20 14:25:39.977 INFO: entered initialise session state
-2025-03-20 14:25:39.977 INFO: entered app start
-2025-03-20 14:25:39.987 INFO: Using ChromaDB collection: user_avsai
-2025-03-20 14:25:40.111 INFO: App Starts
-2025-03-20 14:25:40.111 INFO: entered check session
-2025-03-20 14:25:40.112 INFO: check_session(): Retrieved chat_id from cookies -> None
-2025-03-20 14:25:40.112 INFO: user has not authenticated
-2025-03-20 14:25:40.113 INFO: App ends
-2025-03-20 14:25:40.263 INFO: App Starts
-2025-03-20 14:25:40.263 INFO: entered check session
-2025-03-20 14:25:40.264 INFO: check_session(): Retrieved chat_id from cookies -> None
-2025-03-20 14:25:40.264 INFO: user has not authenticated
-2025-03-20 14:25:40.265 INFO: App ends
+2025-03-30 22:30:11.665 INFO: App Starts
+2025-03-30 22:30:11.920 INFO: App Starts
+2025-03-30 22:30:11.920 INFO: entered check session
+2025-03-30 22:30:12.120 INFO: check_session(): Retrieved chat_id from cookies -> None
+2025-03-30 22:30:12.121 INFO: user has not authenticated
+2025-03-30 22:30:12.129 INFO: App ends
+2025-03-30 22:30:22.518 INFO: App Starts
+2025-03-30 22:30:22.519 INFO: entered check session
+2025-03-30 22:30:22.520 INFO: check_session(): Retrieved chat_id from cookies -> None
+2025-03-30 22:30:22.520 INFO: user has not authenticated
+2025-03-30 22:30:23.393 INFO: App Starts
+2025-03-30 22:30:23.393 INFO: entered check session
+2025-03-30 22:30:23.394 INFO: check_session(): Retrieved chat_id from cookies -> None
+2025-03-30 22:30:23.394 INFO: user authenticated
+2025-03-30 22:30:23.394 INFO: entered initialise session state
+2025-03-30 22:30:23.394 INFO: Using ChromaDB collection: user_avsai
+2025-03-30 22:30:23.410 INFO: Using ChromaDB collection: user_avsai
+2025-03-30 22:30:23.413 INFO: entered app start
+2025-03-30 22:30:23.417 INFO: Using ChromaDB collection: user_avsai
+2025-03-30 22:30:23.421 INFO: entered display_conversation history
+2025-03-30 22:30:23.422 INFO: App ends
+2025-03-30 22:30:23.589 INFO: App Starts
+2025-03-30 22:30:23.589 INFO: entered check session
+2025-03-30 22:30:23.589 INFO: check_session(): Retrieved chat_id from cookies -> 8
+2025-03-30 22:30:23.590 INFO: user authenticated
+2025-03-30 22:30:23.590 INFO: entered initialise session state
+2025-03-30 22:30:23.590 INFO: entered app start
+2025-03-30 22:30:23.593 INFO: Using ChromaDB collection: user_avsai
+2025-03-30 22:30:23.597 INFO: entered display_conversation history
+2025-03-30 22:30:23.597 INFO: App ends
+2025-03-30 22:30:23.757 INFO: App Starts
+2025-03-30 22:30:23.757 INFO: entered check session
+2025-03-30 22:30:23.757 INFO: check_session(): Retrieved chat_id from cookies -> 8
+2025-03-30 22:30:23.758 INFO: user authenticated
+2025-03-30 22:30:23.758 INFO: entered initialise session state
+2025-03-30 22:30:23.758 INFO: entered app start
+2025-03-30 22:30:23.761 INFO: Using ChromaDB collection: user_avsai
+2025-03-30 22:30:23.768 INFO: entered display_conversation history
+2025-03-30 22:30:23.768 INFO: App ends
+2025-03-30 22:30:26.392 INFO: App Starts
+2025-03-30 22:30:26.598 INFO: App Starts
+2025-03-30 22:30:26.598 INFO: entered check session
+2025-03-30 22:30:26.599 INFO: check_session(): Retrieved chat_id from cookies -> 8
+2025-03-30 22:30:26.599 INFO: user authenticated
+2025-03-30 22:30:26.599 INFO: entered initialise session state
+2025-03-30 22:30:26.599 INFO: Using ChromaDB collection: user_avsai
+2025-03-30 22:30:26.604 INFO: entered app start
+2025-03-30 22:30:26.607 INFO: Using ChromaDB collection: user_avsai
+2025-03-30 22:30:26.612 INFO: entered display_conversation history
+2025-03-30 22:30:26.612 INFO: App ends
+2025-03-30 22:30:26.765 INFO: App Starts
+2025-03-30 22:30:26.765 INFO: entered check session
+2025-03-30 22:30:26.766 INFO: check_session(): Retrieved chat_id from cookies -> 8
+2025-03-30 22:30:26.766 INFO: user authenticated
+2025-03-30 22:30:26.766 INFO: entered initialise session state
+2025-03-30 22:30:26.766 INFO: entered app start
+2025-03-30 22:30:26.770 INFO: Using ChromaDB collection: user_avsai
+2025-03-30 22:30:26.776 INFO: entered display_conversation history
+2025-03-30 22:30:26.777 INFO: App ends
+2025-03-30 22:30:51.858 INFO: App Starts
+2025-03-30 22:30:51.860 INFO: entered check session
+2025-03-30 22:30:51.862 INFO: check_session(): Retrieved chat_id from cookies -> 8
+2025-03-30 22:30:51.862 INFO: user authenticated
+2025-03-30 22:30:51.862 INFO: entered initialise session state
+2025-03-30 22:30:51.862 INFO: entered app start
+2025-03-30 22:30:51.871 INFO: Using ChromaDB collection: user_avsai
+2025-03-30 22:30:51.883 INFO: entered display_conversation history
+2025-03-30 22:30:51.884 INFO: Retriving docs from vector store
+2025-03-30 22:30:52.191 INFO: Done retriving relavent documents from vector store.
+2025-03-30 22:30:52.191 INFO: LLm deciding databases to search.
+2025-03-30 22:30:53.609 INFO: Completed deciding database.
+2025-03-30 22:30:53.609 INFO: Querying Sqlite database.
+2025-03-30 22:30:54.331 INFO: Querying mongodb database.
+2025-03-30 22:30:54.492 INFO: Connected to mongodb
+2025-03-30 22:30:54.492 INFO: getting response from llm
+2025-03-30 22:30:56.040 INFO: mongodb returning answer
+2025-03-30 22:31:02.517 INFO: *****ended******
+2025-03-30 22:31:02.519 INFO: Using ChromaDB collection: user_avsai
+2025-03-30 22:31:02.520 INFO: chat_id = 8
+2025-03-30 22:31:02.599 INFO: ['cabd263b-a5db-4bff-bb1c-88c8f1b80da2']
+2025-03-30 22:31:02.599 INFO: Conversation added successfully.
+2025-03-30 22:31:02.599 INFO: App ends
+2025-03-30 22:31:12.723 INFO: App Starts
+2025-03-30 22:31:12.723 INFO: entered check session
+2025-03-30 22:31:12.724 INFO: check_session(): Retrieved chat_id from cookies -> 8
+2025-03-30 22:31:12.724 INFO: user authenticated
+2025-03-30 22:31:12.724 INFO: entered initialise session state
+2025-03-30 22:31:12.724 INFO: entered app start
+2025-03-30 22:31:12.733 INFO: Using ChromaDB collection: user_avsai
+2025-03-30 22:31:12.738 INFO: Using ChromaDB collection: user_avsai
+2025-03-30 22:31:12.742 INFO: Selected chat_id: 6
+2025-03-30 22:31:12.851 INFO: App Starts
+2025-03-30 22:31:12.851 INFO: entered check session
+2025-03-30 22:31:12.852 INFO: check_session(): Retrieved chat_id from cookies -> 6
+2025-03-30 22:31:12.852 INFO: user authenticated
+2025-03-30 22:31:12.852 INFO: entered initialise session state
+2025-03-30 22:31:12.852 INFO: entered app start
+2025-03-30 22:31:12.855 INFO: Using ChromaDB collection: user_avsai
+2025-03-30 22:31:12.859 INFO: entered display_conversation history
+2025-03-30 22:31:12.866 INFO: App ends
+2025-03-30 22:31:13.040 INFO: App Starts
+2025-03-30 22:31:13.040 INFO: entered check session
+2025-03-30 22:31:13.041 INFO: check_session(): Retrieved chat_id from cookies -> 6
+2025-03-30 22:31:13.041 INFO: user authenticated
+2025-03-30 22:31:13.041 INFO: entered initialise session state
+2025-03-30 22:31:13.041 INFO: entered app start
+2025-03-30 22:31:13.044 INFO: Using ChromaDB collection: user_avsai
+2025-03-30 22:31:13.048 INFO: entered display_conversation history
+2025-03-30 22:31:13.055 INFO: App ends
+2025-03-30 22:31:16.408 INFO: App Starts
+2025-03-30 22:31:16.409 INFO: entered check session
+2025-03-30 22:31:16.410 INFO: check_session(): Retrieved chat_id from cookies -> 6
+2025-03-30 22:31:16.411 INFO: user authenticated
+2025-03-30 22:31:16.411 INFO: entered initialise session state
+2025-03-30 22:31:16.411 INFO: entered app start
+2025-03-30 22:31:16.422 INFO: Using ChromaDB collection: user_avsai
+2025-03-30 22:31:16.432 INFO: Using ChromaDB collection: user_avsai
+2025-03-30 22:31:16.439 INFO: Selected chat_id: 5
+2025-03-30 22:31:16.563 INFO: App Starts
+2025-03-30 22:31:16.564 INFO: entered check session
+2025-03-30 22:31:16.565 INFO: check_session(): Retrieved chat_id from cookies -> 5
+2025-03-30 22:31:16.566 INFO: user authenticated
+2025-03-30 22:31:16.566 INFO: entered initialise session state
+2025-03-30 22:31:16.566 INFO: entered app start
+2025-03-30 22:31:16.573 INFO: Using ChromaDB collection: user_avsai
+2025-03-30 22:31:16.580 INFO: entered display_conversation history
+2025-03-30 22:31:16.646 INFO: App Starts
+2025-03-30 22:31:16.647 INFO: entered check session
+2025-03-30 22:31:16.647 INFO: check_session(): Retrieved chat_id from cookies -> 5
+2025-03-30 22:31:16.647 INFO: user authenticated
+2025-03-30 22:31:16.648 INFO: entered initialise session state
+2025-03-30 22:31:16.648 INFO: entered app start
+2025-03-30 22:31:16.659 INFO: Using ChromaDB collection: user_avsai
+2025-03-30 22:31:16.678 INFO: entered display_conversation history
+2025-03-30 22:31:17.646 INFO: App ends
+2025-03-30 22:31:22.307 INFO: App Starts
+2025-03-30 22:31:22.308 INFO: entered check session
+2025-03-30 22:31:22.309 INFO: check_session(): Retrieved chat_id from cookies -> 5
+2025-03-30 22:31:22.310 INFO: user authenticated
+2025-03-30 22:31:22.310 INFO: entered initialise session state
+2025-03-30 22:31:22.310 INFO: entered app start
+2025-03-30 22:31:22.319 INFO: Using ChromaDB collection: user_avsai
+2025-03-30 22:31:22.330 INFO: Using ChromaDB collection: user_avsai
+2025-03-30 22:31:22.336 INFO: Selected chat_id: 3
+2025-03-30 22:31:22.454 INFO: App Starts
+2025-03-30 22:31:22.454 INFO: entered check session
+2025-03-30 22:31:22.455 INFO: check_session(): Retrieved chat_id from cookies -> 3
+2025-03-30 22:31:22.455 INFO: user authenticated
+2025-03-30 22:31:22.455 INFO: entered initialise session state
+2025-03-30 22:31:22.455 INFO: entered app start
+2025-03-30 22:31:22.458 INFO: Using ChromaDB collection: user_avsai
+2025-03-30 22:31:22.462 INFO: entered display_conversation history
+2025-03-30 22:31:22.463 INFO: App ends
+2025-03-30 22:31:22.593 INFO: App Starts
+2025-03-30 22:31:22.593 INFO: entered check session
+2025-03-30 22:31:22.593 INFO: check_session(): Retrieved chat_id from cookies -> 3
+2025-03-30 22:31:22.594 INFO: user authenticated
+2025-03-30 22:31:22.594 INFO: entered initialise session state
+2025-03-30 22:31:22.594 INFO: entered app start
+2025-03-30 22:31:22.597 INFO: Using ChromaDB collection: user_avsai
+2025-03-30 22:31:22.601 INFO: entered display_conversation history
+2025-03-30 22:31:22.602 INFO: App ends
+2025-03-30 22:31:23.706 INFO: App Starts
+2025-03-30 22:31:23.707 INFO: entered check session
+2025-03-30 22:31:23.708 INFO: check_session(): Retrieved chat_id from cookies -> 3
+2025-03-30 22:31:23.708 INFO: user authenticated
+2025-03-30 22:31:23.709 INFO: entered initialise session state
+2025-03-30 22:31:23.709 INFO: entered app start
+2025-03-30 22:31:23.718 INFO: Using ChromaDB collection: user_avsai
+2025-03-30 22:31:23.728 INFO: Using ChromaDB collection: user_avsai
+2025-03-30 22:31:23.734 INFO: Selected chat_id: 2
+2025-03-30 22:31:23.844 INFO: App Starts
+2025-03-30 22:31:23.845 INFO: entered check session
+2025-03-30 22:31:23.845 INFO: check_session(): Retrieved chat_id from cookies -> 2
+2025-03-30 22:31:23.845 INFO: user authenticated
+2025-03-30 22:31:23.845 INFO: entered initialise session state
+2025-03-30 22:31:23.846 INFO: entered app start
+2025-03-30 22:31:23.849 INFO: Using ChromaDB collection: user_avsai
+2025-03-30 22:31:23.853 INFO: entered display_conversation history
+2025-03-30 22:31:23.854 INFO: App ends
+2025-03-30 22:31:23.982 INFO: App Starts
+2025-03-30 22:31:23.982 INFO: entered check session
+2025-03-30 22:31:23.982 INFO: check_session(): Retrieved chat_id from cookies -> 2
+2025-03-30 22:31:23.983 INFO: user authenticated
+2025-03-30 22:31:23.983 INFO: entered initialise session state
+2025-03-30 22:31:23.983 INFO: entered app start
+2025-03-30 22:31:23.986 INFO: Using ChromaDB collection: user_avsai
+2025-03-30 22:31:23.990 INFO: entered display_conversation history
+2025-03-30 22:31:23.991 INFO: App ends
+2025-03-30 22:31:25.172 INFO: App Starts
+2025-03-30 22:31:25.173 INFO: entered check session
+2025-03-30 22:31:25.174 INFO: check_session(): Retrieved chat_id from cookies -> 2
+2025-03-30 22:31:25.174 INFO: user authenticated
+2025-03-30 22:31:25.174 INFO: entered initialise session state
+2025-03-30 22:31:25.174 INFO: entered app start
+2025-03-30 22:31:25.184 INFO: Using ChromaDB collection: user_avsai
+2025-03-30 22:31:25.194 INFO: Using ChromaDB collection: user_avsai
+2025-03-30 22:31:25.202 INFO: Selected chat_id: 1
+2025-03-30 22:31:25.316 INFO: App Starts
+2025-03-30 22:31:25.316 INFO: entered check session
+2025-03-30 22:31:25.316 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-30 22:31:25.317 INFO: user authenticated
+2025-03-30 22:31:25.317 INFO: entered initialise session state
+2025-03-30 22:31:25.317 INFO: entered app start
+2025-03-30 22:31:25.321 INFO: Using ChromaDB collection: user_avsai
+2025-03-30 22:31:25.325 INFO: entered display_conversation history
+2025-03-30 22:31:25.376 INFO: App Starts
+2025-03-30 22:31:25.376 INFO: entered check session
+2025-03-30 22:31:25.377 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-30 22:31:25.377 INFO: user authenticated
+2025-03-30 22:31:25.377 INFO: entered initialise session state
+2025-03-30 22:31:25.377 INFO: entered app start
+2025-03-30 22:31:25.382 INFO: Using ChromaDB collection: user_avsai
+2025-03-30 22:31:25.393 INFO: entered display_conversation history
+2025-03-30 22:31:26.635 INFO: Error: The following columns are missing in DataFrame: ['career_stats']
+2025-03-30 22:31:28.102 INFO: App ends
+2025-03-30 22:31:41.777 INFO: App Starts
+2025-03-30 22:31:41.778 INFO: entered check session
+2025-03-30 22:31:41.779 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-30 22:31:41.780 INFO: user authenticated
+2025-03-30 22:31:41.780 INFO: entered initialise session state
+2025-03-30 22:31:41.780 INFO: entered app start
+2025-03-30 22:31:41.790 INFO: Using ChromaDB collection: user_avsai
+2025-03-30 22:31:41.801 INFO: Using ChromaDB collection: user_avsai
+2025-03-30 22:31:41.807 INFO: Selected chat_id: 8
+2025-03-30 22:31:41.951 INFO: App Starts
+2025-03-30 22:31:41.951 INFO: entered check session
+2025-03-30 22:31:41.951 INFO: check_session(): Retrieved chat_id from cookies -> 8
+2025-03-30 22:31:41.952 INFO: user authenticated
+2025-03-30 22:31:41.952 INFO: entered initialise session state
+2025-03-30 22:31:41.952 INFO: entered app start
+2025-03-30 22:31:41.955 INFO: Using ChromaDB collection: user_avsai
+2025-03-30 22:31:41.959 INFO: entered display_conversation history
+2025-03-30 22:31:42.114 INFO: App Starts
+2025-03-30 22:31:42.115 INFO: entered check session
+2025-03-30 22:31:42.115 INFO: check_session(): Retrieved chat_id from cookies -> 8
+2025-03-30 22:31:42.115 INFO: user authenticated
+2025-03-30 22:31:42.115 INFO: entered initialise session state
+2025-03-30 22:31:42.115 INFO: entered app start
+2025-03-30 22:31:42.120 INFO: Using ChromaDB collection: user_avsai
+2025-03-30 22:31:42.127 INFO: entered display_conversation history
+2025-03-30 22:31:42.516 INFO: App ends
+2025-03-30 22:31:53.043 INFO: App Starts
+2025-03-30 22:31:53.043 INFO: entered check session
+2025-03-30 22:31:53.044 INFO: check_session(): Retrieved chat_id from cookies -> 8
+2025-03-30 22:31:53.045 INFO: user authenticated
+2025-03-30 22:31:53.045 INFO: entered initialise session state
+2025-03-30 22:31:53.045 INFO: entered app start
+2025-03-30 22:31:53.054 INFO: Using ChromaDB collection: user_avsai
+2025-03-30 22:31:53.059 INFO: entered display_conversation history
+2025-03-30 22:31:53.375 INFO: Retriving docs from vector store
+2025-03-30 22:31:53.459 INFO: Done retriving relavent documents from vector store.
+2025-03-30 22:31:53.459 INFO: LLm deciding databases to search.
+2025-03-30 22:31:54.290 INFO: Completed deciding database.
+2025-03-30 22:31:54.291 INFO: Querying Sqlite database.
+2025-03-30 22:31:54.951 INFO: Querying mongodb database.
+2025-03-30 22:31:55.063 INFO: Connected to mongodb
+2025-03-30 22:31:55.063 INFO: getting response from llm
+2025-03-30 22:31:56.341 INFO: mongodb returning answer
+2025-03-30 22:32:00.611 INFO: *****ended******
+2025-03-30 22:32:00.612 INFO: Using ChromaDB collection: user_avsai
+2025-03-30 22:32:00.619 INFO: chat_id = 8
+2025-03-30 22:32:00.704 INFO: ['7abe6224-7b0d-4936-9307-d641aee15290']
+2025-03-30 22:32:00.704 INFO: Conversation added successfully.
+2025-03-30 22:32:00.704 INFO: App ends
+2025-03-30 22:32:14.529 INFO: App Starts
+2025-03-30 22:32:14.529 INFO: entered check session
+2025-03-30 22:32:14.530 INFO: check_session(): Retrieved chat_id from cookies -> 8
+2025-03-30 22:32:14.530 INFO: user authenticated
+2025-03-30 22:32:14.530 INFO: entered initialise session state
+2025-03-30 22:32:14.530 INFO: entered app start
+2025-03-30 22:32:14.537 INFO: Using ChromaDB collection: user_avsai
+2025-03-30 22:32:14.545 INFO: entered display_conversation history
+2025-03-30 22:32:14.863 INFO: Retriving docs from vector store
+2025-03-30 22:32:14.934 INFO: Done retriving relavent documents from vector store.
+2025-03-30 22:32:14.934 INFO: LLm deciding databases to search.
+2025-03-30 22:32:15.629 INFO: Completed deciding database.
+2025-03-30 22:32:16.247 INFO: Using ChromaDB collection: user_avsai
+2025-03-30 22:32:16.254 INFO: chat_id = 8
+2025-03-30 22:32:16.345 INFO: ['6533c9e2-001d-4ae9-933e-7446caa26962']
+2025-03-30 22:32:16.345 INFO: Conversation added successfully.
+2025-03-30 22:32:16.346 INFO: App ends
+2025-03-30 22:32:35.469 INFO: App Starts
+2025-03-30 22:32:35.469 INFO: entered check session
+2025-03-30 22:32:35.470 INFO: check_session(): Retrieved chat_id from cookies -> 8
+2025-03-30 22:32:35.471 INFO: user authenticated
+2025-03-30 22:32:35.471 INFO: entered initialise session state
+2025-03-30 22:32:35.471 INFO: entered app start
+2025-03-30 22:32:35.481 INFO: Using ChromaDB collection: user_avsai
+2025-03-30 22:32:35.494 INFO: entered display_conversation history
+2025-03-30 22:32:35.823 INFO: Retriving docs from vector store
+2025-03-30 22:32:35.894 INFO: Done retriving relavent documents from vector store.
+2025-03-30 22:32:35.894 INFO: LLm deciding databases to search.
+2025-03-30 22:32:36.726 INFO: Completed deciding database.
+2025-03-30 22:32:36.727 INFO: Querying Sqlite database.
+2025-03-30 22:32:38.633 INFO: *****ended******
+2025-03-30 22:32:38.634 INFO: Using ChromaDB collection: user_avsai
+2025-03-30 22:32:38.640 INFO: chat_id = 8
+2025-03-30 22:32:38.729 INFO: ['cbbfb07e-c82e-4f9c-8eba-d9811979ca8e']
+2025-03-30 22:32:38.729 INFO: Conversation added successfully.
+2025-03-30 22:32:38.729 INFO: App ends
+2025-03-30 22:33:03.585 INFO: App Starts
+2025-03-30 22:33:03.585 INFO: entered check session
+2025-03-30 22:33:03.586 INFO: check_session(): Retrieved chat_id from cookies -> 8
+2025-03-30 22:33:03.586 INFO: user authenticated
+2025-03-30 22:33:03.587 INFO: entered initialise session state
+2025-03-30 22:33:03.587 INFO: entered app start
+2025-03-30 22:33:03.594 INFO: Using ChromaDB collection: user_avsai
+2025-03-30 22:33:03.603 INFO: entered display_conversation history
+2025-03-30 22:33:03.928 INFO: Retriving docs from vector store
+2025-03-30 22:33:04.002 INFO: Done retriving relavent documents from vector store.
+2025-03-30 22:33:04.002 INFO: LLm deciding databases to search.
+2025-03-30 22:33:04.854 INFO: Completed deciding database.
+2025-03-30 22:33:04.854 INFO: Querying Sqlite database.
+2025-03-30 22:33:05.606 INFO: Querying mongodb database.
+2025-03-30 22:33:05.730 INFO: Connected to mongodb
+2025-03-30 22:33:05.730 INFO: getting response from llm
+2025-03-30 22:33:07.043 INFO: mongodb returning answer
+2025-03-30 22:33:09.147 INFO: *****ended******
+2025-03-30 22:33:09.147 INFO: Using ChromaDB collection: user_avsai
+2025-03-30 22:33:09.152 INFO: chat_id = 8
+2025-03-30 22:33:09.235 INFO: ['1e0330f7-3eb6-452a-b805-a5e163ca685d']
+2025-03-30 22:33:09.235 INFO: Conversation added successfully.
+2025-03-30 22:33:09.235 INFO: App ends
+2025-03-30 22:33:20.394 INFO: App Starts
+2025-03-30 22:33:20.395 INFO: entered check session
+2025-03-30 22:33:20.396 INFO: check_session(): Retrieved chat_id from cookies -> 8
+2025-03-30 22:33:20.397 INFO: user authenticated
+2025-03-30 22:33:20.397 INFO: entered initialise session state
+2025-03-30 22:33:20.397 INFO: entered app start
+2025-03-30 22:33:20.406 INFO: Using ChromaDB collection: user_avsai
+2025-03-30 22:33:20.417 INFO: entered display_conversation history
+2025-03-30 22:33:20.737 INFO: Retriving docs from vector store
+2025-03-30 22:33:20.808 INFO: Done retriving relavent documents from vector store.
+2025-03-30 22:33:20.808 INFO: LLm deciding databases to search.
+2025-03-30 22:33:21.783 INFO: Completed deciding database.
+2025-03-30 22:33:21.784 INFO: Querying Sqlite database.
+2025-03-30 22:33:22.503 INFO: Querying mongodb database.
+2025-03-30 22:33:22.588 INFO: Connected to mongodb
+2025-03-30 22:33:22.588 INFO: getting response from llm
+2025-03-30 22:33:24.044 INFO: mongodb returning answer
+2025-03-30 22:33:30.361 INFO: *****ended******
+2025-03-30 22:33:30.362 INFO: Using ChromaDB collection: user_avsai
+2025-03-30 22:33:30.367 INFO: chat_id = 8
+2025-03-30 22:33:30.426 INFO: ['f341ba8d-8470-4554-9481-6c641bf83b35']
+2025-03-30 22:33:30.426 INFO: Conversation added successfully.
+2025-03-30 22:33:30.427 INFO: App ends
+2025-03-30 22:34:11.681 INFO: App Starts
+2025-03-30 22:34:11.681 INFO: entered check session
+2025-03-30 22:34:11.682 INFO: check_session(): Retrieved chat_id from cookies -> 8
+2025-03-30 22:34:11.683 INFO: user authenticated
+2025-03-30 22:34:11.683 INFO: entered initialise session state
+2025-03-30 22:34:11.683 INFO: entered app start
+2025-03-30 22:34:11.692 INFO: Using ChromaDB collection: user_avsai
+2025-03-30 22:34:11.704 INFO: entered display_conversation history
+2025-03-30 22:34:12.027 INFO: Retriving docs from vector store
+2025-03-30 22:34:12.105 INFO: Done retriving relavent documents from vector store.
+2025-03-30 22:34:12.105 INFO: LLm deciding databases to search.
+2025-03-30 22:34:12.982 INFO: Completed deciding database.
+2025-03-30 22:34:12.982 INFO: Querying Sqlite database.
+2025-03-30 22:34:13.602 INFO: Querying mongodb database.
+2025-03-30 22:34:13.722 INFO: Connected to mongodb
+2025-03-30 22:34:13.723 INFO: getting response from llm
+2025-03-30 22:34:14.943 INFO: mongodb returning answer
+2025-03-30 22:34:16.850 INFO: *****ended******
+2025-03-30 22:34:16.852 INFO: Using ChromaDB collection: user_avsai
+2025-03-30 22:34:16.856 INFO: chat_id = 8
+2025-03-30 22:34:16.944 INFO: ['804fa59b-c2b1-43c7-92e8-701dbadd2d56']
+2025-03-30 22:34:16.944 INFO: Conversation added successfully.
+2025-03-30 22:34:16.944 INFO: App ends
+2025-03-30 22:36:16.097 INFO: App Starts
+2025-03-30 22:36:16.098 INFO: entered check session
+2025-03-30 22:36:16.098 INFO: check_session(): Retrieved chat_id from cookies -> 8
+2025-03-30 22:36:16.098 INFO: user authenticated
+2025-03-30 22:36:16.098 INFO: entered initialise session state
+2025-03-30 22:36:16.099 INFO: entered app start
+2025-03-30 22:36:16.104 INFO: Using ChromaDB collection: user_avsai
+2025-03-30 22:36:16.113 INFO: entered display_conversation history
+2025-03-30 22:36:16.448 INFO: Retriving docs from vector store
+2025-03-30 22:36:16.639 INFO: Done retriving relavent documents from vector store.
+2025-03-30 22:36:16.639 INFO: LLm deciding databases to search.
+2025-03-30 22:36:17.506 INFO: Completed deciding database.
+2025-03-30 22:36:17.506 INFO: Querying Sqlite database.
+2025-03-30 22:36:18.226 INFO: Querying mongodb database.
+2025-03-30 22:36:18.326 INFO: Connected to mongodb
+2025-03-30 22:36:18.326 INFO: getting response from llm
+2025-03-30 22:36:19.708 INFO: mongodb returning answer
+2025-03-30 22:36:23.325 INFO: *****ended******
+2025-03-30 22:36:23.326 INFO: Using ChromaDB collection: user_avsai
+2025-03-30 22:36:23.330 INFO: chat_id = 8
+2025-03-30 22:36:23.428 INFO: ['9439cd9c-05a6-463e-9d27-c4e0df2b8fd6']
+2025-03-30 22:36:23.428 INFO: Conversation added successfully.
+2025-03-30 22:36:23.429 INFO: App ends
+2025-03-30 22:37:23.152 INFO: App Starts
+2025-03-30 22:37:23.153 INFO: entered check session
+2025-03-30 22:37:23.154 INFO: check_session(): Retrieved chat_id from cookies -> 8
+2025-03-30 22:37:23.155 INFO: user authenticated
+2025-03-30 22:37:23.155 INFO: entered initialise session state
+2025-03-30 22:37:23.155 INFO: entered app start
+2025-03-30 22:37:23.165 INFO: Using ChromaDB collection: user_avsai
+2025-03-30 22:37:23.177 INFO: entered display_conversation history
+2025-03-30 22:37:23.511 INFO: Retriving docs from vector store
+2025-03-30 22:37:23.668 INFO: Done retriving relavent documents from vector store.
+2025-03-30 22:37:23.668 INFO: LLm deciding databases to search.
+2025-03-30 22:37:24.578 INFO: Completed deciding database.
+2025-03-30 22:37:24.578 INFO: Querying Sqlite database.
+2025-03-30 22:37:33.192 INFO: *****ended******
+2025-03-30 22:37:33.193 INFO: Using ChromaDB collection: user_avsai
+2025-03-30 22:37:33.198 INFO: chat_id = 8
+2025-03-30 22:37:33.299 INFO: ['9b4e8e73-ee29-4f6f-8751-3d2a12906d42']
+2025-03-30 22:37:33.299 INFO: Conversation added successfully.
+2025-03-30 22:37:33.299 INFO: App ends
+2025-03-30 22:37:53.044 INFO: App Starts
+2025-03-30 22:37:53.044 INFO: entered check session
+2025-03-30 22:37:53.045 INFO: check_session(): Retrieved chat_id from cookies -> 8
+2025-03-30 22:37:53.045 INFO: user authenticated
+2025-03-30 22:37:53.046 INFO: entered initialise session state
+2025-03-30 22:37:53.046 INFO: entered app start
+2025-03-30 22:37:53.055 INFO: Using ChromaDB collection: user_avsai
+2025-03-30 22:37:53.064 INFO: entered display_conversation history
+2025-03-30 22:37:53.395 INFO: Retriving docs from vector store
+2025-03-30 22:37:53.429 INFO: Done retriving relavent documents from vector store.
+2025-03-30 22:37:53.429 INFO: LLm deciding databases to search.
+2025-03-30 22:37:54.476 INFO: Completed deciding database.
+2025-03-30 22:37:54.476 INFO: Querying Sqlite database.
+2025-03-30 22:37:55.094 INFO: Querying mongodb database.
+2025-03-30 22:37:55.253 INFO: Connected to mongodb
+2025-03-30 22:37:55.254 INFO: getting response from llm
+2025-03-30 22:37:56.567 INFO: mongodb returning answer
+2025-03-30 22:38:02.822 INFO: Error: The following columns are missing in DataFrame: ['career_stats']
+2025-03-30 22:38:02.823 INFO: *****ended******
+2025-03-30 22:38:02.825 INFO: Using ChromaDB collection: user_avsai
+2025-03-30 22:38:02.829 INFO: chat_id = 8
+2025-03-30 22:38:02.882 INFO: ['71546147-eddc-4c0b-885a-57566c84e62d']
+2025-03-30 22:38:02.882 INFO: Conversation added successfully.
+2025-03-30 22:38:02.882 INFO: App ends
+2025-03-30 22:38:49.474 INFO: App Starts
+2025-03-30 22:38:49.475 INFO: entered check session
+2025-03-30 22:38:49.477 INFO: check_session(): Retrieved chat_id from cookies -> 8
+2025-03-30 22:38:49.477 INFO: user authenticated
+2025-03-30 22:38:49.477 INFO: entered initialise session state
+2025-03-30 22:38:49.477 INFO: entered app start
+2025-03-30 22:38:49.487 INFO: Using ChromaDB collection: user_avsai
+2025-03-30 22:38:49.500 INFO: entered display_conversation history
+2025-03-30 22:38:49.838 INFO: Retriving docs from vector store
+2025-03-30 22:38:49.960 INFO: Done retriving relavent documents from vector store.
+2025-03-30 22:38:49.960 INFO: LLm deciding databases to search.
+2025-03-30 22:38:51.000 INFO: Completed deciding database.
+2025-03-30 22:38:51.001 INFO: Querying Sqlite database.
+2025-03-30 22:38:51.600 INFO: Querying mongodb database.
+2025-03-30 22:38:51.645 INFO: Connected to mongodb
+2025-03-30 22:38:51.645 INFO: getting response from llm
+2025-03-30 22:38:53.323 INFO: mongodb returning answer
+2025-03-30 22:38:56.707 INFO: *****ended******
+2025-03-30 22:38:56.709 INFO: Using ChromaDB collection: user_avsai
+2025-03-30 22:38:56.710 INFO: chat_id = 8
+2025-03-30 22:38:56.777 INFO: ['ac842d46-806d-44de-840e-68dd4242c622']
+2025-03-30 22:38:56.777 INFO: Conversation added successfully.
+2025-03-30 22:38:56.777 INFO: App ends
+2025-03-30 22:40:51.820 INFO: App Starts
+2025-03-30 22:40:51.821 INFO: entered check session
+2025-03-30 22:40:51.822 INFO: check_session(): Retrieved chat_id from cookies -> 8
+2025-03-30 22:40:51.823 INFO: user authenticated
+2025-03-30 22:40:51.823 INFO: entered initialise session state
+2025-03-30 22:40:51.823 INFO: entered app start
+2025-03-30 22:40:51.831 INFO: Using ChromaDB collection: user_avsai
+2025-03-30 22:40:51.841 INFO: entered display_conversation history
+2025-03-30 22:40:52.174 INFO: Retriving docs from vector store
+2025-03-30 22:40:52.280 INFO: Done retriving relavent documents from vector store.
+2025-03-30 22:40:52.280 INFO: LLm deciding databases to search.
+2025-03-30 22:40:53.164 INFO: Completed deciding database.
+2025-03-30 22:40:53.164 INFO: Querying Sqlite database.
+2025-03-30 22:40:54.584 INFO: Using ChromaDB collection: user_avsai
+2025-03-30 22:40:54.591 INFO: chat_id = 8
+2025-03-30 22:40:54.644 INFO: ['921be85f-8fbb-4c85-a48c-a82c7bac323a']
+2025-03-30 22:40:54.645 INFO: Conversation added successfully.
+2025-03-30 22:40:54.645 INFO: App ends
+2025-03-30 22:41:05.661 INFO: App Starts
+2025-03-30 22:41:05.661 INFO: entered check session
+2025-03-30 22:41:05.662 INFO: check_session(): Retrieved chat_id from cookies -> 8
+2025-03-30 22:41:05.663 INFO: user authenticated
+2025-03-30 22:41:05.663 INFO: entered initialise session state
+2025-03-30 22:41:05.663 INFO: entered app start
+2025-03-30 22:41:05.672 INFO: Using ChromaDB collection: user_avsai
+2025-03-30 22:41:05.681 INFO: entered display_conversation history
+2025-03-30 22:41:06.011 INFO: Retriving docs from vector store
+2025-03-30 22:41:06.090 INFO: Done retriving relavent documents from vector store.
+2025-03-30 22:41:06.090 INFO: LLm deciding databases to search.
+2025-03-30 22:41:06.792 INFO: Completed deciding database.
+2025-03-30 22:41:06.792 INFO: Querying Sqlite database.
+2025-03-30 22:41:11.364 INFO: *****ended******
+2025-03-30 22:41:11.365 INFO: Using ChromaDB collection: user_avsai
+2025-03-30 22:41:11.370 INFO: chat_id = 8
+2025-03-30 22:41:11.450 INFO: ['214a70eb-da21-4d57-baaf-2f57c8470956']
+2025-03-30 22:41:11.450 INFO: Conversation added successfully.
+2025-03-30 22:41:11.451 INFO: App ends
+2025-03-30 22:41:25.711 INFO: App Starts
+2025-03-30 22:41:25.711 INFO: entered check session
+2025-03-30 22:41:25.712 INFO: check_session(): Retrieved chat_id from cookies -> 8
+2025-03-30 22:41:25.713 INFO: user authenticated
+2025-03-30 22:41:25.713 INFO: entered initialise session state
+2025-03-30 22:41:25.713 INFO: entered app start
+2025-03-30 22:41:25.722 INFO: Using ChromaDB collection: user_avsai
+2025-03-30 22:41:25.732 INFO: entered display_conversation history
+2025-03-30 22:41:26.056 INFO: Retriving docs from vector store
+2025-03-30 22:41:26.134 INFO: Done retriving relavent documents from vector store.
+2025-03-30 22:41:26.134 INFO: LLm deciding databases to search.
+2025-03-30 22:41:26.889 INFO: Completed deciding database.
+2025-03-30 22:41:26.889 INFO: Querying Sqlite database.
+2025-03-30 22:41:30.057 INFO: *****ended******
+2025-03-30 22:41:30.057 INFO: Using ChromaDB collection: user_avsai
+2025-03-30 22:41:30.062 INFO: chat_id = 8
+2025-03-30 22:41:30.154 INFO: ['a4974542-404e-49be-afbe-879aac4665cf']
+2025-03-30 22:41:30.154 INFO: Conversation added successfully.
+2025-03-30 22:41:30.154 INFO: App ends
+2025-03-30 22:52:57.089 INFO: App Starts
+2025-03-30 22:52:57.089 INFO: entered check session
+2025-03-30 22:52:57.092 INFO: check_session(): Retrieved chat_id from cookies -> 8
+2025-03-30 22:52:57.092 INFO: user authenticated
+2025-03-30 22:52:57.092 INFO: entered initialise session state
+2025-03-30 22:52:57.092 INFO: entered app start
+2025-03-30 22:52:57.098 INFO: Using ChromaDB collection: user_avsai
+2025-03-30 22:52:57.110 INFO: entered display_conversation history
+2025-03-30 22:52:57.494 INFO: App ends
+2025-03-31 08:28:17.619 INFO: App Starts
+2025-03-31 08:28:17.848 INFO: App Starts
+2025-03-31 08:28:17.848 INFO: entered check session
+2025-03-31 08:28:18.051 INFO: check_session(): Retrieved chat_id from cookies -> 8
+2025-03-31 08:28:18.051 INFO: user has not authenticated
+2025-03-31 08:28:18.058 INFO: App ends
+2025-03-31 08:28:22.022 INFO: App Starts
+2025-03-31 08:28:22.023 INFO: entered check session
+2025-03-31 08:28:22.024 INFO: check_session(): Retrieved chat_id from cookies -> 8
+2025-03-31 08:28:22.024 INFO: user has not authenticated
+2025-03-31 08:28:22.151 INFO: App Starts
+2025-03-31 08:28:22.151 INFO: entered check session
+2025-03-31 08:28:22.151 INFO: check_session(): Retrieved chat_id from cookies -> 8
+2025-03-31 08:28:22.151 INFO: user has not authenticated
+2025-03-31 08:28:22.153 INFO: App ends
+2025-03-31 08:28:29.902 INFO: App Starts
+2025-03-31 08:28:29.904 INFO: entered check session
+2025-03-31 08:28:29.905 INFO: check_session(): Retrieved chat_id from cookies -> 8
+2025-03-31 08:28:29.906 INFO: user has not authenticated
+2025-03-31 08:30:29.495 INFO: App Starts
+2025-03-31 08:30:29.710 INFO: App Starts
+2025-03-31 08:30:29.710 INFO: entered check session
+2025-03-31 08:30:29.711 INFO: check_session(): Retrieved chat_id from cookies -> 8
+2025-03-31 08:30:29.712 INFO: user has not authenticated
+2025-03-31 08:30:29.714 INFO: App ends
+2025-03-31 08:30:31.701 INFO: App Starts
+2025-03-31 08:30:31.701 INFO: entered check session
+2025-03-31 08:30:31.702 INFO: check_session(): Retrieved chat_id from cookies -> 8
+2025-03-31 08:30:31.703 INFO: user has not authenticated
+2025-03-31 08:30:31.832 INFO: App Starts
+2025-03-31 08:30:31.832 INFO: entered check session
+2025-03-31 08:30:31.832 INFO: check_session(): Retrieved chat_id from cookies -> 8
+2025-03-31 08:30:31.833 INFO: user has not authenticated
+2025-03-31 08:30:31.834 INFO: App ends
+2025-03-31 08:30:48.467 INFO: App Starts
+2025-03-31 08:30:48.468 INFO: entered check session
+2025-03-31 08:30:48.469 INFO: check_session(): Retrieved chat_id from cookies -> 8
+2025-03-31 08:30:48.469 INFO: user has not authenticated
+2025-03-31 08:30:48.714 INFO: App ends
+2025-03-31 08:30:56.964 INFO: App Starts
+2025-03-31 08:30:56.964 INFO: entered check session
+2025-03-31 08:30:56.965 INFO: check_session(): Retrieved chat_id from cookies -> 8
+2025-03-31 08:30:56.965 INFO: user has not authenticated
+2025-03-31 08:30:57.084 INFO: App Starts
+2025-03-31 08:30:57.084 INFO: entered check session
+2025-03-31 08:30:57.084 INFO: check_session(): Retrieved chat_id from cookies -> 8
+2025-03-31 08:30:57.084 INFO: user has not authenticated
+2025-03-31 08:30:57.085 INFO: App ends
+2025-03-31 08:31:03.781 INFO: App Starts
+2025-03-31 08:31:03.782 INFO: entered check session
+2025-03-31 08:31:03.783 INFO: check_session(): Retrieved chat_id from cookies -> 8
+2025-03-31 08:31:03.783 INFO: user has not authenticated
+2025-03-31 08:31:04.665 INFO: App Starts
+2025-03-31 08:31:04.665 INFO: entered check session
+2025-03-31 08:31:04.665 INFO: check_session(): Retrieved chat_id from cookies -> 8
+2025-03-31 08:31:04.665 INFO: user authenticated
+2025-03-31 08:31:04.665 INFO: entered initialise session state
+2025-03-31 08:31:04.666 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:31:04.681 INFO: entered app start
+2025-03-31 08:31:04.685 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:31:04.689 INFO: entered display_conversation history
+2025-03-31 08:31:04.689 INFO: App ends
+2025-03-31 08:31:04.859 INFO: App Starts
+2025-03-31 08:31:04.859 INFO: entered check session
+2025-03-31 08:31:04.860 INFO: check_session(): Retrieved chat_id from cookies -> 8
+2025-03-31 08:31:04.860 INFO: user authenticated
+2025-03-31 08:31:04.860 INFO: entered initialise session state
+2025-03-31 08:31:04.860 INFO: entered app start
+2025-03-31 08:31:04.863 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:31:04.866 INFO: entered display_conversation history
+2025-03-31 08:31:04.866 INFO: App ends
+2025-03-31 08:31:05.016 INFO: App Starts
+2025-03-31 08:31:05.017 INFO: entered check session
+2025-03-31 08:31:05.017 INFO: check_session(): Retrieved chat_id from cookies -> 8
+2025-03-31 08:31:05.017 INFO: user authenticated
+2025-03-31 08:31:05.017 INFO: entered initialise session state
+2025-03-31 08:31:05.018 INFO: entered app start
+2025-03-31 08:31:05.022 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:31:05.026 INFO: entered display_conversation history
+2025-03-31 08:31:05.026 INFO: App ends
+2025-03-31 08:31:12.396 INFO: App Starts
+2025-03-31 08:31:12.396 INFO: entered check session
+2025-03-31 08:31:12.397 INFO: check_session(): Retrieved chat_id from cookies -> 8
+2025-03-31 08:31:12.397 INFO: user authenticated
+2025-03-31 08:31:12.398 INFO: entered initialise session state
+2025-03-31 08:31:12.398 INFO: entered app start
+2025-03-31 08:31:12.406 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:31:12.414 INFO: entered display_conversation history
+2025-03-31 08:31:12.415 INFO: App ends
+2025-03-31 08:31:14.464 INFO: App Starts
+2025-03-31 08:31:14.464 INFO: entered check session
+2025-03-31 08:31:14.465 INFO: check_session(): Retrieved chat_id from cookies -> 8
+2025-03-31 08:31:14.466 INFO: user authenticated
+2025-03-31 08:31:14.466 INFO: entered initialise session state
+2025-03-31 08:31:14.466 INFO: entered app start
+2025-03-31 08:31:14.476 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:31:16.499 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:31:16.511 INFO: deleted collection successfully
+2025-03-31 08:31:21.708 INFO: App Starts
+2025-03-31 08:31:21.708 INFO: entered check session
+2025-03-31 08:31:21.708 INFO: check_session(): Retrieved chat_id from cookies -> 8
+2025-03-31 08:31:21.709 INFO: user authenticated
+2025-03-31 08:31:21.709 INFO: entered initialise session state
+2025-03-31 08:31:21.709 INFO: entered app start
+2025-03-31 08:31:21.713 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:31:21.719 INFO: entered display_conversation history
+2025-03-31 08:31:21.720 INFO: App ends
+2025-03-31 08:31:21.877 INFO: App Starts
+2025-03-31 08:31:21.877 INFO: entered check session
+2025-03-31 08:31:21.878 INFO: check_session(): Retrieved chat_id from cookies -> 8
+2025-03-31 08:31:21.878 INFO: user authenticated
+2025-03-31 08:31:21.878 INFO: entered initialise session state
+2025-03-31 08:31:21.878 INFO: entered app start
+2025-03-31 08:31:21.883 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:31:21.888 INFO: entered display_conversation history
+2025-03-31 08:31:21.888 INFO: App ends
+2025-03-31 08:35:34.987 INFO: App Starts
+2025-03-31 08:35:35.186 INFO: App Starts
+2025-03-31 08:35:35.186 INFO: entered check session
+2025-03-31 08:35:35.186 INFO: check_session(): Retrieved chat_id from cookies -> 8
+2025-03-31 08:35:35.186 INFO: user authenticated
+2025-03-31 08:35:35.187 INFO: entered initialise session state
+2025-03-31 08:35:35.187 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:35:35.190 INFO: entered app start
+2025-03-31 08:35:35.194 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:35:35.196 INFO: entered display_conversation history
+2025-03-31 08:35:35.196 INFO: App ends
+2025-03-31 08:35:35.366 INFO: App Starts
+2025-03-31 08:35:35.367 INFO: entered check session
+2025-03-31 08:35:35.367 INFO: check_session(): Retrieved chat_id from cookies -> 8
+2025-03-31 08:35:35.368 INFO: user authenticated
+2025-03-31 08:35:35.368 INFO: entered initialise session state
+2025-03-31 08:35:35.368 INFO: entered app start
+2025-03-31 08:35:35.373 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:35:35.378 INFO: entered display_conversation history
+2025-03-31 08:35:35.378 INFO: App ends
+2025-03-31 08:35:36.519 INFO: App Starts
+2025-03-31 08:35:36.520 INFO: entered check session
+2025-03-31 08:35:36.522 INFO: check_session(): Retrieved chat_id from cookies -> 8
+2025-03-31 08:35:36.523 INFO: user authenticated
+2025-03-31 08:35:36.523 INFO: entered initialise session state
+2025-03-31 08:35:36.524 INFO: entered app start
+2025-03-31 08:35:36.536 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:35:36.545 INFO: entered display_conversation history
+2025-03-31 08:35:36.546 INFO: App ends
+2025-03-31 08:35:38.029 INFO: App Starts
+2025-03-31 08:35:38.030 INFO: entered check session
+2025-03-31 08:35:38.031 INFO: check_session(): Retrieved chat_id from cookies -> 8
+2025-03-31 08:35:38.032 INFO: user authenticated
+2025-03-31 08:35:38.033 INFO: entered initialise session state
+2025-03-31 08:35:38.033 INFO: entered app start
+2025-03-31 08:35:38.044 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:35:40.065 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:35:40.082 INFO: deleted collection successfully
+2025-03-31 08:35:45.228 INFO: App Starts
+2025-03-31 08:35:45.228 INFO: entered check session
+2025-03-31 08:35:45.228 INFO: check_session(): Retrieved chat_id from cookies -> None
+2025-03-31 08:35:45.228 INFO: user has not authenticated
+2025-03-31 08:35:45.229 INFO: App ends
+2025-03-31 08:35:45.420 INFO: App Starts
+2025-03-31 08:35:45.420 INFO: entered check session
+2025-03-31 08:35:45.421 INFO: check_session(): Retrieved chat_id from cookies -> None
+2025-03-31 08:35:45.421 INFO: user has not authenticated
+2025-03-31 08:35:45.423 INFO: App ends
+2025-03-31 08:35:56.007 INFO: App Starts
+2025-03-31 08:35:56.008 INFO: entered check session
+2025-03-31 08:35:56.009 INFO: check_session(): Retrieved chat_id from cookies -> None
+2025-03-31 08:35:56.009 INFO: user has not authenticated
+2025-03-31 08:35:56.133 INFO: App Starts
+2025-03-31 08:35:56.133 INFO: entered check session
+2025-03-31 08:35:56.134 INFO: check_session(): Retrieved chat_id from cookies -> None
+2025-03-31 08:35:56.134 INFO: user has not authenticated
+2025-03-31 08:35:56.135 INFO: App ends
+2025-03-31 08:36:02.976 INFO: App Starts
+2025-03-31 08:36:02.976 INFO: entered check session
+2025-03-31 08:36:02.977 INFO: check_session(): Retrieved chat_id from cookies -> None
+2025-03-31 08:36:02.978 INFO: user has not authenticated
+2025-03-31 08:36:08.672 INFO: App Starts
+2025-03-31 08:36:08.672 INFO: entered check session
+2025-03-31 08:36:08.672 INFO: check_session(): Retrieved chat_id from cookies -> None
+2025-03-31 08:36:08.673 INFO: user has not authenticated
+2025-03-31 08:36:08.675 INFO: App ends
+2025-03-31 08:36:13.514 INFO: App Starts
+2025-03-31 08:36:13.514 INFO: entered check session
+2025-03-31 08:36:13.515 INFO: check_session(): Retrieved chat_id from cookies -> None
+2025-03-31 08:36:13.516 INFO: user has not authenticated
+2025-03-31 08:36:13.644 INFO: App Starts
+2025-03-31 08:36:13.644 INFO: entered check session
+2025-03-31 08:36:13.645 INFO: check_session(): Retrieved chat_id from cookies -> None
+2025-03-31 08:36:13.645 INFO: user has not authenticated
+2025-03-31 08:36:13.646 INFO: App ends
+2025-03-31 08:36:23.227 INFO: App Starts
+2025-03-31 08:36:23.227 INFO: entered check session
+2025-03-31 08:36:23.228 INFO: check_session(): Retrieved chat_id from cookies -> None
+2025-03-31 08:36:23.229 INFO: user has not authenticated
+2025-03-31 08:36:23.478 INFO: App ends
+2025-03-31 08:36:33.126 INFO: App Starts
+2025-03-31 08:36:33.127 INFO: entered check session
+2025-03-31 08:36:33.127 INFO: check_session(): Retrieved chat_id from cookies -> None
+2025-03-31 08:36:33.128 INFO: user has not authenticated
+2025-03-31 08:36:33.241 INFO: App Starts
+2025-03-31 08:36:33.241 INFO: entered check session
+2025-03-31 08:36:33.241 INFO: check_session(): Retrieved chat_id from cookies -> None
+2025-03-31 08:36:33.242 INFO: user has not authenticated
+2025-03-31 08:36:33.243 INFO: App ends
+2025-03-31 08:36:41.735 INFO: App Starts
+2025-03-31 08:36:41.735 INFO: entered check session
+2025-03-31 08:36:41.736 INFO: check_session(): Retrieved chat_id from cookies -> None
+2025-03-31 08:36:41.737 INFO: user has not authenticated
+2025-03-31 08:36:42.614 INFO: App Starts
+2025-03-31 08:36:42.614 INFO: entered check session
+2025-03-31 08:36:42.614 INFO: check_session(): Retrieved chat_id from cookies -> None
+2025-03-31 08:36:42.614 INFO: user authenticated
+2025-03-31 08:36:42.614 INFO: entered initialise session state
+2025-03-31 08:36:42.615 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:36:42.619 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:36:42.621 INFO: entered app start
+2025-03-31 08:36:42.623 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:36:42.626 INFO: entered display_conversation history
+2025-03-31 08:36:42.626 INFO: App ends
+2025-03-31 08:36:42.815 INFO: App Starts
+2025-03-31 08:36:42.815 INFO: entered check session
+2025-03-31 08:36:42.815 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 08:36:42.816 INFO: user authenticated
+2025-03-31 08:36:42.816 INFO: entered initialise session state
+2025-03-31 08:36:42.816 INFO: entered app start
+2025-03-31 08:36:42.819 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:36:42.825 INFO: entered display_conversation history
+2025-03-31 08:36:42.826 INFO: App ends
+2025-03-31 08:36:42.954 INFO: App Starts
+2025-03-31 08:36:42.954 INFO: entered check session
+2025-03-31 08:36:42.955 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 08:36:42.955 INFO: user authenticated
+2025-03-31 08:36:42.955 INFO: entered initialise session state
+2025-03-31 08:36:42.955 INFO: entered app start
+2025-03-31 08:36:42.958 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:36:42.963 INFO: entered display_conversation history
+2025-03-31 08:36:42.964 INFO: App ends
+2025-03-31 08:36:49.450 INFO: App Starts
+2025-03-31 08:36:49.660 INFO: App Starts
+2025-03-31 08:36:49.660 INFO: entered check session
+2025-03-31 08:36:49.661 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 08:36:49.661 INFO: user authenticated
+2025-03-31 08:36:49.661 INFO: entered initialise session state
+2025-03-31 08:36:49.661 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:36:49.664 INFO: entered app start
+2025-03-31 08:36:49.667 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:36:49.669 INFO: entered display_conversation history
+2025-03-31 08:36:49.670 INFO: App ends
+2025-03-31 08:36:49.835 INFO: App Starts
+2025-03-31 08:36:49.835 INFO: entered check session
+2025-03-31 08:36:49.836 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 08:36:49.837 INFO: user authenticated
+2025-03-31 08:36:49.837 INFO: entered initialise session state
+2025-03-31 08:36:49.837 INFO: entered app start
+2025-03-31 08:36:49.843 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:36:49.849 INFO: entered display_conversation history
+2025-03-31 08:36:49.849 INFO: App ends
+2025-03-31 08:39:14.402 INFO: App Starts
+2025-03-31 08:39:14.402 INFO: entered check session
+2025-03-31 08:39:14.403 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 08:39:14.403 INFO: user authenticated
+2025-03-31 08:39:14.404 INFO: entered initialise session state
+2025-03-31 08:39:14.404 INFO: entered app start
+2025-03-31 08:39:14.410 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:39:14.419 INFO: entered display_conversation history
+2025-03-31 08:39:14.419 INFO: App ends
+2025-03-31 08:39:15.598 INFO: App Starts
+2025-03-31 08:39:15.598 INFO: entered check session
+2025-03-31 08:39:15.599 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 08:39:15.600 INFO: user authenticated
+2025-03-31 08:39:15.600 INFO: entered initialise session state
+2025-03-31 08:39:15.600 INFO: entered app start
+2025-03-31 08:39:15.607 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:39:17.625 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:39:17.638 INFO: deleted collection successfully
+2025-03-31 08:39:22.791 INFO: App Starts
+2025-03-31 08:39:22.791 INFO: entered check session
+2025-03-31 08:39:22.791 INFO: check_session(): Retrieved chat_id from cookies -> None
+2025-03-31 08:39:22.791 INFO: user has not authenticated
+2025-03-31 08:39:22.792 INFO: App ends
+2025-03-31 08:39:23.008 INFO: App Starts
+2025-03-31 08:39:23.008 INFO: entered check session
+2025-03-31 08:39:23.009 INFO: check_session(): Retrieved chat_id from cookies -> None
+2025-03-31 08:39:23.009 INFO: user has not authenticated
+2025-03-31 08:39:23.010 INFO: App ends
+2025-03-31 08:39:31.261 INFO: App Starts
+2025-03-31 08:39:31.261 INFO: entered check session
+2025-03-31 08:39:31.262 INFO: check_session(): Retrieved chat_id from cookies -> None
+2025-03-31 08:39:31.262 INFO: user has not authenticated
+2025-03-31 08:39:31.266 INFO: App ends
+2025-03-31 08:39:34.625 INFO: App Starts
+2025-03-31 08:39:34.626 INFO: entered check session
+2025-03-31 08:39:34.626 INFO: check_session(): Retrieved chat_id from cookies -> None
+2025-03-31 08:39:34.627 INFO: user has not authenticated
+2025-03-31 08:39:34.741 INFO: App Starts
+2025-03-31 08:39:34.741 INFO: entered check session
+2025-03-31 08:39:34.741 INFO: check_session(): Retrieved chat_id from cookies -> None
+2025-03-31 08:39:34.741 INFO: user has not authenticated
+2025-03-31 08:39:34.742 INFO: App ends
+2025-03-31 08:39:47.203 INFO: App Starts
+2025-03-31 08:39:47.204 INFO: entered check session
+2025-03-31 08:39:47.205 INFO: check_session(): Retrieved chat_id from cookies -> None
+2025-03-31 08:39:47.205 INFO: user has not authenticated
+2025-03-31 08:40:02.723 INFO: App Starts
+2025-03-31 08:40:02.929 INFO: App Starts
+2025-03-31 08:40:02.930 INFO: entered check session
+2025-03-31 08:40:02.930 INFO: check_session(): Retrieved chat_id from cookies -> None
+2025-03-31 08:40:02.930 INFO: user has not authenticated
+2025-03-31 08:40:02.932 INFO: App ends
+2025-03-31 08:40:05.029 INFO: App Starts
+2025-03-31 08:40:05.029 INFO: entered check session
+2025-03-31 08:40:05.030 INFO: check_session(): Retrieved chat_id from cookies -> None
+2025-03-31 08:40:05.032 INFO: user has not authenticated
+2025-03-31 08:40:05.159 INFO: App Starts
+2025-03-31 08:40:05.159 INFO: entered check session
+2025-03-31 08:40:05.159 INFO: check_session(): Retrieved chat_id from cookies -> None
+2025-03-31 08:40:05.159 INFO: user has not authenticated
+2025-03-31 08:40:05.161 INFO: App ends
+2025-03-31 08:40:11.008 INFO: App Starts
+2025-03-31 08:40:11.009 INFO: entered check session
+2025-03-31 08:40:11.010 INFO: check_session(): Retrieved chat_id from cookies -> None
+2025-03-31 08:40:11.011 INFO: user has not authenticated
+2025-03-31 08:40:11.894 INFO: App Starts
+2025-03-31 08:40:11.894 INFO: entered check session
+2025-03-31 08:40:11.894 INFO: check_session(): Retrieved chat_id from cookies -> None
+2025-03-31 08:40:11.895 INFO: user authenticated
+2025-03-31 08:40:11.895 INFO: entered initialise session state
+2025-03-31 08:40:11.895 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:40:11.899 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:40:11.901 INFO: entered app start
+2025-03-31 08:40:11.904 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:40:11.907 INFO: entered display_conversation history
+2025-03-31 08:40:11.907 INFO: App ends
+2025-03-31 08:40:12.020 INFO: App Starts
+2025-03-31 08:40:12.020 INFO: entered check session
+2025-03-31 08:40:12.020 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 08:40:12.021 INFO: user authenticated
+2025-03-31 08:40:12.021 INFO: entered initialise session state
+2025-03-31 08:40:12.021 INFO: entered app start
+2025-03-31 08:40:12.027 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:40:12.031 INFO: entered display_conversation history
+2025-03-31 08:40:12.031 INFO: App ends
+2025-03-31 08:40:12.196 INFO: App Starts
+2025-03-31 08:40:12.196 INFO: entered check session
+2025-03-31 08:40:12.196 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 08:40:12.197 INFO: user authenticated
+2025-03-31 08:40:12.197 INFO: entered initialise session state
+2025-03-31 08:40:12.197 INFO: entered app start
+2025-03-31 08:40:12.200 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:40:12.205 INFO: entered display_conversation history
+2025-03-31 08:40:12.206 INFO: App ends
+2025-03-31 08:40:30.178 INFO: App Starts
+2025-03-31 08:40:30.179 INFO: entered check session
+2025-03-31 08:40:30.180 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 08:40:30.180 INFO: user authenticated
+2025-03-31 08:40:30.181 INFO: entered initialise session state
+2025-03-31 08:40:30.181 INFO: entered app start
+2025-03-31 08:40:30.191 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:40:30.200 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:40:30.325 INFO: App Starts
+2025-03-31 08:40:30.325 INFO: entered check session
+2025-03-31 08:40:30.326 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 08:40:30.326 INFO: user authenticated
+2025-03-31 08:40:30.326 INFO: entered initialise session state
+2025-03-31 08:40:30.326 INFO: entered app start
+2025-03-31 08:40:30.329 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:40:30.332 INFO: entered display_conversation history
+2025-03-31 08:40:30.332 INFO: App ends
+2025-03-31 08:40:30.452 INFO: App Starts
+2025-03-31 08:40:30.452 INFO: entered check session
+2025-03-31 08:40:30.452 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 08:40:30.452 INFO: user authenticated
+2025-03-31 08:40:30.453 INFO: entered initialise session state
+2025-03-31 08:40:30.453 INFO: entered app start
+2025-03-31 08:40:30.456 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:40:30.459 INFO: entered display_conversation history
+2025-03-31 08:40:30.459 INFO: App ends
+2025-03-31 08:40:34.221 INFO: App Starts
+2025-03-31 08:40:34.221 INFO: entered check session
+2025-03-31 08:40:34.223 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 08:40:34.223 INFO: user authenticated
+2025-03-31 08:40:34.223 INFO: entered initialise session state
+2025-03-31 08:40:34.223 INFO: entered app start
+2025-03-31 08:40:34.234 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:40:34.242 INFO: entered display_conversation history
+2025-03-31 08:40:34.242 INFO: App ends
+2025-03-31 08:40:37.515 INFO: App Starts
+2025-03-31 08:40:37.516 INFO: entered check session
+2025-03-31 08:40:37.517 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 08:40:37.518 INFO: user authenticated
+2025-03-31 08:40:37.518 INFO: entered initialise session state
+2025-03-31 08:40:37.518 INFO: entered app start
+2025-03-31 08:40:37.529 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:40:37.654 INFO: App Starts
+2025-03-31 08:40:37.654 INFO: entered check session
+2025-03-31 08:40:37.654 INFO: check_session(): Retrieved chat_id from cookies -> None
+2025-03-31 08:40:37.655 INFO: user has not authenticated
+2025-03-31 08:40:37.656 INFO: App ends
+2025-03-31 08:40:37.800 INFO: App Starts
+2025-03-31 08:40:37.800 INFO: entered check session
+2025-03-31 08:40:37.800 INFO: check_session(): Retrieved chat_id from cookies -> None
+2025-03-31 08:40:37.800 INFO: user has not authenticated
+2025-03-31 08:40:37.801 INFO: App ends
+2025-03-31 08:40:44.864 INFO: App Starts
+2025-03-31 08:40:44.865 INFO: entered check session
+2025-03-31 08:40:44.866 INFO: check_session(): Retrieved chat_id from cookies -> None
+2025-03-31 08:40:44.866 INFO: user has not authenticated
+2025-03-31 08:40:45.743 INFO: App Starts
+2025-03-31 08:40:45.743 INFO: entered check session
+2025-03-31 08:40:45.744 INFO: check_session(): Retrieved chat_id from cookies -> None
+2025-03-31 08:40:45.744 INFO: user authenticated
+2025-03-31 08:40:45.744 INFO: entered initialise session state
+2025-03-31 08:40:45.744 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:40:45.747 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:40:45.748 INFO: entered app start
+2025-03-31 08:40:45.751 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:40:45.753 INFO: entered display_conversation history
+2025-03-31 08:40:45.754 INFO: App ends
+2025-03-31 08:40:45.911 INFO: App Starts
+2025-03-31 08:40:45.911 INFO: entered check session
+2025-03-31 08:40:45.911 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 08:40:45.912 INFO: user authenticated
+2025-03-31 08:40:45.912 INFO: entered initialise session state
+2025-03-31 08:40:45.912 INFO: entered app start
+2025-03-31 08:40:45.916 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:40:45.921 INFO: entered display_conversation history
+2025-03-31 08:40:45.921 INFO: App ends
+2025-03-31 08:40:46.045 INFO: App Starts
+2025-03-31 08:40:46.046 INFO: entered check session
+2025-03-31 08:40:46.046 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 08:40:46.046 INFO: user authenticated
+2025-03-31 08:40:46.046 INFO: entered initialise session state
+2025-03-31 08:40:46.046 INFO: entered app start
+2025-03-31 08:40:46.049 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:40:46.054 INFO: entered display_conversation history
+2025-03-31 08:40:46.054 INFO: App ends
+2025-03-31 08:41:31.295 INFO: App Starts
+2025-03-31 08:41:31.296 INFO: entered check session
+2025-03-31 08:41:31.297 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 08:41:31.297 INFO: user authenticated
+2025-03-31 08:41:31.297 INFO: entered initialise session state
+2025-03-31 08:41:31.297 INFO: entered app start
+2025-03-31 08:41:31.308 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:41:31.315 INFO: entered display_conversation history
+2025-03-31 08:41:31.316 INFO: Retriving docs from vector store
+2025-03-31 08:41:31.691 INFO: Done retriving relavent documents from vector store.
+2025-03-31 08:41:31.691 INFO: LLm deciding databases to search.
+2025-03-31 08:41:37.163 INFO: Completed deciding database.
+2025-03-31 08:41:37.163 INFO: Querying Sqlite database.
+2025-03-31 08:41:43.748 INFO: *****ended******
+2025-03-31 08:41:43.748 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:41:43.750 INFO: chat_id = 1
+2025-03-31 08:41:43.823 INFO: ['7cb82131-3564-46be-8d13-1bc95dd8553e']
+2025-03-31 08:41:43.824 INFO: Conversation added successfully.
+2025-03-31 08:41:43.825 INFO: App ends
+2025-03-31 08:41:55.951 INFO: App Starts
+2025-03-31 08:41:55.952 INFO: entered check session
+2025-03-31 08:41:55.953 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 08:41:55.953 INFO: user authenticated
+2025-03-31 08:41:55.953 INFO: entered initialise session state
+2025-03-31 08:41:55.953 INFO: entered app start
+2025-03-31 08:41:55.964 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:41:55.972 INFO: entered display_conversation history
+2025-03-31 08:41:55.976 INFO: Retriving docs from vector store
+2025-03-31 08:41:56.063 INFO: Done retriving relavent documents from vector store.
+2025-03-31 08:41:56.063 INFO: LLm deciding databases to search.
+2025-03-31 08:41:57.643 INFO: Completed deciding database.
+2025-03-31 08:41:57.643 INFO: Querying Sqlite database.
+2025-03-31 08:42:01.956 INFO: *****ended******
+2025-03-31 08:42:01.956 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:42:01.958 INFO: chat_id = 1
+2025-03-31 08:42:02.032 INFO: ['af29b00d-6521-49d6-bf5a-b4c5f367b02e']
+2025-03-31 08:42:02.032 INFO: Conversation added successfully.
+2025-03-31 08:42:02.032 INFO: App ends
+2025-03-31 08:42:44.061 INFO: App Starts
+2025-03-31 08:42:44.061 INFO: entered check session
+2025-03-31 08:42:44.062 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 08:42:44.063 INFO: user authenticated
+2025-03-31 08:42:44.063 INFO: entered initialise session state
+2025-03-31 08:42:44.063 INFO: entered app start
+2025-03-31 08:42:44.072 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:42:44.078 INFO: entered display_conversation history
+2025-03-31 08:42:44.083 INFO: Retriving docs from vector store
+2025-03-31 08:42:44.165 INFO: Done retriving relavent documents from vector store.
+2025-03-31 08:42:44.165 INFO: LLm deciding databases to search.
+2025-03-31 08:42:45.666 INFO: Completed deciding database.
+2025-03-31 08:42:45.666 INFO: Querying Sqlite database.
+2025-03-31 08:42:49.822 INFO: *****ended******
+2025-03-31 08:42:49.824 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:42:49.825 INFO: chat_id = 1
+2025-03-31 08:42:49.890 INFO: ['9d48eb47-06e9-473a-ab5a-e6506133ed53']
+2025-03-31 08:42:49.890 INFO: Conversation added successfully.
+2025-03-31 08:42:49.890 INFO: App ends
+2025-03-31 08:43:06.021 INFO: App Starts
+2025-03-31 08:43:06.021 INFO: entered check session
+2025-03-31 08:43:06.022 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 08:43:06.023 INFO: user authenticated
+2025-03-31 08:43:06.023 INFO: entered initialise session state
+2025-03-31 08:43:06.023 INFO: entered app start
+2025-03-31 08:43:06.033 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:43:06.040 INFO: entered display_conversation history
+2025-03-31 08:43:06.045 INFO: Retriving docs from vector store
+2025-03-31 08:43:06.131 INFO: Done retriving relavent documents from vector store.
+2025-03-31 08:43:06.131 INFO: LLm deciding databases to search.
+2025-03-31 08:43:07.580 INFO: Completed deciding database.
+2025-03-31 08:43:07.580 INFO: Querying Sqlite database.
+2025-03-31 08:43:11.271 INFO: *****ended******
+2025-03-31 08:43:11.272 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:43:11.273 INFO: chat_id = 1
+2025-03-31 08:43:11.339 INFO: ['5581e7c7-7d20-46e4-9077-97b6e4463e38']
+2025-03-31 08:43:11.339 INFO: Conversation added successfully.
+2025-03-31 08:43:11.339 INFO: App ends
+2025-03-31 08:43:51.666 INFO: App Starts
+2025-03-31 08:43:51.667 INFO: entered check session
+2025-03-31 08:43:51.668 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 08:43:51.668 INFO: user authenticated
+2025-03-31 08:43:51.668 INFO: entered initialise session state
+2025-03-31 08:43:51.669 INFO: entered app start
+2025-03-31 08:43:51.678 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:43:51.684 INFO: entered display_conversation history
+2025-03-31 08:43:51.691 INFO: Retriving docs from vector store
+2025-03-31 08:43:51.786 INFO: Done retriving relavent documents from vector store.
+2025-03-31 08:43:51.786 INFO: LLm deciding databases to search.
+2025-03-31 08:43:53.118 INFO: Completed deciding database.
+2025-03-31 08:43:54.171 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:43:54.173 INFO: chat_id = 1
+2025-03-31 08:43:54.204 INFO: ['31149a1a-0165-4918-81f2-906d8aabe625']
+2025-03-31 08:43:54.204 INFO: Conversation added successfully.
+2025-03-31 08:43:54.204 INFO: App ends
+2025-03-31 08:44:12.094 INFO: App Starts
+2025-03-31 08:44:12.096 INFO: entered check session
+2025-03-31 08:44:12.096 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 08:44:12.097 INFO: user authenticated
+2025-03-31 08:44:12.097 INFO: entered initialise session state
+2025-03-31 08:44:12.097 INFO: entered app start
+2025-03-31 08:44:12.106 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:44:12.110 INFO: entered display_conversation history
+2025-03-31 08:44:12.115 INFO: Retriving docs from vector store
+2025-03-31 08:44:12.155 INFO: Done retriving relavent documents from vector store.
+2025-03-31 08:44:12.156 INFO: LLm deciding databases to search.
+2025-03-31 08:44:13.526 INFO: Completed deciding database.
+2025-03-31 08:44:14.552 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:44:14.560 INFO: chat_id = 1
+2025-03-31 08:44:14.613 INFO: ['381ec513-5822-4a76-bad2-8f4400c4b9f5']
+2025-03-31 08:44:14.613 INFO: Conversation added successfully.
+2025-03-31 08:44:14.613 INFO: App ends
+2025-03-31 08:44:23.597 INFO: App Starts
+2025-03-31 08:44:23.598 INFO: entered check session
+2025-03-31 08:44:23.599 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 08:44:23.599 INFO: user authenticated
+2025-03-31 08:44:23.599 INFO: entered initialise session state
+2025-03-31 08:44:23.599 INFO: entered app start
+2025-03-31 08:44:23.608 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:44:23.613 INFO: entered display_conversation history
+2025-03-31 08:44:23.620 INFO: Retriving docs from vector store
+2025-03-31 08:44:23.702 INFO: Done retriving relavent documents from vector store.
+2025-03-31 08:44:23.702 INFO: LLm deciding databases to search.
+2025-03-31 08:44:25.200 INFO: Completed deciding database.
+2025-03-31 08:44:25.200 INFO: Querying Sqlite database.
+2025-03-31 08:44:28.037 INFO: *****ended******
+2025-03-31 08:44:28.038 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:44:28.042 INFO: chat_id = 1
+2025-03-31 08:44:28.137 INFO: ['0269909b-02d5-422a-b716-6f310c76b3cd']
+2025-03-31 08:44:28.137 INFO: Conversation added successfully.
+2025-03-31 08:44:28.137 INFO: App ends
+2025-03-31 08:44:36.002 INFO: App Starts
+2025-03-31 08:44:36.002 INFO: entered check session
+2025-03-31 08:44:36.003 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 08:44:36.003 INFO: user authenticated
+2025-03-31 08:44:36.004 INFO: entered initialise session state
+2025-03-31 08:44:36.004 INFO: entered app start
+2025-03-31 08:44:36.014 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:44:36.019 INFO: entered display_conversation history
+2025-03-31 08:44:36.026 INFO: Retriving docs from vector store
+2025-03-31 08:44:36.064 INFO: Done retriving relavent documents from vector store.
+2025-03-31 08:44:36.065 INFO: LLm deciding databases to search.
+2025-03-31 08:44:37.505 INFO: Completed deciding database.
+2025-03-31 08:44:37.506 INFO: Querying Sqlite database.
+2025-03-31 08:44:40.595 INFO: *****ended******
+2025-03-31 08:44:40.596 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:44:40.600 INFO: chat_id = 1
+2025-03-31 08:44:40.685 INFO: ['73aa658f-a55e-4fb5-a80e-19bf6db26356']
+2025-03-31 08:44:40.685 INFO: Conversation added successfully.
+2025-03-31 08:44:40.686 INFO: App ends
+2025-03-31 08:44:53.916 INFO: App Starts
+2025-03-31 08:44:53.916 INFO: entered check session
+2025-03-31 08:44:53.917 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 08:44:53.918 INFO: user authenticated
+2025-03-31 08:44:53.918 INFO: entered initialise session state
+2025-03-31 08:44:53.918 INFO: entered app start
+2025-03-31 08:44:53.927 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:44:53.933 INFO: entered display_conversation history
+2025-03-31 08:44:53.941 INFO: Retriving docs from vector store
+2025-03-31 08:44:53.979 INFO: Done retriving relavent documents from vector store.
+2025-03-31 08:44:53.979 INFO: LLm deciding databases to search.
+2025-03-31 08:44:55.511 INFO: Completed deciding database.
+2025-03-31 08:44:55.511 INFO: Querying mongodb database.
+2025-03-31 08:44:57.978 INFO: Connected to mongodb
+2025-03-31 08:44:57.978 INFO: getting response from llm
+2025-03-31 08:44:59.738 INFO: mongodb returning answer
+2025-03-31 08:45:02.313 INFO: *****ended******
+2025-03-31 08:45:02.331 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:45:02.333 INFO: chat_id = 1
+2025-03-31 08:45:02.410 INFO: ['ddb7d397-bf17-4e3f-a4e6-178d31712d05']
+2025-03-31 08:45:02.410 INFO: Conversation added successfully.
+2025-03-31 08:45:02.410 INFO: App ends
+2025-03-31 08:45:13.504 INFO: App Starts
+2025-03-31 08:45:13.505 INFO: entered check session
+2025-03-31 08:45:13.506 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 08:45:13.506 INFO: user authenticated
+2025-03-31 08:45:13.506 INFO: entered initialise session state
+2025-03-31 08:45:13.506 INFO: entered app start
+2025-03-31 08:45:13.516 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:45:13.522 INFO: entered display_conversation history
+2025-03-31 08:45:13.534 INFO: Retriving docs from vector store
+2025-03-31 08:45:13.572 INFO: Done retriving relavent documents from vector store.
+2025-03-31 08:45:13.572 INFO: LLm deciding databases to search.
+2025-03-31 08:45:14.863 INFO: Completed deciding database.
+2025-03-31 08:45:14.863 INFO: Querying mongodb database.
+2025-03-31 08:45:16.619 INFO: Connected to mongodb
+2025-03-31 08:45:16.619 INFO: getting response from llm
+2025-03-31 08:45:18.143 INFO: mongodb returning answer
+2025-03-31 08:45:21.668 INFO: *****ended******
+2025-03-31 08:45:21.670 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:45:21.674 INFO: chat_id = 1
+2025-03-31 08:45:21.754 INFO: ['5752d22b-1273-4a46-8542-989c78aa1ca3']
+2025-03-31 08:45:21.754 INFO: Conversation added successfully.
+2025-03-31 08:45:21.754 INFO: App ends
+2025-03-31 08:46:00.780 INFO: App Starts
+2025-03-31 08:46:00.780 INFO: entered check session
+2025-03-31 08:46:00.781 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 08:46:00.782 INFO: user authenticated
+2025-03-31 08:46:00.782 INFO: entered initialise session state
+2025-03-31 08:46:00.782 INFO: entered app start
+2025-03-31 08:46:00.791 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:46:00.797 INFO: entered display_conversation history
+2025-03-31 08:46:00.809 INFO: Retriving docs from vector store
+2025-03-31 08:46:00.898 INFO: Done retriving relavent documents from vector store.
+2025-03-31 08:46:00.898 INFO: LLm deciding databases to search.
+2025-03-31 08:46:02.480 INFO: Completed deciding database.
+2025-03-31 08:46:02.481 INFO: Querying mongodb database.
+2025-03-31 08:46:04.818 INFO: Connected to mongodb
+2025-03-31 08:46:04.818 INFO: getting response from llm
+2025-03-31 08:46:06.369 INFO: mongodb returning answer
+2025-03-31 08:46:06.370 INFO: Querying mongodb database.
+2025-03-31 08:46:08.126 INFO: Connected to mongodb
+2025-03-31 08:46:08.126 INFO: getting response from llm
+2025-03-31 08:46:09.660 INFO: mongodb returning answer
+2025-03-31 08:46:10.778 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:46:10.784 INFO: chat_id = 1
+2025-03-31 08:46:10.874 INFO: ['1b99dd06-ac0e-4210-b03b-683efb7f186f']
+2025-03-31 08:46:10.874 INFO: Conversation added successfully.
+2025-03-31 08:46:10.874 INFO: App ends
+2025-03-31 08:46:19.456 INFO: App Starts
+2025-03-31 08:46:19.456 INFO: entered check session
+2025-03-31 08:46:19.457 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 08:46:19.458 INFO: user authenticated
+2025-03-31 08:46:19.458 INFO: entered initialise session state
+2025-03-31 08:46:19.458 INFO: entered app start
+2025-03-31 08:46:19.468 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:46:19.475 INFO: entered display_conversation history
+2025-03-31 08:46:19.487 INFO: Retriving docs from vector store
+2025-03-31 08:46:19.538 INFO: Done retriving relavent documents from vector store.
+2025-03-31 08:46:19.538 INFO: LLm deciding databases to search.
+2025-03-31 08:46:21.015 INFO: Completed deciding database.
+2025-03-31 08:46:21.016 INFO: Querying mongodb database.
+2025-03-31 08:46:22.771 INFO: Connected to mongodb
+2025-03-31 08:46:22.771 INFO: getting response from llm
+2025-03-31 08:46:24.474 INFO: mongodb returning answer
+2025-03-31 08:46:28.271 INFO: *****ended******
+2025-03-31 08:46:28.283 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:46:28.286 INFO: chat_id = 1
+2025-03-31 08:46:28.363 INFO: ['79f8a484-6f71-4ba7-96cf-9f9424a24b05']
+2025-03-31 08:46:28.363 INFO: Conversation added successfully.
+2025-03-31 08:46:28.363 INFO: App ends
+2025-03-31 08:46:48.824 INFO: App Starts
+2025-03-31 08:46:48.825 INFO: entered check session
+2025-03-31 08:46:48.826 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 08:46:48.826 INFO: user authenticated
+2025-03-31 08:46:48.826 INFO: entered initialise session state
+2025-03-31 08:46:48.827 INFO: entered app start
+2025-03-31 08:46:48.836 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:46:48.846 INFO: entered display_conversation history
+2025-03-31 08:46:48.863 INFO: Retriving docs from vector store
+2025-03-31 08:46:48.968 INFO: Done retriving relavent documents from vector store.
+2025-03-31 08:46:48.968 INFO: LLm deciding databases to search.
+2025-03-31 08:46:50.508 INFO: Completed deciding database.
+2025-03-31 08:46:50.509 INFO: Querying mongodb database.
+2025-03-31 08:46:52.214 INFO: Connected to mongodb
+2025-03-31 08:46:52.215 INFO: getting response from llm
+2025-03-31 08:46:53.711 INFO: mongodb returning answer
+2025-03-31 08:46:56.878 INFO: *****ended******
+2025-03-31 08:46:56.888 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:46:56.890 INFO: chat_id = 1
+2025-03-31 08:46:56.972 INFO: ['609e5088-0f1e-4329-830c-5926cf6592cd']
+2025-03-31 08:46:56.972 INFO: Conversation added successfully.
+2025-03-31 08:46:56.972 INFO: App ends
+2025-03-31 08:47:16.984 INFO: App Starts
+2025-03-31 08:47:16.985 INFO: entered check session
+2025-03-31 08:47:16.986 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 08:47:16.986 INFO: user authenticated
+2025-03-31 08:47:16.986 INFO: entered initialise session state
+2025-03-31 08:47:16.987 INFO: entered app start
+2025-03-31 08:47:16.995 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:47:17.003 INFO: entered display_conversation history
+2025-03-31 08:47:17.023 INFO: Retriving docs from vector store
+2025-03-31 08:47:17.117 INFO: Done retriving relavent documents from vector store.
+2025-03-31 08:47:17.117 INFO: LLm deciding databases to search.
+2025-03-31 08:47:18.353 INFO: Completed deciding database.
+2025-03-31 08:47:18.355 INFO: Querying mongodb database.
+2025-03-31 08:47:20.692 INFO: Connected to mongodb
+2025-03-31 08:47:20.692 INFO: getting response from llm
+2025-03-31 08:47:22.152 INFO: mongodb returning answer
+2025-03-31 08:47:26.506 INFO: *****ended******
+2025-03-31 08:47:26.517 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:47:26.520 INFO: chat_id = 1
+2025-03-31 08:47:26.599 INFO: ['4c9f16a2-9e6d-490a-bd9a-8f771d11f993']
+2025-03-31 08:47:26.599 INFO: Conversation added successfully.
+2025-03-31 08:47:26.599 INFO: App ends
+2025-03-31 08:47:32.662 INFO: App Starts
+2025-03-31 08:47:32.662 INFO: entered check session
+2025-03-31 08:47:32.663 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 08:47:32.664 INFO: user authenticated
+2025-03-31 08:47:32.664 INFO: entered initialise session state
+2025-03-31 08:47:32.664 INFO: entered app start
+2025-03-31 08:47:32.673 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:47:32.681 INFO: entered display_conversation history
+2025-03-31 08:47:32.701 INFO: Retriving docs from vector store
+2025-03-31 08:47:32.740 INFO: Done retriving relavent documents from vector store.
+2025-03-31 08:47:32.740 INFO: LLm deciding databases to search.
+2025-03-31 08:47:34.222 INFO: Completed deciding database.
+2025-03-31 08:47:34.223 INFO: Querying mongodb database.
+2025-03-31 08:47:35.976 INFO: Connected to mongodb
+2025-03-31 08:47:35.976 INFO: getting response from llm
+2025-03-31 08:47:37.494 INFO: mongodb returning answer
+2025-03-31 08:47:40.982 INFO: *****ended******
+2025-03-31 08:47:40.984 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:47:40.988 INFO: chat_id = 1
+2025-03-31 08:47:41.074 INFO: ['4ca353c4-c325-455a-a480-103ccb7089e3']
+2025-03-31 08:47:41.074 INFO: Conversation added successfully.
+2025-03-31 08:47:41.075 INFO: App ends
+2025-03-31 08:47:50.265 INFO: App Starts
+2025-03-31 08:47:50.265 INFO: entered check session
+2025-03-31 08:47:50.266 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 08:47:50.267 INFO: user authenticated
+2025-03-31 08:47:50.267 INFO: entered initialise session state
+2025-03-31 08:47:50.267 INFO: entered app start
+2025-03-31 08:47:50.276 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:47:50.284 INFO: entered display_conversation history
+2025-03-31 08:47:50.306 INFO: Retriving docs from vector store
+2025-03-31 08:47:50.351 INFO: Done retriving relavent documents from vector store.
+2025-03-31 08:47:50.351 INFO: LLm deciding databases to search.
+2025-03-31 08:47:51.935 INFO: Completed deciding database.
+2025-03-31 08:47:51.936 INFO: Querying Sqlite database.
+2025-03-31 08:47:53.062 INFO: Querying Sqlite database.
+2025-03-31 08:47:57.718 INFO: *****ended******
+2025-03-31 08:47:57.718 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:47:57.723 INFO: chat_id = 1
+2025-03-31 08:47:57.808 INFO: ['0081d8b3-cfa3-498f-8123-7693737a5f80']
+2025-03-31 08:47:57.808 INFO: Conversation added successfully.
+2025-03-31 08:47:57.809 INFO: App ends
+2025-03-31 08:48:30.133 INFO: App Starts
+2025-03-31 08:48:30.133 INFO: entered check session
+2025-03-31 08:48:30.134 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 08:48:30.135 INFO: user authenticated
+2025-03-31 08:48:30.135 INFO: entered initialise session state
+2025-03-31 08:48:30.135 INFO: entered app start
+2025-03-31 08:48:30.144 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:48:30.153 INFO: entered display_conversation history
+2025-03-31 08:48:30.176 INFO: Retriving docs from vector store
+2025-03-31 08:48:30.224 INFO: Done retriving relavent documents from vector store.
+2025-03-31 08:48:30.224 INFO: LLm deciding databases to search.
+2025-03-31 08:48:31.663 INFO: Completed deciding database.
+2025-03-31 08:48:31.663 INFO: Querying Sqlite database.
+2025-03-31 08:48:32.794 INFO: Querying Sqlite database.
+2025-03-31 08:48:38.578 INFO: *****ended******
+2025-03-31 08:48:38.579 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:48:38.583 INFO: chat_id = 1
+2025-03-31 08:48:38.666 INFO: ['c9b54a1d-2d1f-43df-8043-3befb0107c21']
+2025-03-31 08:48:38.666 INFO: Conversation added successfully.
+2025-03-31 08:48:38.666 INFO: App ends
+2025-03-31 08:49:08.682 INFO: App Starts
+2025-03-31 08:49:08.683 INFO: entered check session
+2025-03-31 08:49:08.683 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 08:49:08.684 INFO: user authenticated
+2025-03-31 08:49:08.684 INFO: entered initialise session state
+2025-03-31 08:49:08.684 INFO: entered app start
+2025-03-31 08:49:08.695 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:49:08.702 INFO: entered display_conversation history
+2025-03-31 08:49:08.727 INFO: Retriving docs from vector store
+2025-03-31 08:49:08.767 INFO: Done retriving relavent documents from vector store.
+2025-03-31 08:49:08.767 INFO: LLm deciding databases to search.
+2025-03-31 08:49:10.006 INFO: Completed deciding database.
+2025-03-31 08:49:10.007 INFO: Querying Sqlite database.
+2025-03-31 08:49:15.366 INFO: *****ended******
+2025-03-31 08:49:15.366 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:49:15.368 INFO: chat_id = 1
+2025-03-31 08:49:15.429 INFO: ['d4eefaf7-83ca-45b5-812f-ec7cd9026013']
+2025-03-31 08:49:15.429 INFO: Conversation added successfully.
+2025-03-31 08:49:15.429 INFO: App ends
+2025-03-31 08:49:57.261 INFO: App Starts
+2025-03-31 08:49:57.261 INFO: entered check session
+2025-03-31 08:49:57.262 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 08:49:57.263 INFO: user authenticated
+2025-03-31 08:49:57.263 INFO: entered initialise session state
+2025-03-31 08:49:57.263 INFO: entered app start
+2025-03-31 08:49:57.273 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:49:57.281 INFO: entered display_conversation history
+2025-03-31 08:49:57.306 INFO: Retriving docs from vector store
+2025-03-31 08:49:57.341 INFO: Done retriving relavent documents from vector store.
+2025-03-31 08:49:57.341 INFO: LLm deciding databases to search.
+2025-03-31 08:49:58.741 INFO: Completed deciding database.
+2025-03-31 08:49:58.741 INFO: Querying mongodb database.
+2025-03-31 08:50:01.083 INFO: Connected to mongodb
+2025-03-31 08:50:01.083 INFO: getting response from llm
+2025-03-31 08:50:02.617 INFO: mongodb returning answer
+2025-03-31 08:50:02.618 INFO: Querying Sqlite database.
+2025-03-31 08:50:11.138 INFO: *****ended******
+2025-03-31 08:50:11.141 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:50:11.143 INFO: chat_id = 1
+2025-03-31 08:50:11.217 INFO: ['4528132a-8bd6-40bb-9be7-4ba8ee91016b']
+2025-03-31 08:50:11.217 INFO: Conversation added successfully.
+2025-03-31 08:50:11.217 INFO: App ends
+2025-03-31 08:51:04.521 INFO: App Starts
+2025-03-31 08:51:04.521 INFO: entered check session
+2025-03-31 08:51:04.522 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 08:51:04.523 INFO: user authenticated
+2025-03-31 08:51:04.523 INFO: entered initialise session state
+2025-03-31 08:51:04.523 INFO: entered app start
+2025-03-31 08:51:04.532 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:51:04.541 INFO: entered display_conversation history
+2025-03-31 08:51:04.567 INFO: Retriving docs from vector store
+2025-03-31 08:51:04.609 INFO: Done retriving relavent documents from vector store.
+2025-03-31 08:51:04.609 INFO: LLm deciding databases to search.
+2025-03-31 08:51:05.981 INFO: Completed deciding database.
+2025-03-31 08:51:05.981 INFO: Querying Sqlite database.
+2025-03-31 08:51:11.791 INFO: *****ended******
+2025-03-31 08:51:11.791 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:51:11.793 INFO: chat_id = 1
+2025-03-31 08:51:11.853 INFO: ['dc41e7dc-4c28-4ac3-8cc8-269577072514']
+2025-03-31 08:51:11.853 INFO: Conversation added successfully.
+2025-03-31 08:51:11.853 INFO: App ends
+2025-03-31 08:51:54.222 INFO: App Starts
+2025-03-31 08:51:54.223 INFO: entered check session
+2025-03-31 08:51:54.224 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 08:51:54.224 INFO: user authenticated
+2025-03-31 08:51:54.225 INFO: entered initialise session state
+2025-03-31 08:51:54.225 INFO: entered app start
+2025-03-31 08:51:54.233 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:51:54.243 INFO: entered display_conversation history
+2025-03-31 08:51:54.269 INFO: Retriving docs from vector store
+2025-03-31 08:51:54.323 INFO: Done retriving relavent documents from vector store.
+2025-03-31 08:51:54.323 INFO: LLm deciding databases to search.
+2025-03-31 08:51:55.849 INFO: Completed deciding database.
+2025-03-31 08:51:55.850 INFO: Querying Sqlite database.
+2025-03-31 08:51:57.082 INFO: Querying mongodb database.
+2025-03-31 08:51:59.436 INFO: Connected to mongodb
+2025-03-31 08:51:59.437 INFO: getting response from llm
+2025-03-31 08:52:01.130 INFO: mongodb returning answer
+2025-03-31 08:52:09.681 INFO: *****ended******
+2025-03-31 08:52:09.682 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:52:09.683 INFO: chat_id = 1
+2025-03-31 08:52:09.747 INFO: ['1e40f1c9-cb44-4a44-97b9-eb665483a29f']
+2025-03-31 08:52:09.747 INFO: Conversation added successfully.
+2025-03-31 08:52:09.747 INFO: App ends
+2025-03-31 08:52:54.902 INFO: App Starts
+2025-03-31 08:52:54.902 INFO: entered check session
+2025-03-31 08:52:54.903 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 08:52:54.904 INFO: user authenticated
+2025-03-31 08:52:54.904 INFO: entered initialise session state
+2025-03-31 08:52:54.904 INFO: entered app start
+2025-03-31 08:52:54.913 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:52:54.924 INFO: entered display_conversation history
+2025-03-31 08:52:54.955 INFO: Retriving docs from vector store
+2025-03-31 08:52:54.992 INFO: Done retriving relavent documents from vector store.
+2025-03-31 08:52:54.993 INFO: LLm deciding databases to search.
+2025-03-31 08:52:56.470 INFO: Completed deciding database.
+2025-03-31 08:52:56.470 INFO: Querying Sqlite database.
+2025-03-31 08:52:57.600 INFO: Querying mongodb database.
+2025-03-31 08:52:59.676 INFO: Connected to mongodb
+2025-03-31 08:52:59.677 INFO: getting response from llm
+2025-03-31 08:53:01.331 INFO: mongodb returning answer
+2025-03-31 08:53:05.532 INFO: *****ended******
+2025-03-31 08:53:05.533 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:53:05.537 INFO: chat_id = 1
+2025-03-31 08:53:05.613 INFO: ['8bcb768e-228e-4f46-88ab-d7f1c31a94ac']
+2025-03-31 08:53:05.613 INFO: Conversation added successfully.
+2025-03-31 08:53:05.613 INFO: App ends
+2025-03-31 08:55:28.847 INFO: App Starts
+2025-03-31 08:55:28.847 INFO: entered check session
+2025-03-31 08:55:28.848 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 08:55:28.849 INFO: user authenticated
+2025-03-31 08:55:28.849 INFO: entered initialise session state
+2025-03-31 08:55:28.849 INFO: entered app start
+2025-03-31 08:55:28.858 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:55:28.866 INFO: entered display_conversation history
+2025-03-31 08:55:28.895 INFO: Retriving docs from vector store
+2025-03-31 08:55:28.957 INFO: Done retriving relavent documents from vector store.
+2025-03-31 08:55:28.957 INFO: LLm deciding databases to search.
+2025-03-31 08:55:30.263 INFO: Completed deciding database.
+2025-03-31 08:55:30.264 INFO: Querying Sqlite database.
+2025-03-31 08:55:33.334 INFO: *****ended******
+2025-03-31 08:55:33.335 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:55:33.339 INFO: chat_id = 1
+2025-03-31 08:55:33.426 INFO: ['903a5a45-d641-441d-9eef-fe1881d3cb19']
+2025-03-31 08:55:33.426 INFO: Conversation added successfully.
+2025-03-31 08:55:33.427 INFO: App ends
+2025-03-31 08:56:03.061 INFO: App Starts
+2025-03-31 08:56:03.062 INFO: entered check session
+2025-03-31 08:56:03.063 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 08:56:03.063 INFO: user authenticated
+2025-03-31 08:56:03.063 INFO: entered initialise session state
+2025-03-31 08:56:03.063 INFO: entered app start
+2025-03-31 08:56:03.071 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:56:03.077 INFO: entered display_conversation history
+2025-03-31 08:56:03.099 INFO: Retriving docs from vector store
+2025-03-31 08:56:03.146 INFO: Done retriving relavent documents from vector store.
+2025-03-31 08:56:03.146 INFO: LLm deciding databases to search.
+2025-03-31 08:56:04.680 INFO: Completed deciding database.
+2025-03-31 08:56:04.681 INFO: Querying Sqlite database.
+2025-03-31 08:56:05.808 INFO: Querying mongodb database.
+2025-03-31 08:56:08.123 INFO: Connected to mongodb
+2025-03-31 08:56:08.124 INFO: getting response from llm
+2025-03-31 08:56:09.793 INFO: mongodb returning answer
+2025-03-31 08:56:13.493 INFO: *****ended******
+2025-03-31 08:56:13.494 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:56:13.496 INFO: chat_id = 1
+2025-03-31 08:56:13.558 INFO: ['1b051fab-afc0-48f4-8148-211d2670ece2']
+2025-03-31 08:56:13.558 INFO: Conversation added successfully.
+2025-03-31 08:56:13.558 INFO: App ends
+2025-03-31 08:56:36.779 INFO: App Starts
+2025-03-31 08:56:36.780 INFO: entered check session
+2025-03-31 08:56:36.781 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 08:56:36.781 INFO: user authenticated
+2025-03-31 08:56:36.782 INFO: entered initialise session state
+2025-03-31 08:56:36.782 INFO: entered app start
+2025-03-31 08:56:36.791 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:56:36.801 INFO: entered display_conversation history
+2025-03-31 08:56:36.829 INFO: Retriving docs from vector store
+2025-03-31 08:56:36.889 INFO: Done retriving relavent documents from vector store.
+2025-03-31 08:56:36.889 INFO: LLm deciding databases to search.
+2025-03-31 08:56:38.371 INFO: Completed deciding database.
+2025-03-31 08:56:38.372 INFO: Querying Sqlite database.
+2025-03-31 08:56:39.501 INFO: Querying mongodb database.
+2025-03-31 08:56:41.251 INFO: Connected to mongodb
+2025-03-31 08:56:41.252 INFO: getting response from llm
+2025-03-31 08:56:42.882 INFO: mongodb returning answer
+2025-03-31 08:56:46.695 INFO: *****ended******
+2025-03-31 08:56:46.696 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:56:46.697 INFO: chat_id = 1
+2025-03-31 08:56:46.759 INFO: ['3c013bfe-2537-42e2-8b58-9566a117fc15']
+2025-03-31 08:56:46.759 INFO: Conversation added successfully.
+2025-03-31 08:56:46.759 INFO: App ends
+2025-03-31 08:58:43.597 INFO: App Starts
+2025-03-31 08:58:43.598 INFO: entered check session
+2025-03-31 08:58:43.599 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 08:58:43.599 INFO: user authenticated
+2025-03-31 08:58:43.599 INFO: entered initialise session state
+2025-03-31 08:58:43.599 INFO: entered app start
+2025-03-31 08:58:43.610 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:58:43.619 INFO: entered display_conversation history
+2025-03-31 08:58:43.653 INFO: Retriving docs from vector store
+2025-03-31 08:58:43.702 INFO: Done retriving relavent documents from vector store.
+2025-03-31 08:58:43.703 INFO: LLm deciding databases to search.
+2025-03-31 08:58:44.834 INFO: Completed deciding database.
+2025-03-31 08:58:45.861 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:58:45.867 INFO: chat_id = 1
+2025-03-31 08:58:45.919 INFO: ['ef315f97-037f-4f2b-ad7f-2b08311460f1']
+2025-03-31 08:58:45.919 INFO: Conversation added successfully.
+2025-03-31 08:58:45.919 INFO: App ends
+2025-03-31 08:58:55.935 INFO: App Starts
+2025-03-31 08:58:55.935 INFO: entered check session
+2025-03-31 08:58:55.935 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 08:58:55.935 INFO: user authenticated
+2025-03-31 08:58:55.936 INFO: entered initialise session state
+2025-03-31 08:58:55.936 INFO: entered app start
+2025-03-31 08:58:55.940 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:58:55.944 INFO: entered display_conversation history
+2025-03-31 08:58:55.970 INFO: Retriving docs from vector store
+2025-03-31 08:58:56.056 INFO: Done retriving relavent documents from vector store.
+2025-03-31 08:58:56.056 INFO: LLm deciding databases to search.
+2025-03-31 08:58:57.224 INFO: Completed deciding database.
+2025-03-31 08:58:58.141 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:58:58.147 INFO: chat_id = 1
+2025-03-31 08:58:58.201 INFO: ['3b73d02e-d5c4-4732-9078-4ec804791070']
+2025-03-31 08:58:58.201 INFO: Conversation added successfully.
+2025-03-31 08:58:58.201 INFO: App ends
+2025-03-31 08:59:32.400 INFO: App Starts
+2025-03-31 08:59:32.401 INFO: entered check session
+2025-03-31 08:59:32.402 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 08:59:32.402 INFO: user authenticated
+2025-03-31 08:59:32.402 INFO: entered initialise session state
+2025-03-31 08:59:32.402 INFO: entered app start
+2025-03-31 08:59:32.407 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:59:32.414 INFO: entered display_conversation history
+2025-03-31 08:59:32.443 INFO: Retriving docs from vector store
+2025-03-31 08:59:32.500 INFO: Done retriving relavent documents from vector store.
+2025-03-31 08:59:32.500 INFO: LLm deciding databases to search.
+2025-03-31 08:59:33.725 INFO: Completed deciding database.
+2025-03-31 08:59:34.704 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 08:59:34.708 INFO: chat_id = 1
+2025-03-31 08:59:34.759 INFO: ['b5bc4fa2-ecf0-48b7-93db-96a20b2f0c1e']
+2025-03-31 08:59:34.759 INFO: Conversation added successfully.
+2025-03-31 08:59:34.759 INFO: App ends
+2025-03-31 09:00:20.092 INFO: App Starts
+2025-03-31 09:00:20.092 INFO: entered check session
+2025-03-31 09:00:20.093 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 09:00:20.094 INFO: user authenticated
+2025-03-31 09:00:20.094 INFO: entered initialise session state
+2025-03-31 09:00:20.094 INFO: entered app start
+2025-03-31 09:00:20.103 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:00:20.113 INFO: entered display_conversation history
+2025-03-31 09:00:20.146 INFO: Retriving docs from vector store
+2025-03-31 09:00:20.243 INFO: Done retriving relavent documents from vector store.
+2025-03-31 09:00:20.243 INFO: LLm deciding databases to search.
+2025-03-31 09:00:21.399 INFO: Completed deciding database.
+2025-03-31 09:00:22.423 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:00:22.430 INFO: chat_id = 1
+2025-03-31 09:00:22.521 INFO: ['fa7f9ae8-a74f-48ab-b094-626ab5709d10']
+2025-03-31 09:00:22.521 INFO: Conversation added successfully.
+2025-03-31 09:00:22.521 INFO: App ends
+2025-03-31 09:00:39.034 INFO: App Starts
+2025-03-31 09:00:39.034 INFO: entered check session
+2025-03-31 09:00:39.035 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 09:00:39.035 INFO: user authenticated
+2025-03-31 09:00:39.035 INFO: entered initialise session state
+2025-03-31 09:00:39.036 INFO: entered app start
+2025-03-31 09:00:39.042 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:00:39.048 INFO: entered display_conversation history
+2025-03-31 09:00:39.079 INFO: Retriving docs from vector store
+2025-03-31 09:00:39.167 INFO: Done retriving relavent documents from vector store.
+2025-03-31 09:00:39.167 INFO: LLm deciding databases to search.
+2025-03-31 09:00:40.675 INFO: Completed deciding database.
+2025-03-31 09:00:40.676 INFO: Querying Sqlite database.
+2025-03-31 09:00:41.814 INFO: Querying mongodb database.
+2025-03-31 09:00:44.152 INFO: Connected to mongodb
+2025-03-31 09:00:44.152 INFO: getting response from llm
+2025-03-31 09:00:45.763 INFO: mongodb returning answer
+2025-03-31 09:00:53.925 INFO: *****ended******
+2025-03-31 09:00:53.925 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:00:53.931 INFO: chat_id = 1
+2025-03-31 09:00:54.012 INFO: ['4ef0ddee-6d02-410d-a31e-545b644a2f5b']
+2025-03-31 09:00:54.012 INFO: Conversation added successfully.
+2025-03-31 09:00:54.012 INFO: App ends
+2025-03-31 09:01:50.672 INFO: App Starts
+2025-03-31 09:01:50.673 INFO: entered check session
+2025-03-31 09:01:50.674 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 09:01:50.674 INFO: user authenticated
+2025-03-31 09:01:50.675 INFO: entered initialise session state
+2025-03-31 09:01:50.675 INFO: entered app start
+2025-03-31 09:01:50.683 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:01:50.693 INFO: entered display_conversation history
+2025-03-31 09:01:50.723 INFO: Retriving docs from vector store
+2025-03-31 09:01:50.781 INFO: Done retriving relavent documents from vector store.
+2025-03-31 09:01:50.781 INFO: LLm deciding databases to search.
+2025-03-31 09:01:52.022 INFO: Completed deciding database.
+2025-03-31 09:01:56.011 INFO: *****ended******
+2025-03-31 09:01:56.012 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:01:56.016 INFO: chat_id = 1
+2025-03-31 09:01:56.061 INFO: ['dd32a7f8-d56d-4317-9101-8f634bd442ea']
+2025-03-31 09:01:56.061 INFO: Conversation added successfully.
+2025-03-31 09:01:56.061 INFO: App ends
+2025-03-31 09:02:37.093 INFO: App Starts
+2025-03-31 09:02:37.094 INFO: entered check session
+2025-03-31 09:02:37.095 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 09:02:37.096 INFO: user authenticated
+2025-03-31 09:02:37.096 INFO: entered initialise session state
+2025-03-31 09:02:37.096 INFO: entered app start
+2025-03-31 09:02:37.106 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:02:37.116 INFO: entered display_conversation history
+2025-03-31 09:02:37.148 INFO: Retriving docs from vector store
+2025-03-31 09:02:37.191 INFO: Done retriving relavent documents from vector store.
+2025-03-31 09:02:37.191 INFO: LLm deciding databases to search.
+2025-03-31 09:02:38.388 INFO: Completed deciding database.
+2025-03-31 09:02:39.413 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:02:39.420 INFO: chat_id = 1
+2025-03-31 09:02:39.476 INFO: ['cade977d-e4eb-4433-afc8-37d4825fbd10']
+2025-03-31 09:02:39.476 INFO: Conversation added successfully.
+2025-03-31 09:02:39.476 INFO: App ends
+2025-03-31 09:02:49.747 INFO: App Starts
+2025-03-31 09:02:49.747 INFO: entered check session
+2025-03-31 09:02:49.748 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 09:02:49.749 INFO: user authenticated
+2025-03-31 09:02:49.749 INFO: entered initialise session state
+2025-03-31 09:02:49.749 INFO: entered app start
+2025-03-31 09:02:49.758 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:02:49.765 INFO: entered display_conversation history
+2025-03-31 09:02:49.796 INFO: Retriving docs from vector store
+2025-03-31 09:02:49.834 INFO: Done retriving relavent documents from vector store.
+2025-03-31 09:02:49.834 INFO: LLm deciding databases to search.
+2025-03-31 09:02:51.029 INFO: Completed deciding database.
+2025-03-31 09:02:54.101 INFO: *****ended******
+2025-03-31 09:02:54.102 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:02:54.106 INFO: chat_id = 1
+2025-03-31 09:02:54.192 INFO: ['aefd224b-b20e-415c-a1f1-752c366b36b6']
+2025-03-31 09:02:54.192 INFO: Conversation added successfully.
+2025-03-31 09:02:54.192 INFO: App ends
+2025-03-31 09:03:13.306 INFO: App Starts
+2025-03-31 09:03:13.307 INFO: entered check session
+2025-03-31 09:03:13.308 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 09:03:13.308 INFO: user authenticated
+2025-03-31 09:03:13.309 INFO: entered initialise session state
+2025-03-31 09:03:13.309 INFO: entered app start
+2025-03-31 09:03:13.318 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:03:13.327 INFO: entered display_conversation history
+2025-03-31 09:03:13.361 INFO: Retriving docs from vector store
+2025-03-31 09:03:13.396 INFO: Done retriving relavent documents from vector store.
+2025-03-31 09:03:13.396 INFO: LLm deciding databases to search.
+2025-03-31 09:03:14.528 INFO: Completed deciding database.
+2025-03-31 09:03:15.554 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:03:15.560 INFO: chat_id = 1
+2025-03-31 09:03:15.652 INFO: ['5189483c-0b33-4221-a20b-91f6dfc59388']
+2025-03-31 09:03:15.652 INFO: Conversation added successfully.
+2025-03-31 09:03:15.652 INFO: App ends
+2025-03-31 09:03:27.224 INFO: App Starts
+2025-03-31 09:03:27.225 INFO: entered check session
+2025-03-31 09:03:27.226 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 09:03:27.227 INFO: user authenticated
+2025-03-31 09:03:27.227 INFO: entered initialise session state
+2025-03-31 09:03:27.227 INFO: entered app start
+2025-03-31 09:03:27.236 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:03:27.246 INFO: entered display_conversation history
+2025-03-31 09:03:27.277 INFO: Retriving docs from vector store
+2025-03-31 09:03:27.321 INFO: Done retriving relavent documents from vector store.
+2025-03-31 09:03:27.321 INFO: LLm deciding databases to search.
+2025-03-31 09:03:28.528 INFO: Completed deciding database.
+2025-03-31 09:03:29.478 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:03:29.485 INFO: chat_id = 1
+2025-03-31 09:03:29.537 INFO: ['583ff7fa-c65c-42d0-9557-56f2c9e93317']
+2025-03-31 09:03:29.537 INFO: Conversation added successfully.
+2025-03-31 09:03:29.537 INFO: App ends
+2025-03-31 09:03:35.189 INFO: App Starts
+2025-03-31 09:03:35.190 INFO: entered check session
+2025-03-31 09:03:35.191 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 09:03:35.191 INFO: user authenticated
+2025-03-31 09:03:35.191 INFO: entered initialise session state
+2025-03-31 09:03:35.191 INFO: entered app start
+2025-03-31 09:03:35.201 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:03:35.208 INFO: entered display_conversation history
+2025-03-31 09:03:35.242 INFO: Retriving docs from vector store
+2025-03-31 09:03:35.330 INFO: Done retriving relavent documents from vector store.
+2025-03-31 09:03:35.330 INFO: LLm deciding databases to search.
+2025-03-31 09:03:37.066 INFO: Completed deciding database.
+2025-03-31 09:03:38.082 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:03:38.089 INFO: chat_id = 1
+2025-03-31 09:03:38.144 INFO: ['7ccbc129-c264-4d73-8602-c7a350b6623d']
+2025-03-31 09:03:38.144 INFO: Conversation added successfully.
+2025-03-31 09:03:38.144 INFO: App ends
+2025-03-31 09:03:46.528 INFO: App Starts
+2025-03-31 09:03:46.529 INFO: entered check session
+2025-03-31 09:03:46.530 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 09:03:46.530 INFO: user authenticated
+2025-03-31 09:03:46.530 INFO: entered initialise session state
+2025-03-31 09:03:46.530 INFO: entered app start
+2025-03-31 09:03:46.540 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:03:46.547 INFO: entered display_conversation history
+2025-03-31 09:03:46.581 INFO: Retriving docs from vector store
+2025-03-31 09:03:46.615 INFO: Done retriving relavent documents from vector store.
+2025-03-31 09:03:46.615 INFO: LLm deciding databases to search.
+2025-03-31 09:03:47.806 INFO: Completed deciding database.
+2025-03-31 09:03:52.730 INFO: *****ended******
+2025-03-31 09:03:52.730 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:03:52.734 INFO: chat_id = 1
+2025-03-31 09:03:52.810 INFO: ['d6ab5058-62b3-46d5-86f8-a54d8e7e1206']
+2025-03-31 09:03:52.810 INFO: Conversation added successfully.
+2025-03-31 09:03:52.811 INFO: App ends
+2025-03-31 09:04:08.970 INFO: App Starts
+2025-03-31 09:04:08.970 INFO: entered check session
+2025-03-31 09:04:08.971 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 09:04:08.972 INFO: user authenticated
+2025-03-31 09:04:08.972 INFO: entered initialise session state
+2025-03-31 09:04:08.972 INFO: entered app start
+2025-03-31 09:04:08.982 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:04:08.994 INFO: entered display_conversation history
+2025-03-31 09:04:09.027 INFO: Retriving docs from vector store
+2025-03-31 09:04:09.065 INFO: Done retriving relavent documents from vector store.
+2025-03-31 09:04:09.065 INFO: LLm deciding databases to search.
+2025-03-31 09:04:10.232 INFO: Completed deciding database.
+2025-03-31 09:04:15.458 INFO: *****ended******
+2025-03-31 09:04:15.459 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:04:15.464 INFO: chat_id = 1
+2025-03-31 09:04:15.542 INFO: ['f3ff41e4-3fa3-4387-a323-e756d9e66c95']
+2025-03-31 09:04:15.542 INFO: Conversation added successfully.
+2025-03-31 09:04:15.543 INFO: App ends
+2025-03-31 09:04:27.088 INFO: App Starts
+2025-03-31 09:04:27.088 INFO: entered check session
+2025-03-31 09:04:27.089 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 09:04:27.090 INFO: user authenticated
+2025-03-31 09:04:27.090 INFO: entered initialise session state
+2025-03-31 09:04:27.090 INFO: entered app start
+2025-03-31 09:04:27.099 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:04:27.107 INFO: entered display_conversation history
+2025-03-31 09:04:27.140 INFO: Retriving docs from vector store
+2025-03-31 09:04:27.176 INFO: Done retriving relavent documents from vector store.
+2025-03-31 09:04:27.176 INFO: LLm deciding databases to search.
+2025-03-31 09:04:28.356 INFO: Completed deciding database.
+2025-03-31 09:04:32.299 INFO: *****ended******
+2025-03-31 09:04:32.299 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:04:32.304 INFO: chat_id = 1
+2025-03-31 09:04:32.379 INFO: ['bd47def0-02f9-4402-8d3f-b94693ed52bb']
+2025-03-31 09:04:32.379 INFO: Conversation added successfully.
+2025-03-31 09:04:32.379 INFO: App ends
+2025-03-31 09:04:49.378 INFO: App Starts
+2025-03-31 09:04:49.378 INFO: entered check session
+2025-03-31 09:04:49.379 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 09:04:49.380 INFO: user authenticated
+2025-03-31 09:04:49.380 INFO: entered initialise session state
+2025-03-31 09:04:49.380 INFO: entered app start
+2025-03-31 09:04:49.389 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:04:49.399 INFO: entered display_conversation history
+2025-03-31 09:04:49.434 INFO: Retriving docs from vector store
+2025-03-31 09:04:49.473 INFO: Done retriving relavent documents from vector store.
+2025-03-31 09:04:49.473 INFO: LLm deciding databases to search.
+2025-03-31 09:04:50.679 INFO: Completed deciding database.
+2025-03-31 09:04:53.417 INFO: *****ended******
+2025-03-31 09:04:53.418 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:04:53.422 INFO: chat_id = 1
+2025-03-31 09:04:53.501 INFO: ['4cbef0f5-f81a-4007-a6d5-2eeaca0134d8']
+2025-03-31 09:04:53.501 INFO: Conversation added successfully.
+2025-03-31 09:04:53.501 INFO: App ends
+2025-03-31 09:06:04.735 INFO: App Starts
+2025-03-31 09:06:04.736 INFO: entered check session
+2025-03-31 09:06:04.737 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 09:06:04.738 INFO: user authenticated
+2025-03-31 09:06:04.738 INFO: entered initialise session state
+2025-03-31 09:06:04.738 INFO: entered app start
+2025-03-31 09:06:04.747 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:06:04.756 INFO: entered display_conversation history
+2025-03-31 09:06:04.790 INFO: Retriving docs from vector store
+2025-03-31 09:06:04.838 INFO: Done retriving relavent documents from vector store.
+2025-03-31 09:06:04.838 INFO: LLm deciding databases to search.
+2025-03-31 09:06:06.046 INFO: Completed deciding database.
+2025-03-31 09:06:10.573 INFO: *****ended******
+2025-03-31 09:06:10.573 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:06:10.578 INFO: chat_id = 1
+2025-03-31 09:06:10.656 INFO: ['90006fed-0640-4d6f-a744-d11cb8214b98']
+2025-03-31 09:06:10.656 INFO: Conversation added successfully.
+2025-03-31 09:06:10.656 INFO: App ends
+2025-03-31 09:07:14.138 INFO: App Starts
+2025-03-31 09:07:14.139 INFO: entered check session
+2025-03-31 09:07:14.139 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 09:07:14.139 INFO: user authenticated
+2025-03-31 09:07:14.139 INFO: entered initialise session state
+2025-03-31 09:07:14.140 INFO: entered app start
+2025-03-31 09:07:14.143 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:07:14.148 INFO: entered display_conversation history
+2025-03-31 09:07:14.193 INFO: Retriving docs from vector store
+2025-03-31 09:07:14.244 INFO: Done retriving relavent documents from vector store.
+2025-03-31 09:07:14.244 INFO: LLm deciding databases to search.
+2025-03-31 09:07:15.471 INFO: Completed deciding database.
+2025-03-31 09:07:18.598 INFO: *****ended******
+2025-03-31 09:07:18.599 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:07:18.604 INFO: chat_id = 1
+2025-03-31 09:07:18.689 INFO: ['b87a1329-67d7-405f-bf6a-46174b0f9e67']
+2025-03-31 09:07:18.689 INFO: Conversation added successfully.
+2025-03-31 09:07:18.689 INFO: App ends
+2025-03-31 09:07:25.073 INFO: App Starts
+2025-03-31 09:07:25.073 INFO: entered check session
+2025-03-31 09:07:25.073 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 09:07:25.074 INFO: user authenticated
+2025-03-31 09:07:25.074 INFO: entered initialise session state
+2025-03-31 09:07:25.074 INFO: entered app start
+2025-03-31 09:07:25.087 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:07:25.093 INFO: entered display_conversation history
+2025-03-31 09:07:25.126 INFO: Retriving docs from vector store
+2025-03-31 09:07:25.160 INFO: Done retriving relavent documents from vector store.
+2025-03-31 09:07:25.161 INFO: LLm deciding databases to search.
+2025-03-31 09:07:26.326 INFO: Completed deciding database.
+2025-03-31 09:07:27.256 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:07:27.259 INFO: chat_id = 1
+2025-03-31 09:07:27.320 INFO: ['1ac926a2-df63-4174-ab68-c9ac17848cfb']
+2025-03-31 09:07:27.320 INFO: Conversation added successfully.
+2025-03-31 09:07:27.321 INFO: App ends
+2025-03-31 09:09:31.623 INFO: App Starts
+2025-03-31 09:09:31.623 INFO: entered check session
+2025-03-31 09:09:31.624 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 09:09:31.624 INFO: user authenticated
+2025-03-31 09:09:31.624 INFO: entered initialise session state
+2025-03-31 09:09:31.624 INFO: entered app start
+2025-03-31 09:09:31.628 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:09:31.634 INFO: entered display_conversation history
+2025-03-31 09:09:31.662 INFO: Retriving docs from vector store
+2025-03-31 09:09:31.786 INFO: Done retriving relavent documents from vector store.
+2025-03-31 09:09:31.786 INFO: LLm deciding databases to search.
+2025-03-31 09:09:33.004 INFO: Completed deciding database.
+2025-03-31 09:09:38.259 INFO: *****ended******
+2025-03-31 09:09:38.260 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:09:38.264 INFO: chat_id = 1
+2025-03-31 09:09:38.344 INFO: ['d804b344-c8b4-4602-bfe0-0bc4ae3e24d5']
+2025-03-31 09:09:38.344 INFO: Conversation added successfully.
+2025-03-31 09:09:38.344 INFO: App ends
+2025-03-31 09:10:09.104 INFO: App Starts
+2025-03-31 09:10:09.104 INFO: entered check session
+2025-03-31 09:10:09.105 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 09:10:09.105 INFO: user authenticated
+2025-03-31 09:10:09.105 INFO: entered initialise session state
+2025-03-31 09:10:09.106 INFO: entered app start
+2025-03-31 09:10:09.116 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:10:09.124 INFO: entered display_conversation history
+2025-03-31 09:10:09.160 INFO: Retriving docs from vector store
+2025-03-31 09:10:09.201 INFO: Done retriving relavent documents from vector store.
+2025-03-31 09:10:09.201 INFO: LLm deciding databases to search.
+2025-03-31 09:10:10.688 INFO: Completed deciding database.
+2025-03-31 09:10:10.688 INFO: Querying Sqlite database.
+2025-03-31 09:10:11.913 INFO: Querying mongodb database.
+2025-03-31 09:10:14.368 INFO: Connected to mongodb
+2025-03-31 09:10:14.369 INFO: getting response from llm
+2025-03-31 09:10:15.894 INFO: mongodb returning answer
+2025-03-31 09:10:16.925 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:10:16.932 INFO: chat_id = 1
+2025-03-31 09:10:16.989 INFO: ['732b2345-9ad6-4c5f-8d7d-7c6777f9419c']
+2025-03-31 09:10:16.989 INFO: Conversation added successfully.
+2025-03-31 09:10:16.990 INFO: App ends
+2025-03-31 09:10:40.199 INFO: App Starts
+2025-03-31 09:10:40.200 INFO: entered check session
+2025-03-31 09:10:40.201 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 09:10:40.201 INFO: user authenticated
+2025-03-31 09:10:40.201 INFO: entered initialise session state
+2025-03-31 09:10:40.201 INFO: entered app start
+2025-03-31 09:10:40.211 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:10:40.219 INFO: entered display_conversation history
+2025-03-31 09:10:40.252 INFO: Retriving docs from vector store
+2025-03-31 09:10:40.286 INFO: Done retriving relavent documents from vector store.
+2025-03-31 09:10:40.286 INFO: LLm deciding databases to search.
+2025-03-31 09:10:41.806 INFO: Completed deciding database.
+2025-03-31 09:10:41.806 INFO: Querying Sqlite database.
+2025-03-31 09:10:42.934 INFO: Querying mongodb database.
+2025-03-31 09:10:44.965 INFO: Connected to mongodb
+2025-03-31 09:10:44.965 INFO: getting response from llm
+2025-03-31 09:10:46.506 INFO: mongodb returning answer
+2025-03-31 09:10:51.734 INFO: *****ended******
+2025-03-31 09:10:51.734 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:10:51.738 INFO: chat_id = 1
+2025-03-31 09:10:51.814 INFO: ['cac26af2-3ca1-4ec8-8e59-e57d977a3ec3']
+2025-03-31 09:10:51.814 INFO: Conversation added successfully.
+2025-03-31 09:10:51.814 INFO: App ends
+2025-03-31 09:10:57.637 INFO: App Starts
+2025-03-31 09:10:57.637 INFO: entered check session
+2025-03-31 09:10:57.638 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 09:10:57.638 INFO: user authenticated
+2025-03-31 09:10:57.638 INFO: entered initialise session state
+2025-03-31 09:10:57.638 INFO: entered app start
+2025-03-31 09:10:57.642 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:10:57.647 INFO: entered display_conversation history
+2025-03-31 09:10:57.678 INFO: Retriving docs from vector store
+2025-03-31 09:10:57.710 INFO: Done retriving relavent documents from vector store.
+2025-03-31 09:10:57.710 INFO: LLm deciding databases to search.
+2025-03-31 09:10:59.214 INFO: Completed deciding database.
+2025-03-31 09:10:59.215 INFO: Querying Sqlite database.
+2025-03-31 09:11:00.309 INFO: Querying mongodb database.
+2025-03-31 09:11:02.094 INFO: Connected to mongodb
+2025-03-31 09:11:02.094 INFO: getting response from llm
+2025-03-31 09:11:03.711 INFO: mongodb returning answer
+2025-03-31 09:11:09.023 INFO: *****ended******
+2025-03-31 09:11:09.024 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:11:09.029 INFO: chat_id = 1
+2025-03-31 09:11:09.107 INFO: ['2b48c002-9c23-494b-bd66-1da4cc2d91ad']
+2025-03-31 09:11:09.107 INFO: Conversation added successfully.
+2025-03-31 09:11:09.107 INFO: App ends
+2025-03-31 09:11:31.394 INFO: App Starts
+2025-03-31 09:11:31.395 INFO: entered check session
+2025-03-31 09:11:31.396 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 09:11:31.397 INFO: user authenticated
+2025-03-31 09:11:31.397 INFO: entered initialise session state
+2025-03-31 09:11:31.397 INFO: entered app start
+2025-03-31 09:11:31.407 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:11:31.418 INFO: entered display_conversation history
+2025-03-31 09:11:31.456 INFO: App ends
+2025-03-31 09:11:32.515 INFO: App Starts
+2025-03-31 09:11:32.515 INFO: entered check session
+2025-03-31 09:11:32.515 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 09:11:32.516 INFO: user authenticated
+2025-03-31 09:11:32.516 INFO: entered initialise session state
+2025-03-31 09:11:32.516 INFO: entered app start
+2025-03-31 09:11:32.520 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:11:34.540 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:11:34.556 INFO: deleted collection successfully
+2025-03-31 09:11:39.698 INFO: App Starts
+2025-03-31 09:11:39.698 INFO: entered check session
+2025-03-31 09:11:39.699 INFO: check_session(): Retrieved chat_id from cookies -> None
+2025-03-31 09:11:39.699 INFO: user has not authenticated
+2025-03-31 09:11:39.700 INFO: App ends
+2025-03-31 09:11:39.882 INFO: App Starts
+2025-03-31 09:11:39.882 INFO: entered check session
+2025-03-31 09:11:39.882 INFO: check_session(): Retrieved chat_id from cookies -> None
+2025-03-31 09:11:39.882 INFO: user has not authenticated
+2025-03-31 09:11:39.883 INFO: App ends
+2025-03-31 09:11:40.928 INFO: App Starts
+2025-03-31 09:11:41.137 INFO: App Starts
+2025-03-31 09:11:41.137 INFO: entered check session
+2025-03-31 09:11:41.137 INFO: check_session(): Retrieved chat_id from cookies -> None
+2025-03-31 09:11:41.138 INFO: user has not authenticated
+2025-03-31 09:11:41.140 INFO: App ends
+2025-03-31 09:11:46.256 INFO: App Starts
+2025-03-31 09:11:46.257 INFO: entered check session
+2025-03-31 09:11:46.258 INFO: check_session(): Retrieved chat_id from cookies -> None
+2025-03-31 09:11:46.258 INFO: user has not authenticated
+2025-03-31 09:11:46.262 INFO: App ends
+2025-03-31 09:11:52.940 INFO: App Starts
+2025-03-31 09:11:52.940 INFO: entered check session
+2025-03-31 09:11:52.941 INFO: check_session(): Retrieved chat_id from cookies -> None
+2025-03-31 09:11:52.942 INFO: user has not authenticated
+2025-03-31 09:11:52.948 INFO: App ends
+2025-03-31 09:12:47.790 INFO: App Starts
+2025-03-31 09:12:47.791 INFO: entered check session
+2025-03-31 09:12:47.792 INFO: check_session(): Retrieved chat_id from cookies -> None
+2025-03-31 09:12:47.792 INFO: user has not authenticated
+2025-03-31 09:12:47.912 INFO: App Starts
+2025-03-31 09:12:47.912 INFO: entered check session
+2025-03-31 09:12:47.912 INFO: check_session(): Retrieved chat_id from cookies -> None
+2025-03-31 09:12:47.912 INFO: user has not authenticated
+2025-03-31 09:12:47.913 INFO: App ends
+2025-03-31 09:12:53.702 INFO: App Starts
+2025-03-31 09:12:53.702 INFO: entered check session
+2025-03-31 09:12:53.703 INFO: check_session(): Retrieved chat_id from cookies -> None
+2025-03-31 09:12:53.704 INFO: user has not authenticated
+2025-03-31 09:12:54.581 INFO: App Starts
+2025-03-31 09:12:54.581 INFO: entered check session
+2025-03-31 09:12:54.582 INFO: check_session(): Retrieved chat_id from cookies -> None
+2025-03-31 09:12:54.582 INFO: user authenticated
+2025-03-31 09:12:54.582 INFO: entered initialise session state
+2025-03-31 09:12:54.582 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:12:54.591 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:12:54.593 INFO: entered app start
+2025-03-31 09:12:54.596 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:12:54.598 INFO: entered display_conversation history
+2025-03-31 09:12:54.599 INFO: App ends
+2025-03-31 09:12:54.711 INFO: App Starts
+2025-03-31 09:12:54.711 INFO: entered check session
+2025-03-31 09:12:54.711 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 09:12:54.712 INFO: user authenticated
+2025-03-31 09:12:54.712 INFO: entered initialise session state
+2025-03-31 09:12:54.712 INFO: entered app start
+2025-03-31 09:12:54.719 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:12:54.723 INFO: entered display_conversation history
+2025-03-31 09:12:54.723 INFO: App ends
+2025-03-31 09:12:54.890 INFO: App Starts
+2025-03-31 09:12:54.890 INFO: entered check session
+2025-03-31 09:12:54.890 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 09:12:54.891 INFO: user authenticated
+2025-03-31 09:12:54.891 INFO: entered initialise session state
+2025-03-31 09:12:54.891 INFO: entered app start
+2025-03-31 09:12:54.894 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:12:54.897 INFO: entered display_conversation history
+2025-03-31 09:12:54.897 INFO: App ends
+2025-03-31 09:13:00.579 INFO: App Starts
+2025-03-31 09:13:00.580 INFO: entered check session
+2025-03-31 09:13:00.581 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 09:13:00.582 INFO: user authenticated
+2025-03-31 09:13:00.582 INFO: entered initialise session state
+2025-03-31 09:13:00.582 INFO: entered app start
+2025-03-31 09:13:00.591 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:13:00.597 INFO: entered display_conversation history
+2025-03-31 09:13:00.598 INFO: Retriving docs from vector store
+2025-03-31 09:13:00.706 INFO: Done retriving relavent documents from vector store.
+2025-03-31 09:13:00.706 INFO: LLm deciding databases to search.
+2025-03-31 09:13:02.093 INFO: Completed deciding database.
+2025-03-31 09:13:02.094 INFO: Querying Sqlite database.
+2025-03-31 09:13:08.493 INFO: *****ended******
+2025-03-31 09:13:08.493 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:13:08.496 INFO: chat_id = 1
+2025-03-31 09:13:08.568 INFO: ['e0de13ad-bd72-4caa-a705-8c93e475a547']
+2025-03-31 09:13:08.568 INFO: Conversation added successfully.
+2025-03-31 09:13:08.568 INFO: App ends
+2025-03-31 09:13:10.012 INFO: App Starts
+2025-03-31 09:13:10.013 INFO: entered check session
+2025-03-31 09:13:10.014 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 09:13:10.014 INFO: user authenticated
+2025-03-31 09:13:10.014 INFO: entered initialise session state
+2025-03-31 09:13:10.014 INFO: entered app start
+2025-03-31 09:13:10.023 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:13:10.032 INFO: entered display_conversation history
+2025-03-31 09:13:10.034 INFO: Retriving docs from vector store
+2025-03-31 09:13:10.076 INFO: Done retriving relavent documents from vector store.
+2025-03-31 09:13:10.076 INFO: LLm deciding databases to search.
+2025-03-31 09:13:11.301 INFO: Completed deciding database.
+2025-03-31 09:13:11.301 INFO: Querying Sqlite database.
+2025-03-31 09:13:15.231 INFO: *****ended******
+2025-03-31 09:13:15.232 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:13:15.233 INFO: chat_id = 1
+2025-03-31 09:13:15.295 INFO: ['5c979309-75f8-4227-8c66-c92a9afd9e16']
+2025-03-31 09:13:15.295 INFO: Conversation added successfully.
+2025-03-31 09:13:15.295 INFO: App ends
+2025-03-31 09:13:17.501 INFO: App Starts
+2025-03-31 09:13:17.501 INFO: entered check session
+2025-03-31 09:13:17.503 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 09:13:17.503 INFO: user authenticated
+2025-03-31 09:13:17.503 INFO: entered initialise session state
+2025-03-31 09:13:17.503 INFO: entered app start
+2025-03-31 09:13:17.512 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:13:17.518 INFO: entered display_conversation history
+2025-03-31 09:13:17.522 INFO: Retriving docs from vector store
+2025-03-31 09:13:17.566 INFO: Done retriving relavent documents from vector store.
+2025-03-31 09:13:17.566 INFO: LLm deciding databases to search.
+2025-03-31 09:13:18.888 INFO: Completed deciding database.
+2025-03-31 09:13:18.888 INFO: Querying Sqlite database.
+2025-03-31 09:13:23.502 INFO: *****ended******
+2025-03-31 09:13:23.502 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:13:23.504 INFO: chat_id = 1
+2025-03-31 09:13:23.540 INFO: ['88ea2dc2-480a-4785-baf3-7b1236d617a2']
+2025-03-31 09:13:23.540 INFO: Conversation added successfully.
+2025-03-31 09:13:23.540 INFO: App ends
+2025-03-31 09:13:25.691 INFO: App Starts
+2025-03-31 09:13:25.692 INFO: entered check session
+2025-03-31 09:13:25.693 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 09:13:25.694 INFO: user authenticated
+2025-03-31 09:13:25.694 INFO: entered initialise session state
+2025-03-31 09:13:25.694 INFO: entered app start
+2025-03-31 09:13:25.702 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:13:25.709 INFO: entered display_conversation history
+2025-03-31 09:13:25.714 INFO: Retriving docs from vector store
+2025-03-31 09:13:25.756 INFO: Done retriving relavent documents from vector store.
+2025-03-31 09:13:25.756 INFO: LLm deciding databases to search.
+2025-03-31 09:13:27.080 INFO: Completed deciding database.
+2025-03-31 09:13:27.080 INFO: Querying Sqlite database.
+2025-03-31 09:13:29.631 INFO: *****ended******
+2025-03-31 09:13:29.631 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:13:29.634 INFO: chat_id = 1
+2025-03-31 09:13:29.673 INFO: ['122f5c4e-b15b-4207-b9f9-d152fcda876a']
+2025-03-31 09:13:29.673 INFO: Conversation added successfully.
+2025-03-31 09:13:29.673 INFO: App ends
+2025-03-31 09:13:38.228 INFO: App Starts
+2025-03-31 09:13:38.228 INFO: entered check session
+2025-03-31 09:13:38.229 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 09:13:38.229 INFO: user authenticated
+2025-03-31 09:13:38.230 INFO: entered initialise session state
+2025-03-31 09:13:38.230 INFO: entered app start
+2025-03-31 09:13:38.240 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:13:38.246 INFO: entered display_conversation history
+2025-03-31 09:13:38.252 INFO: Retriving docs from vector store
+2025-03-31 09:13:38.299 INFO: Done retriving relavent documents from vector store.
+2025-03-31 09:13:38.299 INFO: LLm deciding databases to search.
+2025-03-31 09:13:39.571 INFO: Completed deciding database.
+2025-03-31 09:13:39.572 INFO: Querying Sqlite database.
+2025-03-31 09:13:42.804 INFO: *****ended******
+2025-03-31 09:13:42.805 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:13:42.810 INFO: chat_id = 1
+2025-03-31 09:13:42.875 INFO: ['63f4f99d-cd01-4791-96cc-8eda5002b729']
+2025-03-31 09:13:42.875 INFO: Conversation added successfully.
+2025-03-31 09:13:42.875 INFO: App ends
+2025-03-31 09:13:49.463 INFO: App Starts
+2025-03-31 09:13:49.464 INFO: entered check session
+2025-03-31 09:13:49.465 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 09:13:49.465 INFO: user authenticated
+2025-03-31 09:13:49.465 INFO: entered initialise session state
+2025-03-31 09:13:49.466 INFO: entered app start
+2025-03-31 09:13:49.474 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:13:49.481 INFO: entered display_conversation history
+2025-03-31 09:13:49.488 INFO: Retriving docs from vector store
+2025-03-31 09:13:49.527 INFO: Done retriving relavent documents from vector store.
+2025-03-31 09:13:49.527 INFO: LLm deciding databases to search.
+2025-03-31 09:13:50.791 INFO: Completed deciding database.
+2025-03-31 09:13:50.792 INFO: Querying mongodb database.
+2025-03-31 09:13:53.133 INFO: Connected to mongodb
+2025-03-31 09:13:53.133 INFO: getting response from llm
+2025-03-31 09:13:54.848 INFO: mongodb returning answer
+2025-03-31 09:13:57.673 INFO: *****ended******
+2025-03-31 09:13:57.689 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:13:57.692 INFO: chat_id = 1
+2025-03-31 09:13:57.737 INFO: ['b50a7c71-006f-49f2-88d3-25a097eb2089']
+2025-03-31 09:13:57.737 INFO: Conversation added successfully.
+2025-03-31 09:13:57.737 INFO: App ends
+2025-03-31 09:14:02.799 INFO: App Starts
+2025-03-31 09:14:02.800 INFO: entered check session
+2025-03-31 09:14:02.801 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 09:14:02.801 INFO: user authenticated
+2025-03-31 09:14:02.801 INFO: entered initialise session state
+2025-03-31 09:14:02.801 INFO: entered app start
+2025-03-31 09:14:02.811 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:14:02.817 INFO: entered display_conversation history
+2025-03-31 09:14:02.827 INFO: Retriving docs from vector store
+2025-03-31 09:14:02.869 INFO: Done retriving relavent documents from vector store.
+2025-03-31 09:14:02.869 INFO: LLm deciding databases to search.
+2025-03-31 09:14:05.070 INFO: Completed deciding database.
+2025-03-31 09:14:05.070 INFO: Querying mongodb database.
+2025-03-31 09:14:06.825 INFO: Connected to mongodb
+2025-03-31 09:14:06.825 INFO: getting response from llm
+2025-03-31 09:14:08.404 INFO: mongodb returning answer
+2025-03-31 09:14:12.937 INFO: *****ended******
+2025-03-31 09:14:12.948 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:14:12.951 INFO: chat_id = 1
+2025-03-31 09:14:13.032 INFO: ['848c18c7-02f7-496f-9334-12fd32bb5155']
+2025-03-31 09:14:13.032 INFO: Conversation added successfully.
+2025-03-31 09:14:13.032 INFO: App ends
+2025-03-31 09:14:18.686 INFO: App Starts
+2025-03-31 09:14:18.687 INFO: entered check session
+2025-03-31 09:14:18.688 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 09:14:18.688 INFO: user authenticated
+2025-03-31 09:14:18.688 INFO: entered initialise session state
+2025-03-31 09:14:18.689 INFO: entered app start
+2025-03-31 09:14:18.699 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:14:18.707 INFO: entered display_conversation history
+2025-03-31 09:14:18.721 INFO: Retriving docs from vector store
+2025-03-31 09:14:18.761 INFO: Done retriving relavent documents from vector store.
+2025-03-31 09:14:18.762 INFO: LLm deciding databases to search.
+2025-03-31 09:14:20.122 INFO: Completed deciding database.
+2025-03-31 09:14:20.122 INFO: Querying mongodb database.
+2025-03-31 09:14:21.878 INFO: Connected to mongodb
+2025-03-31 09:14:21.878 INFO: getting response from llm
+2025-03-31 09:14:23.439 INFO: mongodb returning answer
+2025-03-31 09:14:27.139 INFO: *****ended******
+2025-03-31 09:14:27.151 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:14:27.154 INFO: chat_id = 1
+2025-03-31 09:14:27.205 INFO: ['2b3b39c6-5a61-4d76-bff7-13d58535a3ed']
+2025-03-31 09:14:27.205 INFO: Conversation added successfully.
+2025-03-31 09:14:27.205 INFO: App ends
+2025-03-31 09:14:35.425 INFO: App Starts
+2025-03-31 09:14:35.426 INFO: entered check session
+2025-03-31 09:14:35.427 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 09:14:35.427 INFO: user authenticated
+2025-03-31 09:14:35.427 INFO: entered initialise session state
+2025-03-31 09:14:35.427 INFO: entered app start
+2025-03-31 09:14:35.436 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:14:35.442 INFO: entered display_conversation history
+2025-03-31 09:14:35.459 INFO: Retriving docs from vector store
+2025-03-31 09:14:35.500 INFO: Done retriving relavent documents from vector store.
+2025-03-31 09:14:35.501 INFO: LLm deciding databases to search.
+2025-03-31 09:14:36.711 INFO: Completed deciding database.
+2025-03-31 09:14:40.720 INFO: *****ended******
+2025-03-31 09:14:40.721 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:14:40.728 INFO: chat_id = 1
+2025-03-31 09:14:40.816 INFO: ['196aa41d-c60f-43e6-b31a-1084a52a5310']
+2025-03-31 09:14:40.816 INFO: Conversation added successfully.
+2025-03-31 09:14:40.816 INFO: App ends
+2025-03-31 09:14:54.188 INFO: App Starts
+2025-03-31 09:14:54.189 INFO: entered check session
+2025-03-31 09:14:54.190 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 09:14:54.190 INFO: user authenticated
+2025-03-31 09:14:54.190 INFO: entered initialise session state
+2025-03-31 09:14:54.190 INFO: entered app start
+2025-03-31 09:14:54.199 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:14:54.206 INFO: entered display_conversation history
+2025-03-31 09:14:54.224 INFO: Retriving docs from vector store
+2025-03-31 09:14:54.267 INFO: Done retriving relavent documents from vector store.
+2025-03-31 09:14:54.267 INFO: LLm deciding databases to search.
+2025-03-31 09:14:55.757 INFO: Completed deciding database.
+2025-03-31 09:14:55.758 INFO: Querying Sqlite database.
+2025-03-31 09:14:56.991 INFO: Querying mongodb database.
+2025-03-31 09:14:59.339 INFO: Connected to mongodb
+2025-03-31 09:14:59.339 INFO: getting response from llm
+2025-03-31 09:15:00.775 INFO: mongodb returning answer
+2025-03-31 09:15:06.100 INFO: *****ended******
+2025-03-31 09:15:06.101 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:15:06.106 INFO: chat_id = 1
+2025-03-31 09:15:06.200 INFO: ['10aaa46f-2d9a-40f8-86c0-5b6d23602853']
+2025-03-31 09:15:06.200 INFO: Conversation added successfully.
+2025-03-31 09:15:06.200 INFO: App ends
+2025-03-31 09:15:28.881 INFO: App Starts
+2025-03-31 09:15:28.881 INFO: entered check session
+2025-03-31 09:15:28.882 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 09:15:28.883 INFO: user authenticated
+2025-03-31 09:15:28.883 INFO: entered initialise session state
+2025-03-31 09:15:28.883 INFO: entered app start
+2025-03-31 09:15:28.892 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:15:28.900 INFO: entered display_conversation history
+2025-03-31 09:15:28.917 INFO: Retriving docs from vector store
+2025-03-31 09:15:28.962 INFO: Done retriving relavent documents from vector store.
+2025-03-31 09:15:28.962 INFO: LLm deciding databases to search.
+2025-03-31 09:15:30.471 INFO: Completed deciding database.
+2025-03-31 09:15:30.471 INFO: Querying Sqlite database.
+2025-03-31 09:15:31.572 INFO: Querying mongodb database.
+2025-03-31 09:15:33.258 INFO: Connected to mongodb
+2025-03-31 09:15:33.258 INFO: getting response from llm
+2025-03-31 09:15:35.068 INFO: mongodb returning answer
+2025-03-31 09:15:40.098 INFO: *****ended******
+2025-03-31 09:15:40.104 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:15:40.107 INFO: chat_id = 1
+2025-03-31 09:15:40.184 INFO: ['784dae36-6e72-422d-b80c-f8359fca2608']
+2025-03-31 09:15:40.184 INFO: Conversation added successfully.
+2025-03-31 09:15:40.184 INFO: App ends
+2025-03-31 09:16:00.912 INFO: App Starts
+2025-03-31 09:16:00.913 INFO: entered check session
+2025-03-31 09:16:00.913 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 09:16:00.914 INFO: user authenticated
+2025-03-31 09:16:00.914 INFO: entered initialise session state
+2025-03-31 09:16:00.914 INFO: entered app start
+2025-03-31 09:16:00.921 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:16:00.927 INFO: entered display_conversation history
+2025-03-31 09:16:00.945 INFO: Retriving docs from vector store
+2025-03-31 09:16:00.982 INFO: Done retriving relavent documents from vector store.
+2025-03-31 09:16:00.983 INFO: LLm deciding databases to search.
+2025-03-31 09:16:02.522 INFO: Completed deciding database.
+2025-03-31 09:16:02.524 INFO: Querying Sqlite database.
+2025-03-31 09:16:03.653 INFO: Querying mongodb database.
+2025-03-31 09:16:05.990 INFO: Connected to mongodb
+2025-03-31 09:16:05.991 INFO: getting response from llm
+2025-03-31 09:16:07.537 INFO: mongodb returning answer
+2025-03-31 09:16:13.082 INFO: *****ended******
+2025-03-31 09:16:13.089 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:16:13.093 INFO: chat_id = 1
+2025-03-31 09:16:13.173 INFO: ['2dd668b4-4f50-48ca-97db-c5d0919c5b87']
+2025-03-31 09:16:13.173 INFO: Conversation added successfully.
+2025-03-31 09:16:13.173 INFO: App ends
+2025-03-31 09:16:22.704 INFO: App Starts
+2025-03-31 09:16:22.704 INFO: entered check session
+2025-03-31 09:16:22.705 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 09:16:22.706 INFO: user authenticated
+2025-03-31 09:16:22.706 INFO: entered initialise session state
+2025-03-31 09:16:22.706 INFO: entered app start
+2025-03-31 09:16:22.716 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:16:22.723 INFO: entered display_conversation history
+2025-03-31 09:16:22.744 INFO: Retriving docs from vector store
+2025-03-31 09:16:22.793 INFO: Done retriving relavent documents from vector store.
+2025-03-31 09:16:22.793 INFO: LLm deciding databases to search.
+2025-03-31 09:16:24.128 INFO: Completed deciding database.
+2025-03-31 09:16:24.129 INFO: Querying Sqlite database.
+2025-03-31 09:16:25.259 INFO: Querying mongodb database.
+2025-03-31 09:16:27.010 INFO: Connected to mongodb
+2025-03-31 09:16:27.011 INFO: getting response from llm
+2025-03-31 09:16:28.726 INFO: mongodb returning answer
+2025-03-31 09:16:33.530 INFO: *****ended******
+2025-03-31 09:16:33.532 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:16:33.533 INFO: chat_id = 1
+2025-03-31 09:16:33.579 INFO: ['82ed75e2-56fd-4983-ae1c-3b77cb46db02']
+2025-03-31 09:16:33.579 INFO: Conversation added successfully.
+2025-03-31 09:16:33.579 INFO: App ends
+2025-03-31 09:16:46.748 INFO: App Starts
+2025-03-31 09:16:46.749 INFO: entered check session
+2025-03-31 09:16:46.750 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 09:16:46.750 INFO: user authenticated
+2025-03-31 09:16:46.750 INFO: entered initialise session state
+2025-03-31 09:16:46.750 INFO: entered app start
+2025-03-31 09:16:46.758 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:16:46.765 INFO: entered display_conversation history
+2025-03-31 09:16:46.786 INFO: Retriving docs from vector store
+2025-03-31 09:16:46.829 INFO: Done retriving relavent documents from vector store.
+2025-03-31 09:16:46.830 INFO: LLm deciding databases to search.
+2025-03-31 09:16:48.397 INFO: Completed deciding database.
+2025-03-31 09:16:48.398 INFO: Querying Sqlite database.
+2025-03-31 09:16:49.732 INFO: Querying mongodb database.
+2025-03-31 09:16:51.484 INFO: Connected to mongodb
+2025-03-31 09:16:51.485 INFO: getting response from llm
+2025-03-31 09:16:53.199 INFO: mongodb returning answer
+2025-03-31 09:16:58.272 INFO: *****ended******
+2025-03-31 09:16:58.274 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:16:58.275 INFO: chat_id = 1
+2025-03-31 09:16:58.341 INFO: ['4b8edc6b-c98b-4c9b-8beb-7f353a33e13e']
+2025-03-31 09:16:58.342 INFO: Conversation added successfully.
+2025-03-31 09:16:58.342 INFO: App ends
+2025-03-31 09:17:33.446 INFO: App Starts
+2025-03-31 09:17:33.446 INFO: entered check session
+2025-03-31 09:17:33.447 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 09:17:33.447 INFO: user authenticated
+2025-03-31 09:17:33.447 INFO: entered initialise session state
+2025-03-31 09:17:33.447 INFO: entered app start
+2025-03-31 09:17:33.457 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:17:33.464 INFO: entered display_conversation history
+2025-03-31 09:17:33.489 INFO: Retriving docs from vector store
+2025-03-31 09:17:33.527 INFO: Done retriving relavent documents from vector store.
+2025-03-31 09:17:33.527 INFO: LLm deciding databases to search.
+2025-03-31 09:17:35.076 INFO: Completed deciding database.
+2025-03-31 09:17:35.076 INFO: Querying Sqlite database.
+2025-03-31 09:17:36.172 INFO: Querying mongodb database.
+2025-03-31 09:17:38.494 INFO: Connected to mongodb
+2025-03-31 09:17:38.496 INFO: getting response from llm
+2025-03-31 09:17:39.981 INFO: mongodb returning answer
+2025-03-31 09:17:45.828 INFO: *****ended******
+2025-03-31 09:17:45.835 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:17:45.839 INFO: chat_id = 1
+2025-03-31 09:17:45.901 INFO: ['a2f2ebe7-3a1a-453e-80fa-fc1e5d25c609']
+2025-03-31 09:17:45.901 INFO: Conversation added successfully.
+2025-03-31 09:17:45.902 INFO: App ends
+2025-03-31 09:18:18.348 INFO: App Starts
+2025-03-31 09:18:18.349 INFO: entered check session
+2025-03-31 09:18:18.350 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 09:18:18.350 INFO: user authenticated
+2025-03-31 09:18:18.350 INFO: entered initialise session state
+2025-03-31 09:18:18.351 INFO: entered app start
+2025-03-31 09:18:18.360 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:18:18.368 INFO: entered display_conversation history
+2025-03-31 09:18:18.393 INFO: Retriving docs from vector store
+2025-03-31 09:18:18.449 INFO: Done retriving relavent documents from vector store.
+2025-03-31 09:18:18.449 INFO: LLm deciding databases to search.
+2025-03-31 09:18:20.011 INFO: Completed deciding database.
+2025-03-31 09:18:20.012 INFO: Querying Sqlite database.
+2025-03-31 09:18:21.159 INFO: Querying mongodb database.
+2025-03-31 09:18:22.896 INFO: Connected to mongodb
+2025-03-31 09:18:22.896 INFO: getting response from llm
+2025-03-31 09:18:24.838 INFO: mongodb returning answer
+2025-03-31 09:18:32.338 INFO: *****ended******
+2025-03-31 09:18:32.338 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:18:32.343 INFO: chat_id = 1
+2025-03-31 09:18:32.426 INFO: ['85a0bf3a-5898-41d5-8f75-3ddf6c27d1fc']
+2025-03-31 09:18:32.426 INFO: Conversation added successfully.
+2025-03-31 09:18:32.426 INFO: App ends
+2025-03-31 09:19:09.970 INFO: App Starts
+2025-03-31 09:19:09.970 INFO: entered check session
+2025-03-31 09:19:09.971 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 09:19:09.972 INFO: user authenticated
+2025-03-31 09:19:09.972 INFO: entered initialise session state
+2025-03-31 09:19:09.972 INFO: entered app start
+2025-03-31 09:19:09.981 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:19:09.988 INFO: entered display_conversation history
+2025-03-31 09:19:10.013 INFO: Retriving docs from vector store
+2025-03-31 09:19:10.052 INFO: Done retriving relavent documents from vector store.
+2025-03-31 09:19:10.053 INFO: LLm deciding databases to search.
+2025-03-31 09:19:11.446 INFO: Completed deciding database.
+2025-03-31 09:19:11.446 INFO: Querying Sqlite database.
+2025-03-31 09:19:12.545 INFO: Querying mongodb database.
+2025-03-31 09:19:14.892 INFO: Connected to mongodb
+2025-03-31 09:19:14.894 INFO: getting response from llm
+2025-03-31 09:19:16.400 INFO: mongodb returning answer
+2025-03-31 09:19:20.350 INFO: *****ended******
+2025-03-31 09:19:20.351 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:19:20.355 INFO: chat_id = 1
+2025-03-31 09:19:20.439 INFO: ['ddf65086-8419-4e96-ac0d-04d4fa7fea40']
+2025-03-31 09:19:20.439 INFO: Conversation added successfully.
+2025-03-31 09:19:20.439 INFO: App ends
+2025-03-31 09:19:32.350 INFO: App Starts
+2025-03-31 09:19:32.350 INFO: entered check session
+2025-03-31 09:19:32.351 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 09:19:32.351 INFO: user authenticated
+2025-03-31 09:19:32.352 INFO: entered initialise session state
+2025-03-31 09:19:32.352 INFO: entered app start
+2025-03-31 09:19:32.361 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:19:32.371 INFO: entered display_conversation history
+2025-03-31 09:19:32.401 INFO: Retriving docs from vector store
+2025-03-31 09:19:32.438 INFO: Done retriving relavent documents from vector store.
+2025-03-31 09:19:32.438 INFO: LLm deciding databases to search.
+2025-03-31 09:19:33.933 INFO: Completed deciding database.
+2025-03-31 09:19:33.933 INFO: Querying Sqlite database.
+2025-03-31 09:19:35.171 INFO: Querying mongodb database.
+2025-03-31 09:19:36.871 INFO: Connected to mongodb
+2025-03-31 09:19:36.872 INFO: getting response from llm
+2025-03-31 09:19:38.437 INFO: mongodb returning answer
+2025-03-31 09:19:45.820 INFO: *****ended******
+2025-03-31 09:19:45.821 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:19:45.825 INFO: chat_id = 1
+2025-03-31 09:19:45.905 INFO: ['0410c341-5f9c-4f7a-b9d8-85e8de0f1359']
+2025-03-31 09:19:45.905 INFO: Conversation added successfully.
+2025-03-31 09:19:45.906 INFO: App ends
+2025-03-31 09:19:53.485 INFO: App Starts
+2025-03-31 09:19:53.485 INFO: entered check session
+2025-03-31 09:19:53.486 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 09:19:53.486 INFO: user authenticated
+2025-03-31 09:19:53.486 INFO: entered initialise session state
+2025-03-31 09:19:53.486 INFO: entered app start
+2025-03-31 09:19:53.494 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:19:53.500 INFO: entered display_conversation history
+2025-03-31 09:19:53.526 INFO: Retriving docs from vector store
+2025-03-31 09:19:53.566 INFO: Done retriving relavent documents from vector store.
+2025-03-31 09:19:53.566 INFO: LLm deciding databases to search.
+2025-03-31 09:19:54.729 INFO: Completed deciding database.
+2025-03-31 09:19:58.930 INFO: *****ended******
+2025-03-31 09:19:58.930 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:19:58.932 INFO: chat_id = 1
+2025-03-31 09:19:58.977 INFO: ['b97bf277-ed1c-4d22-86d9-eca518bee12d']
+2025-03-31 09:19:58.977 INFO: Conversation added successfully.
+2025-03-31 09:19:58.977 INFO: App ends
+2025-03-31 09:20:00.342 INFO: App Starts
+2025-03-31 09:20:00.343 INFO: entered check session
+2025-03-31 09:20:00.344 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 09:20:00.344 INFO: user authenticated
+2025-03-31 09:20:00.344 INFO: entered initialise session state
+2025-03-31 09:20:00.344 INFO: entered app start
+2025-03-31 09:20:00.354 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:20:00.363 INFO: entered display_conversation history
+2025-03-31 09:20:00.388 INFO: Retriving docs from vector store
+2025-03-31 09:20:00.425 INFO: Done retriving relavent documents from vector store.
+2025-03-31 09:20:00.425 INFO: LLm deciding databases to search.
+2025-03-31 09:20:01.562 INFO: Completed deciding database.
+2025-03-31 09:20:06.036 INFO: *****ended******
+2025-03-31 09:20:06.036 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:20:06.040 INFO: chat_id = 1
+2025-03-31 09:20:06.120 INFO: ['c2b5d5a7-07f0-4082-a9dc-d60dba111da2']
+2025-03-31 09:20:06.120 INFO: Conversation added successfully.
+2025-03-31 09:20:06.120 INFO: App ends
+2025-03-31 09:24:13.569 INFO: App Starts
+2025-03-31 09:24:13.570 INFO: entered check session
+2025-03-31 09:24:13.571 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 09:24:13.572 INFO: user authenticated
+2025-03-31 09:24:13.572 INFO: entered initialise session state
+2025-03-31 09:24:13.572 INFO: entered app start
+2025-03-31 09:24:13.576 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:24:13.587 INFO: entered display_conversation history
+2025-03-31 09:24:13.629 INFO: Retriving docs from vector store
+2025-03-31 09:24:13.844 INFO: Done retriving relavent documents from vector store.
+2025-03-31 09:24:13.844 INFO: LLm deciding databases to search.
+2025-03-31 09:24:18.011 INFO: Completed deciding database.
+2025-03-31 09:24:18.012 INFO: Querying Sqlite database.
+2025-03-31 09:24:19.824 INFO: Querying mongodb database.
+2025-03-31 09:24:22.147 INFO: Connected to mongodb
+2025-03-31 09:24:22.147 INFO: getting response from llm
+2025-03-31 09:24:24.653 INFO: mongodb returning answer
+2025-03-31 09:24:34.191 INFO: *****ended******
+2025-03-31 09:24:34.192 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:24:34.196 INFO: chat_id = 1
+2025-03-31 09:24:34.282 INFO: ['c9e61821-5d5f-45a1-b263-342efda3fbae']
+2025-03-31 09:24:34.282 INFO: Conversation added successfully.
+2025-03-31 09:24:34.282 INFO: App ends
+2025-03-31 09:24:35.774 INFO: App Starts
+2025-03-31 09:24:35.775 INFO: entered check session
+2025-03-31 09:24:35.776 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 09:24:35.776 INFO: user authenticated
+2025-03-31 09:24:35.776 INFO: entered initialise session state
+2025-03-31 09:24:35.776 INFO: entered app start
+2025-03-31 09:24:35.787 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:24:35.791 INFO: entered display_conversation history
+2025-03-31 09:24:35.811 INFO: Retriving docs from vector store
+2025-03-31 09:24:35.850 INFO: Done retriving relavent documents from vector store.
+2025-03-31 09:24:35.850 INFO: LLm deciding databases to search.
+2025-03-31 09:24:37.502 INFO: Completed deciding database.
+2025-03-31 09:24:42.548 INFO: *****ended******
+2025-03-31 09:24:42.548 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:24:42.554 INFO: chat_id = 1
+2025-03-31 09:24:42.630 INFO: ['53c39974-c7e3-4cde-a6b7-4c4cde97e8b2']
+2025-03-31 09:24:42.630 INFO: Conversation added successfully.
+2025-03-31 09:24:42.631 INFO: App ends
+2025-03-31 09:25:36.372 INFO: App Starts
+2025-03-31 09:25:36.373 INFO: entered check session
+2025-03-31 09:25:36.374 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 09:25:36.374 INFO: user authenticated
+2025-03-31 09:25:36.374 INFO: entered initialise session state
+2025-03-31 09:25:36.375 INFO: entered app start
+2025-03-31 09:25:36.385 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:25:36.394 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:25:36.531 INFO: App Starts
+2025-03-31 09:25:36.532 INFO: entered check session
+2025-03-31 09:25:36.532 INFO: check_session(): Retrieved chat_id from cookies -> 2
+2025-03-31 09:25:36.532 INFO: user authenticated
+2025-03-31 09:25:36.532 INFO: entered initialise session state
+2025-03-31 09:25:36.532 INFO: entered app start
+2025-03-31 09:25:36.535 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:25:36.539 INFO: entered display_conversation history
+2025-03-31 09:25:36.539 INFO: App ends
+2025-03-31 09:25:36.732 INFO: App Starts
+2025-03-31 09:25:36.732 INFO: entered check session
+2025-03-31 09:25:36.733 INFO: check_session(): Retrieved chat_id from cookies -> 2
+2025-03-31 09:25:36.733 INFO: user authenticated
+2025-03-31 09:25:36.733 INFO: entered initialise session state
+2025-03-31 09:25:36.733 INFO: entered app start
+2025-03-31 09:25:36.737 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:25:36.740 INFO: entered display_conversation history
+2025-03-31 09:25:36.741 INFO: App ends
+2025-03-31 09:25:39.239 INFO: App Starts
+2025-03-31 09:25:39.239 INFO: entered check session
+2025-03-31 09:25:39.241 INFO: check_session(): Retrieved chat_id from cookies -> 2
+2025-03-31 09:25:39.241 INFO: user authenticated
+2025-03-31 09:25:39.241 INFO: entered initialise session state
+2025-03-31 09:25:39.242 INFO: entered app start
+2025-03-31 09:25:39.251 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:25:39.259 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:25:39.264 INFO: Selected chat_id: 1
+2025-03-31 09:25:39.377 INFO: App Starts
+2025-03-31 09:25:39.377 INFO: entered check session
+2025-03-31 09:25:39.377 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 09:25:39.377 INFO: user authenticated
+2025-03-31 09:25:39.377 INFO: entered initialise session state
+2025-03-31 09:25:39.378 INFO: entered app start
+2025-03-31 09:25:39.381 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:25:39.384 INFO: entered display_conversation history
+2025-03-31 09:25:39.451 INFO: App Starts
+2025-03-31 09:25:39.452 INFO: entered check session
+2025-03-31 09:25:39.452 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 09:25:39.452 INFO: user authenticated
+2025-03-31 09:25:39.453 INFO: entered initialise session state
+2025-03-31 09:25:39.453 INFO: entered app start
+2025-03-31 09:25:39.458 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:25:39.466 INFO: entered display_conversation history
+2025-03-31 09:25:40.901 INFO: App ends
+2025-03-31 09:25:55.136 INFO: App Starts
+2025-03-31 09:25:55.136 INFO: entered check session
+2025-03-31 09:25:55.137 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 09:25:55.138 INFO: user authenticated
+2025-03-31 09:25:55.138 INFO: entered initialise session state
+2025-03-31 09:25:55.138 INFO: entered app start
+2025-03-31 09:25:55.147 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:25:55.157 INFO: entered display_conversation history
+2025-03-31 09:25:56.509 INFO: Retriving docs from vector store
+2025-03-31 09:25:56.638 INFO: Done retriving relavent documents from vector store.
+2025-03-31 09:25:56.638 INFO: LLm deciding databases to search.
+2025-03-31 09:25:58.674 INFO: Completed deciding database.
+2025-03-31 09:25:58.674 INFO: Querying Sqlite database.
+2025-03-31 09:25:59.835 INFO: Querying mongodb database.
+2025-03-31 09:26:02.152 INFO: Connected to mongodb
+2025-03-31 09:26:02.152 INFO: getting response from llm
+2025-03-31 09:26:03.953 INFO: mongodb returning answer
+2025-03-31 09:26:09.470 INFO: *****ended******
+2025-03-31 09:26:09.475 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:26:09.478 INFO: chat_id = 1
+2025-03-31 09:26:09.524 INFO: ['fbd8f0c1-eae0-48ab-9947-c6ecc169ef5d']
+2025-03-31 09:26:09.524 INFO: Conversation added successfully.
+2025-03-31 09:26:09.524 INFO: App ends
+2025-03-31 09:26:15.764 INFO: App Starts
+2025-03-31 09:26:15.764 INFO: entered check session
+2025-03-31 09:26:15.765 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 09:26:15.766 INFO: user authenticated
+2025-03-31 09:26:15.766 INFO: entered initialise session state
+2025-03-31 09:26:15.766 INFO: entered app start
+2025-03-31 09:26:15.775 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:26:15.784 INFO: entered display_conversation history
+2025-03-31 09:26:17.162 INFO: Retriving docs from vector store
+2025-03-31 09:26:17.200 INFO: Done retriving relavent documents from vector store.
+2025-03-31 09:26:17.200 INFO: LLm deciding databases to search.
+2025-03-31 09:26:19.284 INFO: Completed deciding database.
+2025-03-31 09:26:19.285 INFO: Querying Sqlite database.
+2025-03-31 09:26:20.469 INFO: Querying mongodb database.
+2025-03-31 09:26:22.216 INFO: Connected to mongodb
+2025-03-31 09:26:22.216 INFO: getting response from llm
+2025-03-31 09:26:24.134 INFO: mongodb returning answer
+2025-03-31 09:26:33.588 INFO: *****ended******
+2025-03-31 09:26:33.589 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:26:33.593 INFO: chat_id = 1
+2025-03-31 09:26:33.682 INFO: ['49ee2f4d-f4ac-40e4-b35b-b0936cc9f8a1']
+2025-03-31 09:26:33.682 INFO: Conversation added successfully.
+2025-03-31 09:26:33.682 INFO: App ends
+2025-03-31 09:27:07.535 INFO: App Starts
+2025-03-31 09:27:07.536 INFO: entered check session
+2025-03-31 09:27:07.537 INFO: check_session(): Retrieved chat_id from cookies -> 1
+2025-03-31 09:27:07.537 INFO: user authenticated
+2025-03-31 09:27:07.537 INFO: entered initialise session state
+2025-03-31 09:27:07.538 INFO: entered app start
+2025-03-31 09:27:07.546 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:27:07.552 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:27:07.689 INFO: App Starts
+2025-03-31 09:27:07.689 INFO: entered check session
+2025-03-31 09:27:07.689 INFO: check_session(): Retrieved chat_id from cookies -> 2
+2025-03-31 09:27:07.689 INFO: user authenticated
+2025-03-31 09:27:07.689 INFO: entered initialise session state
+2025-03-31 09:27:07.689 INFO: entered app start
+2025-03-31 09:27:07.693 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:27:07.696 INFO: entered display_conversation history
+2025-03-31 09:27:07.696 INFO: App ends
+2025-03-31 09:27:07.891 INFO: App Starts
+2025-03-31 09:27:07.891 INFO: entered check session
+2025-03-31 09:27:07.892 INFO: check_session(): Retrieved chat_id from cookies -> 2
+2025-03-31 09:27:07.892 INFO: user authenticated
+2025-03-31 09:27:07.893 INFO: entered initialise session state
+2025-03-31 09:27:07.893 INFO: entered app start
+2025-03-31 09:27:07.897 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:27:07.901 INFO: entered display_conversation history
+2025-03-31 09:27:07.901 INFO: App ends
+2025-03-31 09:30:51.336 INFO: App Starts
+2025-03-31 09:30:51.580 INFO: App Starts
+2025-03-31 09:30:51.580 INFO: entered check session
+2025-03-31 09:30:51.581 INFO: check_session(): Retrieved chat_id from cookies -> 2
+2025-03-31 09:30:51.581 INFO: user authenticated
+2025-03-31 09:30:51.581 INFO: entered initialise session state
+2025-03-31 09:30:51.581 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:30:51.587 INFO: entered app start
+2025-03-31 09:30:51.591 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:30:51.595 INFO: entered display_conversation history
+2025-03-31 09:30:51.595 INFO: App ends
+2025-03-31 09:30:51.760 INFO: App Starts
+2025-03-31 09:30:51.760 INFO: entered check session
+2025-03-31 09:30:51.760 INFO: check_session(): Retrieved chat_id from cookies -> 2
+2025-03-31 09:30:51.760 INFO: user authenticated
+2025-03-31 09:30:51.761 INFO: entered initialise session state
+2025-03-31 09:30:51.761 INFO: entered app start
+2025-03-31 09:30:51.764 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:30:51.771 INFO: entered display_conversation history
+2025-03-31 09:30:51.772 INFO: App ends
+2025-03-31 09:36:05.813 INFO: App Starts
+2025-03-31 09:36:06.057 INFO: App Starts
+2025-03-31 09:36:06.058 INFO: entered check session
+2025-03-31 09:36:06.058 INFO: check_session(): Retrieved chat_id from cookies -> 2
+2025-03-31 09:36:06.059 INFO: user authenticated
+2025-03-31 09:36:06.059 INFO: entered initialise session state
+2025-03-31 09:36:06.059 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:36:06.064 INFO: entered app start
+2025-03-31 09:36:06.068 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:36:06.072 INFO: entered display_conversation history
+2025-03-31 09:36:06.072 INFO: App ends
+2025-03-31 09:36:06.234 INFO: App Starts
+2025-03-31 09:36:06.234 INFO: entered check session
+2025-03-31 09:36:06.235 INFO: check_session(): Retrieved chat_id from cookies -> 2
+2025-03-31 09:36:06.235 INFO: user authenticated
+2025-03-31 09:36:06.235 INFO: entered initialise session state
+2025-03-31 09:36:06.235 INFO: entered app start
+2025-03-31 09:36:06.238 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:36:06.245 INFO: entered display_conversation history
+2025-03-31 09:36:06.246 INFO: App ends
+2025-03-31 09:36:50.921 INFO: App Starts
+2025-03-31 09:36:51.129 INFO: App Starts
+2025-03-31 09:36:51.129 INFO: entered check session
+2025-03-31 09:36:51.130 INFO: check_session(): Retrieved chat_id from cookies -> 2
+2025-03-31 09:36:51.130 INFO: user authenticated
+2025-03-31 09:36:51.130 INFO: entered initialise session state
+2025-03-31 09:36:51.131 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:36:51.135 INFO: entered app start
+2025-03-31 09:36:51.139 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:36:51.143 INFO: entered display_conversation history
+2025-03-31 09:36:51.143 INFO: App ends
+2025-03-31 09:36:51.303 INFO: App Starts
+2025-03-31 09:36:51.303 INFO: entered check session
+2025-03-31 09:36:51.304 INFO: check_session(): Retrieved chat_id from cookies -> 2
+2025-03-31 09:36:51.304 INFO: user authenticated
+2025-03-31 09:36:51.304 INFO: entered initialise session state
+2025-03-31 09:36:51.304 INFO: entered app start
+2025-03-31 09:36:51.307 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:36:51.313 INFO: entered display_conversation history
+2025-03-31 09:36:51.314 INFO: App ends
+2025-03-31 09:45:22.622 INFO: App Starts
+2025-03-31 09:45:22.623 INFO: entered check session
+2025-03-31 09:45:22.625 INFO: check_session(): Retrieved chat_id from cookies -> 2
+2025-03-31 09:45:22.626 INFO: user authenticated
+2025-03-31 09:45:22.626 INFO: entered initialise session state
+2025-03-31 09:45:22.626 INFO: entered app start
+2025-03-31 09:45:22.634 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:45:22.657 INFO: entered display_conversation history
+2025-03-31 09:45:22.658 INFO: Retriving docs from vector store
+2025-03-31 09:45:22.853 INFO: Done retriving relavent documents from vector store.
+2025-03-31 09:45:22.853 INFO: LLm deciding databases to search.
+2025-03-31 09:45:26.799 INFO: Completed deciding database.
+2025-03-31 09:45:26.800 INFO: Querying Sqlite database.
+2025-03-31 09:45:33.313 INFO: *****ended******
+2025-03-31 09:45:33.314 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:45:33.316 INFO: chat_id = 2
+2025-03-31 09:45:33.383 INFO: ['79a6682e-c077-45f4-a36c-6d58f3497bf1']
+2025-03-31 09:45:33.383 INFO: Conversation added successfully.
+2025-03-31 09:45:33.384 INFO: App ends
+2025-03-31 09:45:50.699 INFO: App Starts
+2025-03-31 09:45:50.700 INFO: entered check session
+2025-03-31 09:45:50.700 INFO: check_session(): Retrieved chat_id from cookies -> 2
+2025-03-31 09:45:50.701 INFO: user authenticated
+2025-03-31 09:45:50.701 INFO: entered initialise session state
+2025-03-31 09:45:50.701 INFO: entered app start
+2025-03-31 09:45:50.710 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:45:50.716 INFO: entered display_conversation history
+2025-03-31 09:45:50.718 INFO: Retriving docs from vector store
+2025-03-31 09:45:50.776 INFO: Done retriving relavent documents from vector store.
+2025-03-31 09:45:50.776 INFO: LLm deciding databases to search.
+2025-03-31 09:45:52.256 INFO: Completed deciding database.
+2025-03-31 09:45:52.256 INFO: Querying Sqlite database.
+2025-03-31 09:45:56.204 INFO: *****ended******
+2025-03-31 09:45:56.204 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:45:56.206 INFO: chat_id = 2
+2025-03-31 09:45:56.282 INFO: ['2d19ba7b-3807-4a82-a09f-7638096f359c']
+2025-03-31 09:45:56.282 INFO: Conversation added successfully.
+2025-03-31 09:45:56.282 INFO: App ends
+2025-03-31 09:46:12.731 INFO: App Starts
+2025-03-31 09:46:12.732 INFO: entered check session
+2025-03-31 09:46:12.733 INFO: check_session(): Retrieved chat_id from cookies -> 2
+2025-03-31 09:46:12.733 INFO: user authenticated
+2025-03-31 09:46:12.733 INFO: entered initialise session state
+2025-03-31 09:46:12.733 INFO: entered app start
+2025-03-31 09:46:12.742 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:46:12.748 INFO: entered display_conversation history
+2025-03-31 09:46:12.750 INFO: Retriving docs from vector store
+2025-03-31 09:46:12.795 INFO: Done retriving relavent documents from vector store.
+2025-03-31 09:46:12.795 INFO: LLm deciding databases to search.
+2025-03-31 09:46:14.257 INFO: Completed deciding database.
+2025-03-31 09:46:14.257 INFO: Querying Sqlite database.
+2025-03-31 09:46:18.067 INFO: *****ended******
+2025-03-31 09:46:18.067 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:46:18.068 INFO: chat_id = 2
+2025-03-31 09:46:18.142 INFO: ['1dffa0c1-018a-4f6b-a298-9932e3ef9379']
+2025-03-31 09:46:18.142 INFO: Conversation added successfully.
+2025-03-31 09:46:18.142 INFO: App ends
+2025-03-31 09:46:34.093 INFO: App Starts
+2025-03-31 09:46:34.094 INFO: entered check session
+2025-03-31 09:46:34.095 INFO: check_session(): Retrieved chat_id from cookies -> 2
+2025-03-31 09:46:34.095 INFO: user authenticated
+2025-03-31 09:46:34.095 INFO: entered initialise session state
+2025-03-31 09:46:34.095 INFO: entered app start
+2025-03-31 09:46:34.107 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:46:34.113 INFO: entered display_conversation history
+2025-03-31 09:46:34.116 INFO: Retriving docs from vector store
+2025-03-31 09:46:34.157 INFO: Done retriving relavent documents from vector store.
+2025-03-31 09:46:34.157 INFO: LLm deciding databases to search.
+2025-03-31 09:46:35.590 INFO: Completed deciding database.
+2025-03-31 09:46:35.590 INFO: Querying Sqlite database.
+2025-03-31 09:46:38.331 INFO: *****ended******
+2025-03-31 09:46:38.332 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:46:38.336 INFO: chat_id = 2
+2025-03-31 09:46:38.374 INFO: ['d14f30a5-3638-4b4a-95cf-322e9b8ab9c3']
+2025-03-31 09:46:38.374 INFO: Conversation added successfully.
+2025-03-31 09:46:38.374 INFO: App ends
+2025-03-31 09:46:58.884 INFO: App Starts
+2025-03-31 09:46:58.884 INFO: entered check session
+2025-03-31 09:46:58.885 INFO: check_session(): Retrieved chat_id from cookies -> 2
+2025-03-31 09:46:58.886 INFO: user authenticated
+2025-03-31 09:46:58.886 INFO: entered initialise session state
+2025-03-31 09:46:58.886 INFO: entered app start
+2025-03-31 09:46:58.895 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:46:58.900 INFO: entered display_conversation history
+2025-03-31 09:46:58.905 INFO: Retriving docs from vector store
+2025-03-31 09:46:58.947 INFO: Done retriving relavent documents from vector store.
+2025-03-31 09:46:58.947 INFO: LLm deciding databases to search.
+2025-03-31 09:47:00.226 INFO: Completed deciding database.
+2025-03-31 09:47:00.227 INFO: Querying mongodb database.
+2025-03-31 09:47:02.560 INFO: Connected to mongodb
+2025-03-31 09:47:02.561 INFO: getting response from llm
+2025-03-31 09:47:04.224 INFO: mongodb returning answer
+2025-03-31 09:47:06.883 INFO: *****ended******
+2025-03-31 09:47:06.893 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:47:06.895 INFO: chat_id = 2
+2025-03-31 09:47:06.982 INFO: ['f6002088-978c-4e02-b230-cb03954cffb9']
+2025-03-31 09:47:06.982 INFO: Conversation added successfully.
+2025-03-31 09:47:06.982 INFO: App ends
+2025-03-31 09:53:04.733 INFO: App Starts
+2025-03-31 09:53:04.733 INFO: entered check session
+2025-03-31 09:53:04.734 INFO: check_session(): Retrieved chat_id from cookies -> 2
+2025-03-31 09:53:04.734 INFO: user authenticated
+2025-03-31 09:53:04.734 INFO: entered initialise session state
+2025-03-31 09:53:04.734 INFO: entered app start
+2025-03-31 09:53:04.743 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:53:04.751 INFO: entered display_conversation history
+2025-03-31 09:53:04.759 INFO: Retriving docs from vector store
+2025-03-31 09:53:04.885 INFO: Done retriving relavent documents from vector store.
+2025-03-31 09:53:04.885 INFO: LLm deciding databases to search.
+2025-03-31 09:53:07.775 INFO: Completed deciding database.
+2025-03-31 09:53:07.775 INFO: Querying Sqlite database.
+2025-03-31 09:53:08.972 INFO: Querying mongodb database.
+2025-03-31 09:53:11.309 INFO: Connected to mongodb
+2025-03-31 09:53:11.310 INFO: getting response from llm
+2025-03-31 09:53:12.971 INFO: mongodb returning answer
+2025-03-31 09:53:20.443 INFO: *****ended******
+2025-03-31 09:53:20.444 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:53:20.448 INFO: chat_id = 2
+2025-03-31 09:53:20.526 INFO: ['37a7ff47-88e5-499d-af0b-c02d1f3a3766']
+2025-03-31 09:53:20.526 INFO: Conversation added successfully.
+2025-03-31 09:53:20.526 INFO: App ends
+2025-03-31 09:53:40.091 INFO: App Starts
+2025-03-31 09:53:40.091 INFO: entered check session
+2025-03-31 09:53:40.092 INFO: check_session(): Retrieved chat_id from cookies -> 2
+2025-03-31 09:53:40.093 INFO: user authenticated
+2025-03-31 09:53:40.093 INFO: entered initialise session state
+2025-03-31 09:53:40.093 INFO: entered app start
+2025-03-31 09:53:40.100 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:53:40.106 INFO: entered display_conversation history
+2025-03-31 09:53:40.112 INFO: Retriving docs from vector store
+2025-03-31 09:53:40.159 INFO: Done retriving relavent documents from vector store.
+2025-03-31 09:53:40.159 INFO: LLm deciding databases to search.
+2025-03-31 09:53:41.739 INFO: Completed deciding database.
+2025-03-31 09:53:41.739 INFO: Querying Sqlite database.
+2025-03-31 09:53:42.917 INFO: Querying mongodb database.
+2025-03-31 09:53:44.631 INFO: Connected to mongodb
+2025-03-31 09:53:44.631 INFO: getting response from llm
+2025-03-31 09:53:46.153 INFO: mongodb returning answer
+2025-03-31 09:53:51.117 INFO: *****ended******
+2025-03-31 09:53:51.120 INFO: Using ChromaDB collection: user_appstek
+2025-03-31 09:53:51.121 INFO: chat_id = 2
+2025-03-31 09:53:51.164 INFO: ['22a8e12d-9fc6-41a9-a064-df166e6f0dcc']
+2025-03-31 09:53:51.164 INFO: Conversation added successfully.
+2025-03-31 09:53:51.164 INFO: App ends

@@ -316,7 +316,7 @@ def is_strong_password(password):
     
     return None 
 
-def add_user(username, password):
+def add_user(username, password,cookies):
 
     error_msg = is_strong_password(password)
     if error_msg:
@@ -332,7 +332,7 @@ def add_user(username, password):
         conn.commit()
         st.success("Account created successfully!.")
         st.session_state["show_signup"] = False 
-        login_user(username)
+        login_user(username,cookies)
 
     except sqlite3.IntegrityError:
         st.error("Username already exists. Try another.")
@@ -361,7 +361,7 @@ def delete_user(username):
 
     print(f"User '{username}' deleted successfully.")
 
-def delete_account():
+def delete_account(cookies):
     username = st.session_state["username"]
     
     status_placeholder = st.empty()  
@@ -392,7 +392,7 @@ def delete_account():
 
     time.sleep(1)
     
-    logout()
+    logout(cookies)
 
 def login_user(username,cookies):
     cookies["username"] = username
@@ -529,7 +529,7 @@ def app_start(LOGO_URL,cookies):
 
         with col2:
             if st.button("Confirm Deletion", type="primary"):
-                delete_account()
+                delete_account(cookies)
     
     # st.sidebar.write("### Current Session Data:")
     # st.sidebar.write(st.session_state)
@@ -694,7 +694,7 @@ def login_form(LOGO_URL,cookies):
 
                 if create_button:
                     if new_username and new_password:
-                        add_user(new_username, new_password)
+                        add_user(new_username, new_password,cookies)
                     else:
                         st.error(" Username and password cannot be empty.")
 
@@ -715,7 +715,7 @@ def backend_func():
             logging.info("Done retriving relavent documents from vector store.")
             logging.info('LLm deciding databases to search.') 
             db_decision = get_llm_response(db_decision_prompt,user_input)
-            
+            # print(f"db_decision : {db_decision}")
             logging.info("Completed deciding database.")
             
             
@@ -746,8 +746,11 @@ def backend_func():
                 if sqlitedb_arr:  
                     sqlitedb_df = merge_arr(sqlitedb_arr)
 
-                
-                logging.info("getting final summarized response from llm")
+                # print(f"sqlitedb_arr = {sqlitedb_arr}")
+                # print(f"sqlitedb_df = {sqlitedb_df}")
+                # print(f"mongodb_arr = {mongodb_arr}")
+                # print(f"vectordb_arr = {vectordb_arr}")
+                # print("getting final summarized response from llm")
                 final_response = final_response_from_llm(
                 sqlitedb_df ,
                 sqlitedb_arr, 
@@ -756,7 +759,7 @@ def backend_func():
                 user_input
                 )
                 
-                
+                # print(f"final response = {final_response}")
                 final_response_dict = string_response_to_json(final_response)
 
                 chart_base64 = None 

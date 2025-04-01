@@ -55,7 +55,7 @@ def prepare_documents(directory):
     return documents
 
 def main():
-    link = ['https://www.si.com/soccer/the-50-greatest-soccer-players-of-all-time']
+    link = ['https://www.globaldata.com/company-profile/celanese-corp/']
     scrape_and_write_to_file(link, base)
     doccument = prepare_documents(base)
     print(doccument)
